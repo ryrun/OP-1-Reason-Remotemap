@@ -4288,3 +4288,5 @@ Map	Blue Encoder		Mod Wheel	3			ShiftOFF
 Map	Blue Encoder		Mod Wheel	1			ShiftOFF	BlueClickON
 Map	Green Encoder		Filter Frequency	3			ShiftOFF
 Map	Green Encoder		Filter Frequency	1			ShiftOFF	GreenClickON
+Map	White Encoder		Filter 2 Freq	3			ShiftOFF
+Map	White Encoder		Filter 2 Freq	1			ShiftOFF	WhiteClickON
