@@ -5,6 +5,7 @@ Added support for following devices:
 
 - RE Polysix
 - RE Antidote
+- RE Predator
 - VST VPS Angenger
 - VST Synth1 (x64)
 - VST Serum
