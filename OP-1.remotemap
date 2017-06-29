@@ -1,0 +1,4263 @@
+Propellerhead Remote Mapping File
+File Format Version	1.0.0
+Control Surface Manufacturer	Teenage Engineering
+Control Surface Model	OP-1
+Map Version	1.4.5
+
+//
+// Teenage Engineering OP-1 Remote Map
+// Map: Koshdukai
+//
+//< 20120105	V.1.(4.)2 / Codec V.1.1
+
+//Adjusted scaling of delta controls (rotary) for long parameters in Reason 6.5 (LC)
+//Added Radical Piano support (LC)
+
+
+
+Scope	Propellerheads	Master Keyboard
+//	Control Surface Item	Key	Remotable Item	Scale	Mode
+Map	Keyboard		Keyboard
+
+
+
+Scope	Propellerheads	Reason Document
+Define Group	ShiftState	ShiftOFF	ShiftON
+Define Group	BlueClickState	BlueClickOFF	BlueClickON
+Define Group	GreenClickState	GreenClickOFF	GreenClickON
+Define Group	WhiteClickState	WhiteClickOFF	WhiteClickON
+Define Group	RedClickState	RedClickOFF	RedClickON
+//	Control Surface Item	Key	Remotable Item	Scale	Mode
+Map	Blue Click On		BlueClickState=BlueClickON
+Map	Blue Click Off		BlueClickState=BlueClickOFF
+Map	Green Click On		GreenClickState=GreenClickON
+Map	Green Click Off		GreenClickState=GreenClickOFF
+Map	White Click On		WhiteClickState=WhiteClickON
+Map	White Click Off		WhiteClickState=WhiteClickOFF
+Map	Red Click On		RedClickState=RedClickON
+Map	Red Click Off		RedClickState=RedClickOFF
+Map	Shift On		ShiftState=ShiftON
+Map	Shift Off		ShiftState=ShiftOFF
+
+Map	Blue Encoder		Click Level	3
+Map	Green Encoder		Tempo BPM	2
+Map	White Encoder		Tempo Decimal	10
+Map	Red Encoder		Beat Position	4
+Map	Blue Encoder		Click Level	1				BlueClickON
+Map	Green Encoder		Tempo BPM	1				GreenClickON
+Map	White Encoder		Tempo Decimal	1				WhiteClickON
+Map	Red Encoder		Beat Position	1				RedClickON
+
+Map	Sound 1 Button		Goto Left Locator
+Map	Sound 2 Button		Goto Right Locator
+Map	Lift Button		Target Previous Track
+Map	Drop Button		Target Next Track
+Map	Synth Button		Select Prev Patch for Target Device
+Map	Drum Button		Select Next Patch for Target Device
+Map	Album Button		0
+Map	Sequencer Button		0
+Map	REW Button		Rewind
+Map	FF Button		Fast Forward
+Map	Stop Button		Stop
+Map	Play Button		Play
+Map	Rec Button		Record
+Map	Help Button		Click On/Off				ShiftOFF
+Map	Help Button		Reset Automation Override				ShiftON
+Map	Tempo Button		Tap Tempo
+Map	Split Button		Auto-Quantize				ShiftOFF
+Map	Split Button		New Alternative Take				ShiftON
+Map	Tape Button		Loop On/Off				ShiftOFF
+Map	Tape Button		New Overdub				ShiftON
+
+
+
+Scope	Propellerheads	Record Document
+Define Group	ShiftState	ShiftOFF	ShiftON
+Define Group	BlueClickState	BlueClickOFF	BlueClickON
+Define Group	GreenClickState	GreenClickOFF	GreenClickON
+Define Group	WhiteClickState	WhiteClickOFF	WhiteClickON
+Define Group	RedClickState	RedClickOFF	RedClickON
+//	Control Surface Item	Key	Remotable Item	Scale	Mode
+Map	Blue Click On		BlueClickState=BlueClickON
+Map	Blue Click Off		BlueClickState=BlueClickOFF
+Map	Green Click On		GreenClickState=GreenClickON
+Map	Green Click Off		GreenClickState=GreenClickOFF
+Map	White Click On		WhiteClickState=WhiteClickON
+Map	White Click Off		WhiteClickState=WhiteClickOFF
+Map	Red Click On		RedClickState=RedClickON
+Map	Red Click Off		RedClickState=RedClickOFF
+Map	Shift On		ShiftState=ShiftON
+Map	Shift Off		ShiftState=ShiftOFF
+
+Map	Blue Encoder		Click Level	3
+Map	Green Encoder		Tempo BPM	2
+Map	White Encoder		Tempo Decimal	10
+Map	Red Encoder		Beat Position	4
+Map	Blue Encoder		Click Level	1				BlueClickON
+Map	Green Encoder		Tempo BPM	1				GreenClickON
+Map	White Encoder		Tempo Decimal	1				WhiteClickON
+Map	Red Encoder		Beat Position	1				RedClickON
+
+Map	Sound 1 Button		Goto Left Locator
+Map	Sound 2 Button		Goto Right Locator
+Map	Lift Button		Target Previous Track
+Map	Drop Button		Target Next Track
+Map	Synth Button		Select Prev Patch for Target Device
+Map	Drum Button		Select Next Patch for Target Device
+Map	Album Button		0
+Map	Sequencer Button		0
+Map	REW Button		Rewind
+Map	FF Button		Fast Forward
+Map	Stop Button		Stop
+Map	Play Button		Play
+Map	Rec Button		Record
+Map	Help Button		Click On/Off				ShiftOFF
+Map	Help Button		Reset Automation Override				ShiftON
+Map	Tempo Button		Tap Tempo
+Map	Split Button		Auto-Quantize				ShiftOFF
+Map	Split Button		New Alternative Take				ShiftON
+Map	Tape Button		Loop On/Off				ShiftOFF
+Map	Tape Button		New Overdub				ShiftON
+
+
+
+Scope	Propellerheads	ReGroove Mixer
+Define Group	ControlSet	Main	Amount	Shuffle	Slide
+Define Group	ShiftState	ShiftOFF	ShiftON
+Define Group	BlueClickState	BlueClickOFF	BlueClickON
+Define Group	GreenClickState	GreenClickOFF	GreenClickON
+Define Group	WhiteClickState	WhiteClickOFF	WhiteClickON
+Define Group	RedClickState	RedClickOFF	RedClickON
+//	Control Surface Item	Key	Remotable Item	Scale	Mode
+Map	Blue Click On		BlueClickState=BlueClickON
+Map	Blue Click Off		BlueClickState=BlueClickOFF
+Map	Green Click On		GreenClickState=GreenClickON
+Map	Green Click Off		GreenClickState=GreenClickOFF
+Map	White Click On		WhiteClickState=WhiteClickON
+Map	White Click Off		WhiteClickState=WhiteClickOFF
+Map	Red Click On		RedClickState=RedClickON
+Map	Red Click Off		RedClickState=RedClickOFF
+Map	Shift On		ShiftState=ShiftON
+Map	Shift Off		ShiftState=ShiftOFF
+
+Map	Mixer Button		ControlSet=Main
+Map	T1 Button		ControlSet=Amount
+Map	T2 Button		ControlSet=Slide
+Map	T3 Button		ControlSet=Shuffle
+Map	T4 Button		0
+
+Map	Blue Encoder		A1 Groove Amount	2		Main
+Map	Green Encoder		A1 Slide	5		Main
+Map	White Encoder		A1 Shuffle	2		Main
+Map	Red Encoder		Pattern Shuffle	5		Main
+Map	Blue Encoder		A1 Groove Amount	1		Main		BlueClickON
+Map	Green Encoder		A1 Slide	1		Main		GreenClickON
+Map	White Encoder		A1 Shuffle	1		Main		WhiteClickON
+Map	Red Encoder		Pattern Shuffle	1		Main		RedClickON
+Map	Sound 1 Button		A1 Groove Ch On			Main
+Map	Sound 2 Button		A1 Pre-Align			Main
+Map	Sound 3 Button		A1 Use Global Shuffle			Main
+Map	Sound 4 Button		0			Main
+Map	Sound 5 Button		0			Main
+Map	Sound 6 Button		0			Main
+Map	Sound 7 Button		0			Main
+Map	Sound 8 Button		0			Main
+Map	Synth Button		A1 Select Previous Patch			Main
+Map	Drum Button		A1 Select Next Patch			Main
+
+Map	Blue Encoder		A1 Groove Amount	2		Amount	ShiftOFF
+Map	Green Encoder		A2 Groove Amount	2		Amount	ShiftOFF
+Map	White Encoder		A3 Groove Amount	2		Amount	ShiftOFF
+Map	Red Encoder		A4 Groove Amount	2		Amount	ShiftOFF
+Map	Blue Encoder		A5 Groove Amount	2		Amount	ShiftON
+Map	Green Encoder		A6 Groove Amount	2		Amount	ShiftON
+Map	White Encoder		A7 Groove Amount	2		Amount	ShiftON
+Map	Red Encoder		A8 Groove Amount	2		Amount	ShiftON
+Map	Blue Encoder		A1 Groove Amount	1		Amount	ShiftOFF	BlueClickON
+Map	Green Encoder		A2 Groove Amount	1		Amount	ShiftOFF	GreenClickON
+Map	White Encoder		A3 Groove Amount	1		Amount	ShiftOFF	WhiteClickON
+Map	Red Encoder		A4 Groove Amount	1		Amount	ShiftOFF	RedClickON
+Map	Blue Encoder		A5 Groove Amount	1		Amount	ShiftON	BlueClickON
+Map	Green Encoder		A6 Groove Amount	1		Amount	ShiftON	GreenClickON
+Map	White Encoder		A7 Groove Amount	1		Amount	ShiftON	WhiteClickON
+Map	Red Encoder		A8 Groove Amount	1		Amount	ShiftON	RedClickON
+Map	Sound 1 Button		A1 Groove Ch On			Amount
+Map	Sound 2 Button		A2 Groove Ch On			Amount
+Map	Sound 3 Button		A3 Groove Ch On			Amount
+Map	Sound 4 Button		A4 Groove Ch On			Amount
+Map	Sound 5 Button		A5 Groove Ch On			Amount
+Map	Sound 6 Button		A6 Groove Ch On			Amount
+Map	Sound 7 Button		A7 Groove Ch On			Amount
+Map	Sound 8 Button		A8 Groove Ch On			Amount
+
+Map	Blue Encoder		A1 Slide	5		Slide	ShiftOFF
+Map	Green Encoder		A2 Slide	5		Slide	ShiftOFF
+Map	White Encoder		A3 Slide	5		Slide	ShiftOFF
+Map	Red Encoder		A4 Slide	5		Slide	ShiftOFF
+Map	Blue Encoder		A5 Slide	5		Slide	ShiftON
+Map	Green Encoder		A6 Slide	5		Slide	ShiftON
+Map	White Encoder		A7 Slide	5		Slide	ShiftON
+Map	Red Encoder		A8 Slide	5		Slide	ShiftON
+Map	Blue Encoder		A1 Slide	1		Slide	ShiftOFF	BlueClickON
+Map	Green Encoder		A2 Slide	1		Slide	ShiftOFF	GreenClickON
+Map	White Encoder		A3 Slide	1		Slide	ShiftOFF	WhiteClickON
+Map	Red Encoder		A4 Slide	1		Slide	ShiftOFF	RedClickON
+Map	Blue Encoder		A5 Slide	1		Slide	ShiftON	BlueClickON
+Map	Green Encoder		A6 Slide	1		Slide	ShiftON	GreenClickON
+Map	White Encoder		A7 Slide	1		Slide	ShiftON	WhiteClickON
+Map	Red Encoder		A8 Slide	1		Slide	ShiftON	RedClickON
+Map	Sound 1 Button		A1 Pre-Align			Slide
+Map	Sound 2 Button		A2 Pre-Align			Slide
+Map	Sound 3 Button		A3 Pre-Align			Slide
+Map	Sound 4 Button		A4 Pre-Align			Slide
+Map	Sound 5 Button		A5 Pre-Align			Slide
+Map	Sound 6 Button		A6 Pre-Align			Slide
+Map	Sound 7 Button		A7 Pre-Align			Slide
+Map	Sound 8 Button		A8 Pre-Align			Slide
+
+Map	Blue Encoder		A1 Shuffle	2		Shuffle	ShiftOFF
+Map	Green Encoder		A2 Shuffle	2		Shuffle	ShiftOFF
+Map	White Encoder		A3 Shuffle	2		Shuffle	ShiftOFF
+Map	Red Encoder		A4 Shuffle	2		Shuffle	ShiftOFF
+Map	Blue Encoder		A5 Shuffle	2		Shuffle	ShiftON
+Map	Green Encoder		A6 Shuffle	2		Shuffle	ShiftON
+Map	White Encoder		A7 Shuffle	2		Shuffle	ShiftON
+Map	Red Encoder		A8 Shuffle	2		Shuffle	ShiftON
+Map	Blue Encoder		A1 Shuffle	1		Shuffle	ShiftOFF	BlueClickON
+Map	Green Encoder		A2 Shuffle	1		Shuffle	ShiftOFF	GreenClickON
+Map	White Encoder		A3 Shuffle	1		Shuffle	ShiftOFF	WhiteClickON
+Map	Red Encoder		A4 Shuffle	1		Shuffle	ShiftOFF	RedClickON
+Map	Blue Encoder		A5 Shuffle	1		Shuffle	ShiftON	BlueClickON
+Map	Green Encoder		A6 Shuffle	1		Shuffle	ShiftON	GreenClickON
+Map	White Encoder		A7 Shuffle	1		Shuffle	ShiftON	WhiteClickON
+Map	Red Encoder		A8 Shuffle	1		Shuffle	ShiftON	RedClickON
+Map	Sound 1 Button		A1 Use Global Shuffle			Shuffle
+Map	Sound 2 Button		A2 Use Global Shuffle			Shuffle
+Map	Sound 3 Button		A3 Use Global Shuffle			Shuffle
+Map	Sound 4 Button		A4 Use Global Shuffle			Shuffle
+Map	Sound 5 Button		A5 Use Global Shuffle			Shuffle
+Map	Sound 6 Button		A6 Use Global Shuffle			Shuffle
+Map	Sound 7 Button		A7 Use Global Shuffle			Shuffle
+Map	Sound 8 Button		A8 Use Global Shuffle			Shuffle
+
+
+
+Scope	Propellerheads	Reason Master Section
+Define Group	ControlSet	Main	FX	Ins	Dyn	In
+Define Group	ShiftState	ShiftOFF	ShiftON
+Define Group	BlueClickState	BlueClickOFF	BlueClickON
+Define Group	GreenClickState	GreenClickOFF	GreenClickON
+Define Group	WhiteClickState	WhiteClickOFF	WhiteClickON
+Define Group	RedClickState	RedClickOFF	RedClickON
+//	Control Surface Item	Key	Remotable Item	Scale	Mode
+Map	Blue Click On		BlueClickState=BlueClickON
+Map	Blue Click Off		BlueClickState=BlueClickOFF
+Map	Green Click On		GreenClickState=GreenClickON
+Map	Green Click Off		GreenClickState=GreenClickOFF
+Map	White Click On		WhiteClickState=WhiteClickON
+Map	White Click Off		WhiteClickState=WhiteClickOFF
+Map	Red Click On		RedClickState=RedClickON
+Map	Red Click Off		RedClickState=RedClickOFF
+Map	Shift On		ShiftState=ShiftON
+Map	Shift Off		ShiftState=ShiftOFF
+
+Map	Mixer Button		ControlSet=Main
+Map	T1 Button		ControlSet=FX
+Map	T2 Button		ControlSet=Ins
+Map	T3 Button		ControlSet=Dyn
+Map	T4 Button		ControlSet=In
+Map	Synth Button		Previous Remote Base Channel
+Map	Drum Button		Next Remote Base Channel
+
+Map	Blue Encoder		Channel 1 Level	3		Main	ShiftOFF
+Map	Green Encoder		Channel 2 Level	3		Main	ShiftOFF
+Map	White Encoder		Channel 3 Level	3		Main	ShiftOFF
+Map	Red Encoder		Master Level	3			ShiftOFF
+Map	Blue Encoder		Channel 1 Pan	5		Main	ShiftON
+Map	Green Encoder		Channel 2 Pan	5		Main	ShiftON
+Map	White Encoder		Channel 3 Pan	5		Main	ShiftON
+Map	Red Encoder		Ctrl Room Level	3		Main	ShiftON
+Map	Blue Encoder		Channel 1 Level	1		Main	ShiftOFF	BlueClickON
+Map	Green Encoder		Channel 2 Level	1		Main	ShiftOFF	GreenClickON
+Map	White Encoder		Channel 3 Level	1		Main	ShiftOFF	WhiteClickON
+Map	Red Encoder		Master Level	1			ShiftOFF	RedClickON
+Map	Blue Encoder		Channel 1 Pan	1		Main	ShiftON	BlueClickON
+Map	Green Encoder		Channel 2 Pan	1		Main	ShiftON	GreenClickON
+Map	White Encoder		Channel 3 Pan	1		Main	ShiftON	WhiteClickON
+Map	Red Encoder		Ctrl Room Level	1		Main	ShiftON	RedClickON
+
+Map	Sound 1 Button		Channel 1 Mute			Main
+Map	Sound 2 Button		Channel 1 Solo			Main
+Map	Sound 3 Button		Channel 2 Mute			Main
+Map	Sound 4 Button		Channel 2 Solo			Main
+Map	Sound 5 Button		Channel 3 Mute			Main
+Map	Sound 6 Button		Channel 3 Solo			Main
+Map	Sound 7 Button		Ctrl Room Source			Main
+Map	Sound 8 Button		Ctrl Room FX Select			Main
+
+Map	Blue Encoder		Channel 1 FX1 Send Level	3		FX
+Map	Green Encoder		Channel 2 FX1 Send Level	3		FX
+Map	White Encoder		Channel 3 FX1 Send Level	3		FX
+Map	Red Encoder		FX1 Return Level	3		FX	ShiftOFF
+Map	Red Encoder		FX1 Pan	5		FX	ShiftON
+Map	Blue Encoder		Channel 1 FX1 Send Level	1		FX		BlueClickON
+Map	Green Encoder		Channel 2 FX1 Send Level	1		FX		GreenClickON
+Map	White Encoder		Channel 3 FX1 Send Level	1		FX		WhiteClickON
+Map	Red Encoder		FX1 Return Level	1		FX	ShiftOFF	RedClickON
+Map	Red Encoder		FX1 Pan	1		FX	ShiftON	RedClickON
+
+Map	Sound 1 Button		Channel 1 FX1 Send On			FX
+Map	Sound 2 Button		Channel 1 FX1 Pre Fader			FX
+Map	Sound 3 Button		Channel 2 FX1 Send On			FX
+Map	Sound 4 Button		Channel 2 FX1 Pre Fader			FX
+Map	Sound 5 Button		Channel 3 FX1 Send On			FX
+Map	Sound 6 Button		Channel 3 FX1 Pre Fader			FX
+Map	Sound 7 Button		FX1 Mute			FX
+Map	Sound 8 Button		0			FX
+
+Map	Blue Encoder		Channel 1 Rotary 1	3		Ins	ShiftOFF
+Map	Green Encoder		Channel 2 Rotary 1	3		Ins	ShiftOFF
+Map	White Encoder		Channel 3 Rotary 1	3		Ins	ShiftOFF
+Map	Red Encoder		Rotary 1	3		Ins	ShiftOFF
+Map	Blue Encoder		Channel 1 Rotary 2	3		Ins	ShiftON
+Map	Green Encoder		Channel 2 Rotary 2	3		Ins	ShiftON
+Map	White Encoder		Channel 3 Rotary 2	3		Ins	ShiftON
+Map	Red Encoder		Rotary 2	3		Ins	ShiftON
+Map	Blue Encoder		Channel 1 Rotary 1	1		Ins	ShiftOFF	BlueClickON
+Map	Green Encoder		Channel 2 Rotary 1	1		Ins	ShiftOFF	GreenClickON
+Map	White Encoder		Channel 3 Rotary 1	1		Ins	ShiftOFF	WhiteClickON
+Map	Red Encoder		Rotary 1	1		Ins	ShiftOFF	RedClickON
+Map	Blue Encoder		Channel 1 Rotary 2	1		Ins	ShiftON	BlueClickON
+Map	Green Encoder		Channel 2 Rotary 2	1		Ins	ShiftON	GreenClickON
+Map	White Encoder		Channel 3 Rotary 2	1		Ins	ShiftON	WhiteClickON
+Map	Red Encoder		Rotary 2	1		Ins	ShiftON	RedClickON
+
+Map	Sound 1 Button		Channel 1 Button 1			Ins	ShiftOFF
+Map	Sound 2 Button		Channel 1 Button 2			Ins	ShiftOFF
+Map	Sound 3 Button		Channel 2 Button 1			Ins	ShiftOFF
+Map	Sound 4 Button		Channel 2 Button 2			Ins	ShiftOFF
+Map	Sound 5 Button		Channel 3 Button 1			Ins	ShiftOFF
+Map	Sound 6 Button		Channel 3 Button 2			Ins	ShiftOFF
+Map	Sound 7 Button		Button 1			Ins	ShiftOFF
+Map	Sound 8 Button		Button 2			Ins	ShiftOFF
+Map	Sound 1 Button		Channel 1 Button 3			Ins	ShiftON
+Map	Sound 2 Button		Channel 1 Button 4			Ins	ShiftON
+Map	Sound 3 Button		Channel 2 Button 3			Ins	ShiftON
+Map	Sound 4 Button		Channel 2 Button 4			Ins	ShiftON
+Map	Sound 5 Button		Channel 3 Button 3			Ins	ShiftON
+Map	Sound 6 Button		Channel 3 Button 4			Ins	ShiftON
+Map	Sound 7 Button		Button 3			Ins	ShiftON
+Map	Sound 8 Button		Button 4			Ins	ShiftON
+
+Map	Blue Encoder		Channel 1 C Ratio	3		Dyn	ShiftOFF
+Map	Green Encoder		Channel 2 C Ratio	3		Dyn	ShiftOFF
+Map	White Encoder		Channel 3 C Ratio	3		Dyn	ShiftOFF
+Map	Red Encoder		Ratio	3		Dyn	ShiftOFF
+Map	Blue Encoder		Channel 1 C Threshold	3		Dyn	ShiftON
+Map	Green Encoder		Channel 2 C Threshold	3		Dyn	ShiftON
+Map	White Encoder		Channel 3 C Threshold	3		Dyn	ShiftON
+Map	Red Encoder		Threshold	3		Dyn	ShiftON
+Map	Blue Encoder		Channel 1 C Ratio	1		Dyn	ShiftOFF	BlueClickON
+Map	Green Encoder		Channel 2 C Ratio	1		Dyn	ShiftOFF	GreenClickON
+Map	White Encoder		Channel 3 C Ratio	1		Dyn	ShiftOFF	WhiteClickON
+Map	Red Encoder		Ratio	1		Dyn	ShiftOFF	RedClickON
+Map	Blue Encoder		Channel 1 C Threshold	1		Dyn	ShiftON	BlueClickON
+Map	Green Encoder		Channel 2 C Threshold	1		Dyn	ShiftON	GreenClickON
+Map	White Encoder		Channel 3 C Threshold	1		Dyn	ShiftON	WhiteClickON
+Map	Red Encoder		Threshold	1		Dyn	ShiftON	RedClickON
+
+Map	Sound 1 Button		Channel 1 Comp On			Dyn	ShiftOFF
+Map	Sound 2 Button		Channel 1 C Peak			Dyn	ShiftOFF
+Map	Sound 3 Button		Channel 2 Comp On			Dyn	ShiftOFF
+Map	Sound 4 Button		Channel 2 C Peak			Dyn	ShiftOFF
+Map	Sound 5 Button		Channel 3 Comp On			Dyn	ShiftOFF
+Map	Sound 6 Button		Channel 3 C Peak			Dyn	ShiftOFF
+Map	Sound 7 Button		Compressor On			Dyn
+Map	Sound 8 Button		Key On			Dyn
+Map	Sound 1 Button		Channel 1 C Fast Atk			Dyn	ShiftON
+Map	Sound 2 Button		Channel 1 Key On			Dyn	ShiftON
+Map	Sound 3 Button		Channel 2 C Fast Atk			Dyn	ShiftON
+Map	Sound 4 Button		Channel 2 Key On			Dyn	ShiftON
+Map	Sound 5 Button		Channel 3 C Fast Atk			Dyn	ShiftON
+Map	Sound 6 Button		Channel 3 Key On			Dyn	ShiftON
+
+Map	Blue Encoder		Channel 1 Input Gain	3		In
+Map	Green Encoder		Channel 2 Input Gain	3		In
+Map	White Encoder		Channel 3 Input Gain	3		In
+Map	Blue Encoder		Channel 1 Input Gain	1		In		BlueClickON
+Map	Green Encoder		Channel 2 Input Gain	1		In		GreenClickON
+Map	White Encoder		Channel 3 Input Gain	1		In		WhiteClickON
+
+Map	Sound 1 Button		Channel 1 Insert Pre			In	ShiftOFF
+Map	Sound 2 Button		Channel 1 Dyn Post EQ			In	ShiftOFF
+Map	Sound 3 Button		Channel 2 Insert Pre			In	ShiftOFF
+Map	Sound 4 Button		Channel 2 Dyn Post EQ			In	ShiftOFF
+Map	Sound 5 Button		Channel 3 Insert Pre			In	ShiftOFF
+Map	Sound 6 Button		Channel 3 Dyn Post EQ			In	ShiftOFF
+Map	Sound 1 Button		Channel 1 Invert Phase			In	ShiftON
+Map	Sound 2 Button		0			In	ShiftON
+Map	Sound 3 Button		Channel 2 Invert Phase			In	ShiftON
+Map	Sound 4 Button		0			In	ShiftON
+Map	Sound 5 Button		Channel 3 Invert Phase			In	ShiftON
+Map	Sound 6 Button		0			In	ShiftON
+
+
+
+Scope	Propellerheads	Record Master Section
+Define Group	ControlSet	Main	FX	Ins	Dyn	In
+Define Group	ShiftState	ShiftOFF	ShiftON
+Define Group	BlueClickState	BlueClickOFF	BlueClickON
+Define Group	GreenClickState	GreenClickOFF	GreenClickON
+Define Group	WhiteClickState	WhiteClickOFF	WhiteClickON
+Define Group	RedClickState	RedClickOFF	RedClickON
+//	Control Surface Item	Key	Remotable Item	Scale	Mode
+Map	Blue Click On		BlueClickState=BlueClickON
+Map	Blue Click Off		BlueClickState=BlueClickOFF
+Map	Green Click On		GreenClickState=GreenClickON
+Map	Green Click Off		GreenClickState=GreenClickOFF
+Map	White Click On		WhiteClickState=WhiteClickON
+Map	White Click Off		WhiteClickState=WhiteClickOFF
+Map	Red Click On		RedClickState=RedClickON
+Map	Red Click Off		RedClickState=RedClickOFF
+Map	Shift On		ShiftState=ShiftON
+Map	Shift Off		ShiftState=ShiftOFF
+
+Map	Mixer Button		ControlSet=Main
+Map	T1 Button		ControlSet=FX
+Map	T2 Button		ControlSet=Ins
+Map	T3 Button		ControlSet=Dyn
+Map	T4 Button		ControlSet=In
+Map	Synth Button		Previous Remote Base Channel
+Map	Drum Button		Next Remote Base Channel
+
+Map	Blue Encoder		Channel 1 Level	3		Main	ShiftOFF
+Map	Green Encoder		Channel 2 Level	3		Main	ShiftOFF
+Map	White Encoder		Channel 3 Level	3		Main	ShiftOFF
+Map	Red Encoder		Master Level	3			ShiftOFF
+Map	Blue Encoder		Channel 1 Pan	5		Main	ShiftON
+Map	Green Encoder		Channel 2 Pan	5		Main	ShiftON
+Map	White Encoder		Channel 3 Pan	5		Main	ShiftON
+Map	Red Encoder		Ctrl Room Level	3		Main	ShiftON
+Map	Blue Encoder		Channel 1 Level	1		Main	ShiftOFF	BlueClickON
+Map	Green Encoder		Channel 2 Level	1		Main	ShiftOFF	GreenClickON
+Map	White Encoder		Channel 3 Level	1		Main	ShiftOFF	WhiteClickON
+Map	Red Encoder		Master Level	1			ShiftOFF	RedClickON
+Map	Blue Encoder		Channel 1 Pan	1		Main	ShiftON	BlueClickON
+Map	Green Encoder		Channel 2 Pan	1		Main	ShiftON	GreenClickON
+Map	White Encoder		Channel 3 Pan	1		Main	ShiftON	WhiteClickON
+Map	Red Encoder		Ctrl Room Level	1		Main	ShiftON	RedClickON
+
+Map	Sound 1 Button		Channel 1 Mute			Main
+Map	Sound 2 Button		Channel 1 Solo			Main
+Map	Sound 3 Button		Channel 2 Mute			Main
+Map	Sound 4 Button		Channel 2 Solo			Main
+Map	Sound 5 Button		Channel 3 Mute			Main
+Map	Sound 6 Button		Channel 3 Solo			Main
+Map	Sound 7 Button		Ctrl Room Source			Main
+Map	Sound 8 Button		Ctrl Room FX Select			Main
+
+Map	Blue Encoder		Channel 1 FX1 Send Level	3		FX
+Map	Green Encoder		Channel 2 FX1 Send Level	3		FX
+Map	White Encoder		Channel 3 FX1 Send Level	3		FX
+Map	Red Encoder		FX1 Return Level	3		FX	ShiftOFF
+Map	Red Encoder		FX1 Pan	5		FX	ShiftON
+Map	Blue Encoder		Channel 1 FX1 Send Level	1		FX		BlueClickON
+Map	Green Encoder		Channel 2 FX1 Send Level	1		FX		GreenClickON
+Map	White Encoder		Channel 3 FX1 Send Level	1		FX		WhiteClickON
+Map	Red Encoder		FX1 Return Level	1		FX	ShiftOFF	RedClickON
+Map	Red Encoder		FX1 Pan	1		FX	ShiftON	RedClickON
+
+Map	Sound 1 Button		Channel 1 FX1 Send On			FX
+Map	Sound 2 Button		Channel 1 FX1 Pre Fader			FX
+Map	Sound 3 Button		Channel 2 FX1 Send On			FX
+Map	Sound 4 Button		Channel 2 FX1 Pre Fader			FX
+Map	Sound 5 Button		Channel 3 FX1 Send On			FX
+Map	Sound 6 Button		Channel 3 FX1 Pre Fader			FX
+Map	Sound 7 Button		FX1 Mute			FX
+Map	Sound 8 Button		0			FX
+
+Map	Blue Encoder		Channel 1 Rotary 1	3		Ins	ShiftOFF
+Map	Green Encoder		Channel 2 Rotary 1	3		Ins	ShiftOFF
+Map	White Encoder		Channel 3 Rotary 1	3		Ins	ShiftOFF
+Map	Red Encoder		Rotary 1	3		Ins	ShiftOFF
+Map	Blue Encoder		Channel 1 Rotary 2	3		Ins	ShiftON
+Map	Green Encoder		Channel 2 Rotary 2	3		Ins	ShiftON
+Map	White Encoder		Channel 3 Rotary 2	3		Ins	ShiftON
+Map	Red Encoder		Rotary 2	3		Ins	ShiftON
+Map	Blue Encoder		Channel 1 Rotary 1	1		Ins	ShiftOFF	BlueClickON
+Map	Green Encoder		Channel 2 Rotary 1	1		Ins	ShiftOFF	GreenClickON
+Map	White Encoder		Channel 3 Rotary 1	1		Ins	ShiftOFF	WhiteClickON
+Map	Red Encoder		Rotary 1	1		Ins	ShiftOFF	RedClickON
+Map	Blue Encoder		Channel 1 Rotary 2	1		Ins	ShiftON	BlueClickON
+Map	Green Encoder		Channel 2 Rotary 2	1		Ins	ShiftON	GreenClickON
+Map	White Encoder		Channel 3 Rotary 2	1		Ins	ShiftON	WhiteClickON
+Map	Red Encoder		Rotary 2	1		Ins	ShiftON	RedClickON
+
+Map	Sound 1 Button		Channel 1 Button 1			Ins	ShiftOFF
+Map	Sound 2 Button		Channel 1 Button 2			Ins	ShiftOFF
+Map	Sound 3 Button		Channel 2 Button 1			Ins	ShiftOFF
+Map	Sound 4 Button		Channel 2 Button 2			Ins	ShiftOFF
+Map	Sound 5 Button		Channel 3 Button 1			Ins	ShiftOFF
+Map	Sound 6 Button		Channel 3 Button 2			Ins	ShiftOFF
+Map	Sound 7 Button		Button 1			Ins	ShiftOFF
+Map	Sound 8 Button		Button 2			Ins	ShiftOFF
+Map	Sound 1 Button		Channel 1 Button 3			Ins	ShiftON
+Map	Sound 2 Button		Channel 1 Button 4			Ins	ShiftON
+Map	Sound 3 Button		Channel 2 Button 3			Ins	ShiftON
+Map	Sound 4 Button		Channel 2 Button 4			Ins	ShiftON
+Map	Sound 5 Button		Channel 3 Button 3			Ins	ShiftON
+Map	Sound 6 Button		Channel 3 Button 4			Ins	ShiftON
+Map	Sound 7 Button		Button 3			Ins	ShiftON
+Map	Sound 8 Button		Button 4			Ins	ShiftON
+
+Map	Blue Encoder		Channel 1 C Ratio	3		Dyn	ShiftOFF
+Map	Green Encoder		Channel 2 C Ratio	3		Dyn	ShiftOFF
+Map	White Encoder		Channel 3 C Ratio	3		Dyn	ShiftOFF
+Map	Red Encoder		Ratio	3		Dyn	ShiftOFF
+Map	Blue Encoder		Channel 1 C Threshold	3		Dyn	ShiftON
+Map	Green Encoder		Channel 2 C Threshold	3		Dyn	ShiftON
+Map	White Encoder		Channel 3 C Threshold	3		Dyn	ShiftON
+Map	Red Encoder		Threshold	3		Dyn	ShiftON
+Map	Blue Encoder		Channel 1 C Ratio	1		Dyn	ShiftOFF	BlueClickON
+Map	Green Encoder		Channel 2 C Ratio	1		Dyn	ShiftOFF	GreenClickON
+Map	White Encoder		Channel 3 C Ratio	1		Dyn	ShiftOFF	WhiteClickON
+Map	Red Encoder		Ratio	1		Dyn	ShiftOFF	RedClickON
+Map	Blue Encoder		Channel 1 C Threshold	1		Dyn	ShiftON	BlueClickON
+Map	Green Encoder		Channel 2 C Threshold	1		Dyn	ShiftON	GreenClickON
+Map	White Encoder		Channel 3 C Threshold	1		Dyn	ShiftON	WhiteClickON
+Map	Red Encoder		Threshold	1		Dyn	ShiftON	RedClickON
+
+Map	Sound 1 Button		Channel 1 Comp On			Dyn	ShiftOFF
+Map	Sound 2 Button		Channel 1 C Peak			Dyn	ShiftOFF
+Map	Sound 3 Button		Channel 2 Comp On			Dyn	ShiftOFF
+Map	Sound 4 Button		Channel 2 C Peak			Dyn	ShiftOFF
+Map	Sound 5 Button		Channel 3 Comp On			Dyn	ShiftOFF
+Map	Sound 6 Button		Channel 3 C Peak			Dyn	ShiftOFF
+Map	Sound 7 Button		Compressor On			Dyn
+Map	Sound 8 Button		Key On			Dyn
+Map	Sound 1 Button		Channel 1 C Fast Atk			Dyn	ShiftON
+Map	Sound 2 Button		Channel 1 Key On			Dyn	ShiftON
+Map	Sound 3 Button		Channel 2 C Fast Atk			Dyn	ShiftON
+Map	Sound 4 Button		Channel 2 Key On			Dyn	ShiftON
+Map	Sound 5 Button		Channel 3 C Fast Atk			Dyn	ShiftON
+Map	Sound 6 Button		Channel 3 Key On			Dyn	ShiftON
+
+Map	Blue Encoder		Channel 1 Input Gain	3		In
+Map	Green Encoder		Channel 2 Input Gain	3		In
+Map	White Encoder		Channel 3 Input Gain	3		In
+Map	Blue Encoder		Channel 1 Input Gain	1		In		BlueClickON
+Map	Green Encoder		Channel 2 Input Gain	1		In		GreenClickON
+Map	White Encoder		Channel 3 Input Gain	1		In		WhiteClickON
+
+Map	Sound 1 Button		Channel 1 Insert Pre			In	ShiftOFF
+Map	Sound 2 Button		Channel 1 Dyn Post EQ			In	ShiftOFF
+Map	Sound 3 Button		Channel 2 Insert Pre			In	ShiftOFF
+Map	Sound 4 Button		Channel 2 Dyn Post EQ			In	ShiftOFF
+Map	Sound 5 Button		Channel 3 Insert Pre			In	ShiftOFF
+Map	Sound 6 Button		Channel 3 Dyn Post EQ			In	ShiftOFF
+Map	Sound 1 Button		Channel 1 Invert Phase			In	ShiftON
+Map	Sound 2 Button		0			In	ShiftON
+Map	Sound 3 Button		Channel 2 Invert Phase			In	ShiftON
+Map	Sound 4 Button		0			In	ShiftON
+Map	Sound 5 Button		Channel 3 Invert Phase			In	ShiftON
+Map	Sound 6 Button		0			In	ShiftON
+
+
+
+Scope	Propellerheads	Reason Essentials Master Section
+Define Group	ControlSet	Main	FX	Ins	In
+Define Group	ShiftState	ShiftOFF	ShiftON
+Define Group	BlueClickState	BlueClickOFF	BlueClickON
+Define Group	GreenClickState	GreenClickOFF	GreenClickON
+Define Group	WhiteClickState	WhiteClickOFF	WhiteClickON
+Define Group	RedClickState	RedClickOFF	RedClickON
+//	Control Surface Item	Key	Remotable Item	Scale	Mode
+Map	Blue Click On		BlueClickState=BlueClickON
+Map	Blue Click Off		BlueClickState=BlueClickOFF
+Map	Green Click On		GreenClickState=GreenClickON
+Map	Green Click Off		GreenClickState=GreenClickOFF
+Map	White Click On		WhiteClickState=WhiteClickON
+Map	White Click Off		WhiteClickState=WhiteClickOFF
+Map	Red Click On		RedClickState=RedClickON
+Map	Red Click Off		RedClickState=RedClickOFF
+Map	Shift On		ShiftState=ShiftON
+Map	Shift Off		ShiftState=ShiftOFF
+
+Map	Mixer Button		ControlSet=Main
+Map	T1 Button		ControlSet=FX
+Map	T2 Button		ControlSet=Ins
+Map	T3 Button		ControlSet=In
+Map	T4 Button		0
+Map	Synth Button		Previous Remote Base Channel
+Map	Drum Button		Next Remote Base Channel
+
+Map	Blue Encoder		Channel 1 Level	3		Main	ShiftOFF
+Map	Green Encoder		Channel 2 Level	3		Main	ShiftOFF
+Map	White Encoder		Channel 3 Level	3		Main	ShiftOFF
+Map	Red Encoder		Master Level	3
+Map	Blue Encoder		Channel 1 Pan	5		Main	ShiftON
+Map	Green Encoder		Channel 2 Pan	5		Main	ShiftON
+Map	White Encoder		Channel 3 Pan	5		Main	ShiftON
+Map	Blue Encoder		Channel 1 Level	1		Main	ShiftOFF	BlueClickON
+Map	Green Encoder		Channel 2 Level	1		Main	ShiftOFF	GreenClickON
+Map	White Encoder		Channel 3 Level	1		Main	ShiftOFF	WhiteClickON
+Map	Red Encoder		Master Level	1				RedClickON
+Map	Blue Encoder		Channel 1 Pan	1		Main	ShiftON	BlueClickON
+Map	Green Encoder		Channel 2 Pan	1		Main	ShiftON	GreenClickON
+Map	White Encoder		Channel 3 Pan	1		Main	ShiftON	WhiteClickON
+
+Map	Sound 1 Button		Channel 1 Mute			Main
+Map	Sound 2 Button		Channel 1 Solo			Main
+Map	Sound 3 Button		Channel 2 Mute			Main
+Map	Sound 4 Button		Channel 2 Solo			Main
+Map	Sound 5 Button		Channel 3 Mute			Main
+Map	Sound 6 Button		Channel 3 Solo			Main
+Map	Sound 7 Button		0			Main
+Map	Sound 8 Button		0			Main
+
+Map	Blue Encoder		Channel 1 FX1 Send Level	3		FX
+Map	Green Encoder		Channel 2 FX1 Send Level	3		FX
+Map	White Encoder		Channel 3 FX1 Send Level	3		FX
+Map	Red Encoder		FX1 Return Level	3		FX	ShiftOFF
+Map	Red Encoder		FX1 Pan	5		FX	ShiftON
+Map	Blue Encoder		Channel 1 FX1 Send Level	1		FX		BlueClickON
+Map	Green Encoder		Channel 2 FX1 Send Level	1		FX		GreenClickON
+Map	White Encoder		Channel 3 FX1 Send Level	1		FX		WhiteClickON
+Map	Red Encoder		FX1 Return Level	1		FX	ShiftOFF	RedClickON
+Map	Red Encoder		FX1 Pan	1		FX	ShiftON	RedClickON
+
+Map	Sound 1 Button		Channel 1 FX1 Send On			FX
+Map	Sound 2 Button		Channel 1 FX1 Pre Fader			FX
+Map	Sound 3 Button		Channel 2 FX1 Send On			FX
+Map	Sound 4 Button		Channel 2 FX1 Pre Fader			FX
+Map	Sound 5 Button		Channel 3 FX1 Send On			FX
+Map	Sound 6 Button		Channel 3 FX1 Pre Fader			FX
+Map	Sound 7 Button		FX1 Mute			FX
+Map	Sound 8 Button		0			FX
+
+Map	Blue Encoder		Channel 1 Rotary 1	3		Ins	ShiftOFF
+Map	Green Encoder		Channel 2 Rotary 1	3		Ins	ShiftOFF
+Map	White Encoder		Channel 3 Rotary 1	3		Ins	ShiftOFF
+Map	Red Encoder		Rotary 1	3		Ins	ShiftOFF
+Map	Blue Encoder		Channel 1 Rotary 2	3		Ins	ShiftON
+Map	Green Encoder		Channel 2 Rotary 2	3		Ins	ShiftON
+Map	White Encoder		Channel 3 Rotary 2	3		Ins	ShiftON
+Map	Red Encoder		Rotary 2	3		Ins	ShiftON
+Map	Blue Encoder		Channel 1 Rotary 1	1		Ins	ShiftOFF	BlueClickON
+Map	Green Encoder		Channel 2 Rotary 1	1		Ins	ShiftOFF	GreenClickON
+Map	White Encoder		Channel 3 Rotary 1	1		Ins	ShiftOFF	WhiteClickON
+Map	Red Encoder		Rotary 1	1		Ins	ShiftOFF	RedClickON
+Map	Blue Encoder		Channel 1 Rotary 2	1		Ins	ShiftON	BlueClickON
+Map	Green Encoder		Channel 2 Rotary 2	1		Ins	ShiftON	GreenClickON
+Map	White Encoder		Channel 3 Rotary 2	1		Ins	ShiftON	WhiteClickON
+Map	Red Encoder		Rotary 2	1		Ins	ShiftON	RedClickON
+
+Map	Sound 1 Button		Channel 1 Button 1			Ins	ShiftOFF
+Map	Sound 2 Button		Channel 1 Button 2			Ins	ShiftOFF
+Map	Sound 3 Button		Channel 2 Button 1			Ins	ShiftOFF
+Map	Sound 4 Button		Channel 2 Button 2			Ins	ShiftOFF
+Map	Sound 5 Button		Channel 3 Button 1			Ins	ShiftOFF
+Map	Sound 6 Button		Channel 3 Button 2			Ins	ShiftOFF
+Map	Sound 7 Button		Button 1			Ins	ShiftOFF
+Map	Sound 8 Button		Button 2			Ins	ShiftOFF
+Map	Sound 1 Button		Channel 1 Button 3			Ins	ShiftON
+Map	Sound 2 Button		Channel 1 Button 4			Ins	ShiftON
+Map	Sound 3 Button		Channel 2 Button 3			Ins	ShiftON
+Map	Sound 4 Button		Channel 2 Button 4			Ins	ShiftON
+Map	Sound 5 Button		Channel 3 Button 3			Ins	ShiftON
+Map	Sound 6 Button		Channel 3 Button 4			Ins	ShiftON
+Map	Sound 7 Button		Button 3			Ins	ShiftON
+Map	Sound 8 Button		Button 4			Ins	ShiftON
+
+Map	Blue Encoder		Channel 1 Input Gain	3		In
+Map	Green Encoder		Channel 2 Input Gain	3		In
+Map	White Encoder		Channel 3 Input Gain	3		In
+Map	Red Encoder		Ratio	3		In	ShiftOFF
+Map	Red Encoder		Threshold	3		In	ShiftON
+Map	Blue Encoder		Channel 1 Input Gain	1		In		BlueClickON
+Map	Green Encoder		Channel 2 Input Gain	1		In		GreenClickON
+Map	White Encoder		Channel 3 Input Gain	1		In		WhiteClickON
+Map	Red Encoder		Ratio	1		In	ShiftOFF	RedClickON
+Map	Red Encoder		Threshold	1		In	ShiftON	RedClickON
+
+Map	Sound 1 Button		Channel 1 Invert Phase			In
+Map	Sound 2 Button		0			In
+Map	Sound 3 Button		Channel 2 Invert Phase			In
+Map	Sound 4 Button		0			In
+Map	Sound 5 Button		Channel 3 Invert Phase			In
+Map	Sound 6 Button		0			In
+Map	Sound 7 Button		Compressor On			In
+
+
+
+//* Other
+
+
+
+Scope	Propellerheads	Reason Main Mixer Channel
+Define Group	ControlSet	Main	FX Sends	Inserts	Eq
+Define Group	ShiftState	ShiftOFF	ShiftON
+Define Group	BlueClickState	BlueClickOFF	BlueClickON
+Define Group	GreenClickState	GreenClickOFF	GreenClickON
+Define Group	WhiteClickState	WhiteClickOFF	WhiteClickON
+Define Group	RedClickState	RedClickOFF	RedClickON
+//	Control Surface Item	Key	Remotable Item	Scale	Mode
+Map	Blue Click On		BlueClickState=BlueClickON
+Map	Blue Click Off		BlueClickState=BlueClickOFF
+Map	Green Click On		GreenClickState=GreenClickON
+Map	Green Click Off		GreenClickState=GreenClickOFF
+Map	White Click On		WhiteClickState=WhiteClickON
+Map	White Click Off		WhiteClickState=WhiteClickOFF
+Map	Red Click On		RedClickState=RedClickON
+Map	Red Click Off		RedClickState=RedClickOFF
+Map	Shift On		ShiftState=ShiftON
+Map	Shift Off		ShiftState=ShiftOFF
+
+Map	Mixer Button		ControlSet=Main
+Map	T1 Button		ControlSet=FX Sends
+Map	T2 Button		ControlSet=Inserts
+Map	T3 Button		ControlSet=Eq
+Map	T4 Button		0
+
+Map	Synth Button		Select Prev Insert FX Patch
+Map	Drum Button		Select Next Insert FX Patch
+
+Map	Blue Encoder		Level	3		Main	ShiftOFF
+Map	Green Encoder		C Ratio	3		Main	ShiftOFF
+Map	White Encoder		C Threshold	3		Main	ShiftOFF
+Map	Red Encoder		C Release	3		Main	ShiftOFF
+Map	Blue Encoder		Pan	5		Main	ShiftON
+Map	Green Encoder		Width	3		Main	ShiftON
+Map	Red Encoder		Input Gain	3		Main	ShiftON
+Map	Blue Encoder		Level	1		Main	ShiftOFF	BlueClickON
+Map	Green Encoder		C Ratio	1		Main	ShiftOFF	GreenClickON
+Map	White Encoder		C Threshold	1		Main	ShiftOFF	WhiteClickON
+Map	Red Encoder		C Release	1		Main	ShiftOFF	RedClickON
+Map	Blue Encoder		Pan	1		Main	ShiftON	BlueClickON
+Map	Green Encoder		Width	1		Main	ShiftON	GreenClickON
+Map	Red Encoder		Input Gain	1		Main	ShiftON	RedClickON
+Map	Sound 1 Button		Mute			Main
+Map	Sound 2 Button		Solo			Main
+Map	Sound 3 Button		Insert Pre			Main
+Map	Sound 4 Button		Invert Phase			Main
+Map	Sound 5 Button		Comp On			Main
+Map	Sound 6 Button		C Peak			Main
+Map	Sound 7 Button		C Fast Atk			Main
+Map	Sound 8 Button		Key On			Main
+
+Map	Blue Encoder		Rotary 1	3		Inserts	ShiftOFF
+Map	Green Encoder		Rotary 2	3		Inserts	ShiftOFF
+Map	White Encoder		Rotary 3	3		Inserts	ShiftOFF
+Map	Red Encoder		Rotary 4	3		Inserts	ShiftOFF
+Map	Blue Encoder		Rotary 1	1		Inserts	ShiftOFF	BlueClickON
+Map	Green Encoder		Rotary 2	1		Inserts	ShiftOFF	GreenClickON
+Map	White Encoder		Rotary 3	1		Inserts	ShiftOFF	WhiteClickON
+Map	Red Encoder		Rotary 4	1		Inserts	ShiftOFF	RedClickON
+Map	Sound 1 Button		Button 1			Inserts
+Map	Sound 2 Button		Button 2			Inserts
+Map	Sound 3 Button		Button 3			Inserts
+Map	Sound 4 Button		Button 4			Inserts
+Map	Sound 5 Button		Gate On			Inserts
+Map	Sound 6 Button		Expander			Inserts
+Map	Sound 7 Button		G Fast Atk			Inserts
+Map	Sound 8 Button		0			Inserts
+Map	Blue Encoder		G Range	3		Inserts	ShiftON
+Map	Green Encoder		G Threshold	3		Inserts	ShiftON
+Map	White Encoder		G Release	3		Inserts	ShiftON
+Map	Red Encoder		G Hold	3		Inserts	ShiftON
+Map	Blue Encoder		G Range	1		Inserts	ShiftON	BlueClickON
+Map	Green Encoder		G Threshold	1		Inserts	ShiftON	GreenClickON
+Map	White Encoder		G Release	1		Inserts	ShiftON	WhiteClickON
+Map	Red Encoder		G Hold	1		Inserts	ShiftON	RedClickON
+
+Map	Blue Encoder		LF Gain	3		Eq	ShiftOFF
+Map	Green Encoder		LMF Gain	3		Eq	ShiftOFF
+Map	White Encoder		HMF Gain	3		Eq	ShiftOFF
+Map	Red Encoder		HF Gain	3		Eq	ShiftOFF
+Map	Blue Encoder		LF Frequency	3		Eq	ShiftON
+Map	Green Encoder		LMF Frequency	3		Eq	ShiftON
+Map	White Encoder		HMF Frequency	3		Eq	ShiftON
+Map	Red Encoder		HF Frequency	3		Eq	ShiftON
+Map	Blue Encoder		LF Gain	1		Eq	ShiftOFF	BlueClickON
+Map	Green Encoder		LMF Gain	1		Eq	ShiftOFF	GreenClickON
+Map	White Encoder		HMF Gain	1		Eq	ShiftOFF	WhiteClickON
+Map	Red Encoder		HF Gain	1		Eq	ShiftOFF	RedClickON
+Map	Blue Encoder		LF Frequency	1		Eq	ShiftON	BlueClickON
+Map	Green Encoder		LMF Frequency	1		Eq	ShiftON	GreenClickON
+Map	White Encoder		HMF Frequency	1		Eq	ShiftON	WhiteClickON
+Map	Red Encoder		HF Frequency	1		Eq	ShiftON	RedClickON
+Map	Sound 1 Button		LPF On			Eq
+Map	Sound 2 Button		HPF On			Eq
+Map	Sound 3 Button		EQ On			Eq
+Map	Sound 4 Button		EQ E Mode			Eq
+Map	Sound 5 Button		LF Bell			Eq
+Map	Sound 6 Button		HF Bell			Eq
+
+Map	Blue Encoder		FX1 Send Level	3		FX Sends	ShiftOFF
+Map	Green Encoder		FX2 Send Level	3		FX Sends	ShiftOFF
+Map	White Encoder		FX3 Send Level	3		FX Sends	ShiftOFF
+Map	Red Encoder		FX4 Send Level	3		FX Sends	ShiftOFF
+Map	Blue Encoder		FX5 Send Level	3		FX Sends	ShiftON
+Map	Green Encoder		FX6 Send Level	3		FX Sends	ShiftON
+Map	White Encoder		FX7 Send Level	3		FX Sends	ShiftON
+Map	Red Encoder		FX8 Send Level	3		FX Sends	ShiftON
+Map	Blue Encoder		FX1 Send Level	1		FX Sends	ShiftOFF	BlueClickON
+Map	Green Encoder		FX2 Send Level	1		FX Sends	ShiftOFF	GreenClickON
+Map	White Encoder		FX3 Send Level	1		FX Sends	ShiftOFF	WhiteClickON
+Map	Red Encoder		FX4 Send Level	1		FX Sends	ShiftOFF	RedClickON
+Map	Blue Encoder		FX5 Send Level	1		FX Sends	ShiftON	BlueClickON
+Map	Green Encoder		FX6 Send Level	1		FX Sends	ShiftON	GreenClickON
+Map	White Encoder		FX7 Send Level	1		FX Sends	ShiftON	WhiteClickON
+Map	Red Encoder		FX8 Send Level	1		FX Sends	ShiftON	RedClickON
+Map	Sound 1 Button		FX1 Send On			FX Sends
+Map	Sound 2 Button		FX2 Send On			FX Sends
+Map	Sound 3 Button		FX3 Send On			FX Sends
+Map	Sound 4 Button		FX4 Send On			FX Sends
+Map	Sound 5 Button		FX5 Send On			FX Sends
+Map	Sound 6 Button		FX6 Send On			FX Sends
+Map	Sound 7 Button		FX7 Send On			FX Sends
+Map	Sound 8 Button		FX8 Send On			FX Sends
+
+
+
+Scope	Propellerheads	Record Main Mixer Channel
+Define Group	ControlSet	Main	FX Sends	Inserts	Eq
+Define Group	ShiftState	ShiftOFF	ShiftON
+Define Group	BlueClickState	BlueClickOFF	BlueClickON
+Define Group	GreenClickState	GreenClickOFF	GreenClickON
+Define Group	WhiteClickState	WhiteClickOFF	WhiteClickON
+Define Group	RedClickState	RedClickOFF	RedClickON
+//	Control Surface Item	Key	Remotable Item	Scale	Mode
+Map	Blue Click On		BlueClickState=BlueClickON
+Map	Blue Click Off		BlueClickState=BlueClickOFF
+Map	Green Click On		GreenClickState=GreenClickON
+Map	Green Click Off		GreenClickState=GreenClickOFF
+Map	White Click On		WhiteClickState=WhiteClickON
+Map	White Click Off		WhiteClickState=WhiteClickOFF
+Map	Red Click On		RedClickState=RedClickON
+Map	Red Click Off		RedClickState=RedClickOFF
+Map	Shift On		ShiftState=ShiftON
+Map	Shift Off		ShiftState=ShiftOFF
+
+Map	Mixer Button		ControlSet=Main
+Map	T1 Button		ControlSet=FX Sends
+Map	T2 Button		ControlSet=Inserts
+Map	T3 Button		ControlSet=Eq
+Map	T4 Button		0
+
+Map	Synth Button		Select Prev Insert FX Patch
+Map	Drum Button		Select Next Insert FX Patch
+
+Map	Blue Encoder		Level	3		Main	ShiftOFF
+Map	Green Encoder		C Ratio	3		Main	ShiftOFF
+Map	White Encoder		C Threshold	3		Main	ShiftOFF
+Map	Red Encoder		C Release	3		Main	ShiftOFF
+Map	Blue Encoder		Pan	5		Main	ShiftON
+Map	Green Encoder		Width	3		Main	ShiftON
+Map	Red Encoder		Input Gain	3		Main	ShiftON
+Map	Blue Encoder		Level	1		Main	ShiftOFF	BlueClickON
+Map	Green Encoder		C Ratio	1		Main	ShiftOFF	GreenClickON
+Map	White Encoder		C Threshold	1		Main	ShiftOFF	WhiteClickON
+Map	Red Encoder		C Release	1		Main	ShiftOFF	RedClickON
+Map	Blue Encoder		Pan	1		Main	ShiftON	BlueClickON
+Map	Green Encoder		Width	1		Main	ShiftON	GreenClickON
+Map	Red Encoder		Input Gain	1		Main	ShiftON	RedClickON
+Map	Sound 1 Button		Mute			Main
+Map	Sound 2 Button		Solo			Main
+Map	Sound 3 Button		Insert Pre			Main
+Map	Sound 4 Button		Invert Phase			Main
+Map	Sound 5 Button		Comp On			Main
+Map	Sound 6 Button		C Peak			Main
+Map	Sound 7 Button		C Fast Atk			Main
+Map	Sound 8 Button		Key On			Main
+
+Map	Blue Encoder		Rotary 1	3		Inserts	ShiftOFF
+Map	Green Encoder		Rotary 2	3		Inserts	ShiftOFF
+Map	White Encoder		Rotary 3	3		Inserts	ShiftOFF
+Map	Red Encoder		Rotary 4	3		Inserts	ShiftOFF
+Map	Blue Encoder		Rotary 1	1		Inserts	ShiftOFF	BlueClickON
+Map	Green Encoder		Rotary 2	1		Inserts	ShiftOFF	GreenClickON
+Map	White Encoder		Rotary 3	1		Inserts	ShiftOFF	WhiteClickON
+Map	Red Encoder		Rotary 4	1		Inserts	ShiftOFF	RedClickON
+Map	Sound 1 Button		Button 1			Inserts
+Map	Sound 2 Button		Button 2			Inserts
+Map	Sound 3 Button		Button 3			Inserts
+Map	Sound 4 Button		Button 4			Inserts
+Map	Sound 5 Button		Gate On			Inserts
+Map	Sound 6 Button		Expander			Inserts
+Map	Sound 7 Button		G Fast Atk			Inserts
+Map	Sound 8 Button		0			Inserts
+Map	Blue Encoder		G Range	3		Inserts	ShiftON
+Map	Green Encoder		G Threshold	3		Inserts	ShiftON
+Map	White Encoder		G Release	3		Inserts	ShiftON
+Map	Red Encoder		G Hold	3		Inserts	ShiftON
+Map	Blue Encoder		G Range	1		Inserts	ShiftON	BlueClickON
+Map	Green Encoder		G Threshold	1		Inserts	ShiftON	GreenClickON
+Map	White Encoder		G Release	1		Inserts	ShiftON	WhiteClickON
+Map	Red Encoder		G Hold	1		Inserts	ShiftON	RedClickON
+
+Map	Blue Encoder		LF Gain	3		Eq	ShiftOFF
+Map	Green Encoder		LMF Gain	3		Eq	ShiftOFF
+Map	White Encoder		HMF Gain	3		Eq	ShiftOFF
+Map	Red Encoder		HF Gain	3		Eq	ShiftOFF
+Map	Blue Encoder		LF Frequency	3		Eq	ShiftON
+Map	Green Encoder		LMF Frequency	3		Eq	ShiftON
+Map	White Encoder		HMF Frequency	3		Eq	ShiftON
+Map	Red Encoder		HF Frequency	3		Eq	ShiftON
+Map	Blue Encoder		LF Gain	1		Eq	ShiftOFF	BlueClickON
+Map	Green Encoder		LMF Gain	1		Eq	ShiftOFF	GreenClickON
+Map	White Encoder		HMF Gain	1		Eq	ShiftOFF	WhiteClickON
+Map	Red Encoder		HF Gain	1		Eq	ShiftOFF	RedClickON
+Map	Blue Encoder		LF Frequency	1		Eq	ShiftON	BlueClickON
+Map	Green Encoder		LMF Frequency	1		Eq	ShiftON	GreenClickON
+Map	White Encoder		HMF Frequency	1		Eq	ShiftON	WhiteClickON
+Map	Red Encoder		HF Frequency	1		Eq	ShiftON	RedClickON
+Map	Sound 1 Button		LPF On			Eq
+Map	Sound 2 Button		HPF On			Eq
+Map	Sound 3 Button		EQ On			Eq
+Map	Sound 4 Button		EQ E Mode			Eq
+Map	Sound 5 Button		LF Bell			Eq
+Map	Sound 6 Button		HF Bell			Eq
+
+Map	Blue Encoder		FX1 Send Level	3		FX Sends	ShiftOFF
+Map	Green Encoder		FX2 Send Level	3		FX Sends	ShiftOFF
+Map	White Encoder		FX3 Send Level	3		FX Sends	ShiftOFF
+Map	Red Encoder		FX4 Send Level	3		FX Sends	ShiftOFF
+Map	Blue Encoder		FX5 Send Level	3		FX Sends	ShiftON
+Map	Green Encoder		FX6 Send Level	3		FX Sends	ShiftON
+Map	White Encoder		FX7 Send Level	3		FX Sends	ShiftON
+Map	Red Encoder		FX8 Send Level	3		FX Sends	ShiftON
+Map	Blue Encoder		FX1 Send Level	1		FX Sends	ShiftOFF	BlueClickON
+Map	Green Encoder		FX2 Send Level	1		FX Sends	ShiftOFF	GreenClickON
+Map	White Encoder		FX3 Send Level	1		FX Sends	ShiftOFF	WhiteClickON
+Map	Red Encoder		FX4 Send Level	1		FX Sends	ShiftOFF	RedClickON
+Map	Blue Encoder		FX5 Send Level	1		FX Sends	ShiftON	BlueClickON
+Map	Green Encoder		FX6 Send Level	1		FX Sends	ShiftON	GreenClickON
+Map	White Encoder		FX7 Send Level	1		FX Sends	ShiftON	WhiteClickON
+Map	Red Encoder		FX8 Send Level	1		FX Sends	ShiftON	RedClickON
+Map	Sound 1 Button		FX1 Send On			FX Sends
+Map	Sound 2 Button		FX2 Send On			FX Sends
+Map	Sound 3 Button		FX3 Send On			FX Sends
+Map	Sound 4 Button		FX4 Send On			FX Sends
+Map	Sound 5 Button		FX5 Send On			FX Sends
+Map	Sound 6 Button		FX6 Send On			FX Sends
+Map	Sound 7 Button		FX7 Send On			FX Sends
+Map	Sound 8 Button		FX8 Send On			FX Sends
+
+
+
+Scope	Propellerheads	Reason Essentials Main Mixer Channel
+Define Group	ControlSet	Main	FX Sends	Inserts	Eq
+Define Group	ShiftState	ShiftOFF	ShiftON
+Define Group	BlueClickState	BlueClickOFF	BlueClickON
+Define Group	GreenClickState	GreenClickOFF	GreenClickON
+Define Group	WhiteClickState	WhiteClickOFF	WhiteClickON
+Define Group	RedClickState	RedClickOFF	RedClickON
+//	Control Surface Item	Key	Remotable Item	Scale	Mode
+Map	Blue Click On		BlueClickState=BlueClickON
+Map	Blue Click Off		BlueClickState=BlueClickOFF
+Map	Green Click On		GreenClickState=GreenClickON
+Map	Green Click Off		GreenClickState=GreenClickOFF
+Map	White Click On		WhiteClickState=WhiteClickON
+Map	White Click Off		WhiteClickState=WhiteClickOFF
+Map	Red Click On		RedClickState=RedClickON
+Map	Red Click Off		RedClickState=RedClickOFF
+Map	Shift On		ShiftState=ShiftON
+Map	Shift Off		ShiftState=ShiftOFF
+
+Map	Mixer Button		ControlSet=Main
+Map	T1 Button		ControlSet=FX Sends
+Map	T2 Button		ControlSet=Inserts
+Map	T3 Button		ControlSet=Eq
+Map	T4 Button		0
+
+Map	Synth Button		Select Prev Insert FX Patch
+Map	Drum Button		Select Next Insert FX Patch
+
+Map	Blue Encoder		Level	3		Main
+Map	Green Encoder		Pan	5		Main
+Map	White Encoder		Width	3		Main
+Map	Red Encoder		Input Gain	3		Main
+Map	Blue Encoder		Level	1		Main		BlueClickON
+Map	Green Encoder		Pan	1		Main		GreenClickON
+Map	White Encoder		Width	1		Main		WhiteClickON
+Map	Red Encoder		Input Gain	1		Main		RedClickON
+Map	Sound 1 Button		Mute			Main
+Map	Sound 2 Button		Solo			Main
+Map	Sound 3 Button		0			Main
+Map	Sound 4 Button		Invert Phase			Main
+Map	Sound 5 Button		0			Main
+Map	Sound 6 Button		0			Main
+Map	Sound 7 Button		0			Main
+Map	Sound 8 Button		0			Main
+
+Map	Blue Encoder		Rotary 1	3		Inserts
+Map	Green Encoder		Rotary 2	3		Inserts
+Map	White Encoder		Rotary 3	3		Inserts
+Map	Red Encoder		Rotary 4	3		Inserts
+Map	Blue Encoder		Rotary 1	1		Inserts		BlueClickON
+Map	Green Encoder		Rotary 2	1		Inserts		GreenClickON
+Map	White Encoder		Rotary 3	1		Inserts		WhiteClickON
+Map	Red Encoder		Rotary 4	1		Inserts		RedClickON
+Map	Sound 1 Button		Button 1			Inserts
+Map	Sound 2 Button		Button 2			Inserts
+Map	Sound 3 Button		Button 3			Inserts
+Map	Sound 4 Button		Button 4			Inserts
+Map	Sound 5 Button		0			Inserts
+Map	Sound 6 Button		0			Inserts
+Map	Sound 7 Button		0			Inserts
+Map	Sound 8 Button		0			Inserts
+
+Map	Blue Encoder		LF Gain	3		Eq
+Map	Green Encoder		LF Frequency	3		Eq
+Map	White Encoder		HF Frequency	3		Eq
+Map	Red Encoder		HF Gain	3		Eq
+Map	Blue Encoder		LF Gain	1		Eq		BlueClickON
+Map	Green Encoder		LF Frequency	1		Eq		GreenClickON
+Map	White Encoder		HF Frequency	1		Eq		WhiteClickON
+Map	Red Encoder		HF Gain	1		Eq		RedClickON
+Map	Sound 1 Button		0			Eq
+Map	Sound 2 Button		0			Eq
+Map	Sound 3 Button		EQ On			Eq
+Map	Sound 4 Button		0			Eq
+Map	Sound 5 Button		LF Bell			Eq
+Map	Sound 6 Button		HF Bell			Eq
+Map	Sound 7 Button		0			Eq
+Map	Sound 8 Button		0			Eq
+
+Map	Blue Encoder		FX1 Send Level	3		FX Sends
+Map	Green Encoder		FX2 Send Level	3		FX Sends
+Map	White Encoder		FX3 Send Level	3		FX Sends
+Map	Red Encoder		FX4 Send Level	3		FX Sends
+Map	Blue Encoder		FX1 Send Level	1		FX Sends		BlueClickON
+Map	Green Encoder		FX2 Send Level	1		FX Sends		GreenClickON
+Map	White Encoder		FX3 Send Level	1		FX Sends		WhiteClickON
+Map	Red Encoder		FX4 Send Level	1		FX Sends		RedClickON
+Map	Sound 1 Button		FX1 Send On			FX Sends
+Map	Sound 2 Button		FX2 Send On			FX Sends
+Map	Sound 3 Button		FX3 Send On			FX Sends
+Map	Sound 4 Button		FX4 Send On			FX Sends
+Map	Sound 5 Button		FX1 Pre Fader			FX Sends
+Map	Sound 6 Button		FX2 Pre Fader			FX Sends
+Map	Sound 7 Button		FX3 Pre Fader			FX Sends
+Map	Sound 8 Button		FX4 Pre Fader			FX Sends
+
+
+
+Scope	Propellerheads	Combinator
+Define Group	ShiftState	ShiftOFF	ShiftON
+Define Group	BlueClickState	BlueClickOFF	BlueClickON
+Define Group	GreenClickState	GreenClickOFF	GreenClickON
+Define Group	WhiteClickState	WhiteClickOFF	WhiteClickON
+Define Group	RedClickState	RedClickOFF	RedClickON
+//	Control Surface Item	Key	Remotable Item	Scale	Mode
+Map	Blue Click On		BlueClickState=BlueClickON
+Map	Blue Click Off		BlueClickState=BlueClickOFF
+Map	Green Click On		GreenClickState=GreenClickON
+Map	Green Click Off		GreenClickState=GreenClickOFF
+Map	White Click On		WhiteClickState=WhiteClickON
+Map	White Click Off		WhiteClickState=WhiteClickOFF
+Map	Red Click On		RedClickState=RedClickON
+Map	Red Click Off		RedClickState=RedClickOFF
+Map	Shift On		ShiftState=ShiftON
+Map	Shift Off		ShiftState=ShiftOFF
+
+Map	Mixer Button		ShiftState=ShiftOFF
+Map	T1 Button		ShiftState=ShiftON
+Map	T2 Button		0
+Map	T3 Button		0
+Map	T4 Button		0
+
+Map	Play Button		Run Pattern Devices				ShiftON
+
+Map	Blue Encoder		Mod Wheel	3			ShiftON
+Map	Blue Encoder		Mod Wheel	1			ShiftON	BlueClickON
+
+Map	Blue Encoder		Rotary 1	3
+Map	Green Encoder		Rotary 2	3
+Map	White Encoder		Rotary 3	3
+Map	Red Encoder		Rotary 4	3
+Map	Blue Encoder		Rotary 1	1				BlueClickON
+Map	Green Encoder		Rotary 2	1				GreenClickON
+Map	White Encoder		Rotary 3	1				WhiteClickON
+Map	Red Encoder		Rotary 4	1				RedClickON
+
+Map	Sound 1 Button		Button 1
+Map	Sound 2 Button		Button 2
+Map	Sound 3 Button		Button 3
+Map	Sound 4 Button		Button 4
+Map	Sound 5 Button		Bypass All FX
+Map	Sound 6 Button		0
+Map	Sound 7 Button		0
+Map	Sound 8 Button		Enabled
+
+
+
+Scope	Propellerheads	Mixer 14:2
+Define Group	ControlSet	Main	Level1-3	Level4-6	Level7-10	Level11-14	EQ1-3	EQ4-6	EQ7-10	EQ11-14
+Define Group	ShiftState	ShiftOFF	ShiftON
+Define Group	BlueClickState	BlueClickOFF	BlueClickON
+Define Group	GreenClickState	GreenClickOFF	GreenClickON
+Define Group	WhiteClickState	WhiteClickOFF	WhiteClickON
+Define Group	RedClickState	RedClickOFF	RedClickON
+//	Control Surface Item	Key	Remotable Item	Scale	Mode
+Map	Blue Click On		BlueClickState=BlueClickON
+Map	Blue Click Off		BlueClickState=BlueClickOFF
+Map	Green Click On		GreenClickState=GreenClickON
+Map	Green Click Off		GreenClickState=GreenClickOFF
+Map	White Click On		WhiteClickState=WhiteClickON
+Map	White Click Off		WhiteClickState=WhiteClickOFF
+Map	Red Click On		RedClickState=RedClickON
+Map	Red Click Off		RedClickState=RedClickOFF
+Map	Shift On		ShiftState=ShiftON
+Map	Shift Off		ShiftState=ShiftOFF
+
+Map	Mixer Button		ControlSet=Main
+Map	T1 Button		ControlSet=Level1-3				ShiftOFF
+Map	T2 Button		ControlSet=Level4-6				ShiftOFF
+Map	T3 Button		ControlSet=Level7-10				ShiftOFF
+Map	T4 Button		ControlSet=Level11-14				ShiftOFF
+Map	T1 Button		ControlSet=EQ1-3				ShiftON
+Map	T2 Button		ControlSet=EQ4-6				ShiftON
+Map	T3 Button		ControlSet=EQ7-10				ShiftON
+Map	T4 Button		ControlSet=EQ11-14				ShiftON
+
+Map	Red Encoder		Master Level
+
+Map	Blue Encoder		Aux 1 Return Level	3		Main
+Map	Green Encoder		Aux 2 Return Level	3		Main
+Map	White Encoder		Aux 3 Return Level	3		Main
+Map	Red Encoder		Aux 4 Return Level	3		Main	ShiftON
+Map	Blue Encoder		Aux 1 Return Level	1		Main		BlueClickON
+Map	Green Encoder		Aux 2 Return Level	1		Main		GreenClickON
+Map	White Encoder		Aux 3 Return Level	1		Main		WhiteClickON
+Map	Red Encoder		Aux 4 Return Level	1		Main	ShiftON	RedClickON
+
+Map	Blue Encoder		Channel 1 Level	3		Level1-3	ShiftOFF
+Map	Green Encoder		Channel 2 Level	3		Level1-3	ShiftOFF
+Map	White Encoder		Channel 3 Level	3		Level1-3	ShiftOFF
+Map	Blue Encoder		Channel 4 Level	3		Level4-6	ShiftOFF
+Map	Green Encoder		Channel 5 Level	3		Level4-6	ShiftOFF
+Map	White Encoder		Channel 6 Level	3		Level4-6	ShiftOFF
+Map	Blue Encoder		Channel 7 Level	3		Level7-10	ShiftOFF
+Map	Green Encoder		Channel 8 Level	3		Level7-10	ShiftOFF
+Map	White Encoder		Channel 9 Level	3		Level7-10	ShiftOFF
+Map	Red Encoder		Channel 10 Level	3		Level7-10	ShiftOFF
+Map	Blue Encoder		Channel 11 Level	3		Level11-14	ShiftOFF
+Map	Green Encoder		Channel 12 Level	3		Level11-14	ShiftOFF
+Map	White Encoder		Channel 13 Level	3		Level11-14	ShiftOFF
+Map	Red Encoder		Channel 14 Level	3		Level11-14	ShiftOFF
+Map	Blue Encoder		Channel 1 Level	1		Level1-3	ShiftOFF	BlueClickON
+Map	Green Encoder		Channel 2 Level	1		Level1-3	ShiftOFF	GreenClickON
+Map	White Encoder		Channel 3 Level	1		Level1-3	ShiftOFF	WhiteClickON
+Map	Blue Encoder		Channel 4 Level	1		Level4-6	ShiftOFF	BlueClickON
+Map	Green Encoder		Channel 5 Level	1		Level4-6	ShiftOFF	GreenClickON
+Map	White Encoder		Channel 6 Level	1		Level4-6	ShiftOFF	WhiteClickON
+Map	Blue Encoder		Channel 7 Level	1		Level7-10	ShiftOFF	BlueClickON
+Map	Green Encoder		Channel 8 Level	1		Level7-10	ShiftOFF	GreenClickON
+Map	White Encoder		Channel 9 Level	1		Level7-10	ShiftOFF	WhiteClickON
+Map	Red Encoder		Channel 10 Level	1		Level7-10	ShiftOFF	RedClickON
+Map	Blue Encoder		Channel 11 Level	1		Level11-14	ShiftOFF	BlueClickON
+Map	Green Encoder		Channel 12 Level	1		Level11-14	ShiftOFF	GreenClickON
+Map	White Encoder		Channel 13 Level	1		Level11-14	ShiftOFF	WhiteClickON
+Map	Red Encoder		Channel 14 Level	1		Level11-14	ShiftOFF	RedClickON
+
+Map	Blue Encoder		Channel 1 Pan	3		Level1-3	ShiftON
+Map	Green Encoder		Channel 2 Pan	3		Level1-3	ShiftON
+Map	White Encoder		Channel 3 Pan	3		Level1-3	ShiftON
+Map	Blue Encoder		Channel 4 Pan	3		Level4-6	ShiftON
+Map	Green Encoder		Channel 5 Pan	3		Level4-6	ShiftON
+Map	White Encoder		Channel 6 Pan	3		Level4-6	ShiftON
+Map	Blue Encoder		Channel 7 Pan	3		Level7-10	ShiftON
+Map	Green Encoder		Channel 8 Pan	3		Level7-10	ShiftON
+Map	White Encoder		Channel 9 Pan	3		Level7-10	ShiftON
+Map	Red Encoder		Channel 10 Pan	3		Level7-10	ShiftON
+Map	Blue Encoder		Channel 11 Pan	3		Level11-14	ShiftON
+Map	Green Encoder		Channel 12 Pan	3		Level11-14	ShiftON
+Map	White Encoder		Channel 13 Pan	3		Level11-14	ShiftON
+Map	Red Encoder		Channel 14 Pan	3		Level11-14	ShiftON
+Map	Blue Encoder		Channel 1 Pan	1		Level1-3	ShiftON	BlueClickON
+Map	Green Encoder		Channel 2 Pan	1		Level1-3	ShiftON	GreenClickON
+Map	White Encoder		Channel 3 Pan	1		Level1-3	ShiftON	WhiteClickON
+Map	Blue Encoder		Channel 4 Pan	1		Level4-6	ShiftON	BlueClickON
+Map	Green Encoder		Channel 5 Pan	1		Level4-6	ShiftON	GreenClickON
+Map	White Encoder		Channel 6 Pan	1		Level4-6	ShiftON	WhiteClickON
+Map	Blue Encoder		Channel 7 Pan	1		Level7-10	ShiftON	BlueClickON
+Map	Green Encoder		Channel 8 Pan	1		Level7-10	ShiftON	GreenClickON
+Map	White Encoder		Channel 9 Pan	1		Level7-10	ShiftON	WhiteClickON
+Map	Red Encoder		Channel 10 Pan	1		Level7-10	ShiftON	RedClickON
+Map	Blue Encoder		Channel 11 Pan	1		Level11-14	ShiftON	BlueClickON
+Map	Green Encoder		Channel 12 Pan	1		Level11-14	ShiftON	GreenClickON
+Map	White Encoder		Channel 13 Pan	1		Level11-14	ShiftON	WhiteClickON
+Map	Red Encoder		Channel 14 Pan	1		Level11-14	ShiftON	RedClickON
+
+Map	Sound 1 Button		Channel 1 Mute			Level1-3
+Map	Sound 2 Button		Channel 2 Mute			Level1-3
+Map	Sound 3 Button		Channel 3 Mute			Level1-3
+Map	Sound 4 Button		0			Level1-3
+Map	Sound 5 Button		Channel 1 Solo			Level1-3
+Map	Sound 6 Button		Channel 2 Solo			Level1-3
+Map	Sound 7 Button		Channel 3 Solo			Level1-3
+Map	Sound 8 Button		0			Level1-3
+Map	Sound 1 Button		Channel 4 Mute			Level4-6
+Map	Sound 2 Button		Channel 5 Mute			Level4-6
+Map	Sound 3 Button		Channel 6 Mute			Level4-6
+Map	Sound 4 Button		0			Level4-6
+Map	Sound 5 Button		Channel 4 Solo			Level4-6
+Map	Sound 6 Button		Channel 5 Solo			Level4-6
+Map	Sound 7 Button		Channel 6 Solo			Level4-6
+Map	Sound 8 Button		0			Level4-6
+Map	Sound 1 Button		Channel 7 Mute			Level7-10
+Map	Sound 2 Button		Channel 8 Mute			Level7-10
+Map	Sound 3 Button		Channel 9 Mute			Level7-10
+Map	Sound 4 Button		Channel 10 Mute			Level7-10
+Map	Sound 5 Button		Channel 7 Solo			Level7-10
+Map	Sound 6 Button		Channel 8 Solo			Level7-10
+Map	Sound 7 Button		Channel 9 Solo			Level7-10
+Map	Sound 8 Button		Channel 10 Solo			Level7-10
+Map	Sound 1 Button		Channel 11 Mute			Level11-14
+Map	Sound 2 Button		Channel 12 Mute			Level11-14
+Map	Sound 3 Button		Channel 13 Mute			Level11-14
+Map	Sound 4 Button		Channel 14 Mute			Level11-14
+Map	Sound 5 Button		Channel 11 Solo			Level11-14
+Map	Sound 6 Button		Channel 12 Solo			Level11-14
+Map	Sound 7 Button		Channel 13 Solo			Level11-14
+Map	Sound 8 Button		Channel 14 Solo			Level11-14
+
+Map	Blue Encoder		Channel 1 Treble Amount	3		EQ1-3	ShiftOFF
+Map	Green Encoder		Channel 2 Treble Amount	3		EQ1-3	ShiftOFF
+Map	White Encoder		Channel 3 Treble Amount	3		EQ1-3	ShiftOFF
+Map	Blue Encoder		Channel 4 Treble Amount	3		EQ4-6	ShiftOFF
+Map	Green Encoder		Channel 5 Treble Amount	3		EQ4-6	ShiftOFF
+Map	White Encoder		Channel 6 Treble Amount	3		EQ4-6	ShiftOFF
+Map	Blue Encoder		Channel 7 Treble Amount	3		EQ7-10	ShiftOFF
+Map	Green Encoder		Channel 8 Treble Amount	3		EQ7-10	ShiftOFF
+Map	White Encoder		Channel 9 Treble Amount	3		EQ7-10	ShiftOFF
+Map	Red Encoder		Channel 10 Treble Amount	3		EQ7-10	ShiftOFF
+Map	Blue Encoder		Channel 11 Treble Amount	3		EQ11-14	ShiftOFF
+Map	Green Encoder		Channel 12 Treble Amount	3		EQ11-14	ShiftOFF
+Map	White Encoder		Channel 13 Treble Amount	3		EQ11-14	ShiftOFF
+Map	Red Encoder		Channel 14 Treble Amount	3		EQ11-14	ShiftOFF
+Map	Blue Encoder		Channel 1 Treble Amount	1		EQ1-3	ShiftOFF	BlueClickON
+Map	Green Encoder		Channel 2 Treble Amount	1		EQ1-3	ShiftOFF	GreenClickON
+Map	White Encoder		Channel 3 Treble Amount	1		EQ1-3	ShiftOFF	WhiteClickON
+Map	Blue Encoder		Channel 4 Treble Amount	1		EQ4-6	ShiftOFF	BlueClickON
+Map	Green Encoder		Channel 5 Treble Amount	1		EQ4-6	ShiftOFF	GreenClickON
+Map	White Encoder		Channel 6 Treble Amount	1		EQ4-6	ShiftOFF	WhiteClickON
+Map	Blue Encoder		Channel 7 Treble Amount	1		EQ7-10	ShiftOFF	BlueClickON
+Map	Green Encoder		Channel 8 Treble Amount	1		EQ7-10	ShiftOFF	GreenClickON
+Map	White Encoder		Channel 9 Treble Amount	1		EQ7-10	ShiftOFF	WhiteClickON
+Map	Red Encoder		Channel 10 Treble Amount	1		EQ7-10	ShiftOFF	RedClickON
+Map	Blue Encoder		Channel 11 Treble Amount	1		EQ11-14	ShiftOFF	BlueClickON
+Map	Green Encoder		Channel 12 Treble Amount	1		EQ11-14	ShiftOFF	GreenClickON
+Map	White Encoder		Channel 13 Treble Amount	1		EQ11-14	ShiftOFF	WhiteClickON
+Map	Red Encoder		Channel 14 Treble Amount	1		EQ11-14	ShiftOFF	RedClickON
+
+Map	Blue Encoder		Channel 1 Bass Amount	3		EQ1-3	ShiftON
+Map	Green Encoder		Channel 2 Bass Amount	3		EQ1-3	ShiftON
+Map	White Encoder		Channel 3 Bass Amount	3		EQ1-3	ShiftON
+Map	Blue Encoder		Channel 4 Bass Amount	3		EQ4-6	ShiftON
+Map	Green Encoder		Channel 5 Bass Amount	3		EQ4-6	ShiftON
+Map	White Encoder		Channel 6 Bass Amount	3		EQ4-6	ShiftON
+Map	Blue Encoder		Channel 7 Bass Amount	3		EQ7-10	ShiftON
+Map	Green Encoder		Channel 8 Bass Amount	3		EQ7-10	ShiftON
+Map	White Encoder		Channel 9 Bass Amount	3		EQ7-10	ShiftON
+Map	Red Encoder		Channel 10 Bass Amount	3		EQ7-10	ShiftON
+Map	Blue Encoder		Channel 11 Bass Amount	3		EQ11-14	ShiftON
+Map	Green Encoder		Channel 12 Bass Amount	3		EQ11-14	ShiftON
+Map	White Encoder		Channel 13 Bass Amount	3		EQ11-14	ShiftON
+Map	Red Encoder		Channel 14 Bass Amount	3		EQ11-14	ShiftON
+Map	Blue Encoder		Channel 1 Bass Amount	1		EQ1-3	ShiftON	BlueClickON
+Map	Green Encoder		Channel 2 Bass Amount	1		EQ1-3	ShiftON	GreenClickON
+Map	White Encoder		Channel 3 Bass Amount	1		EQ1-3	ShiftON	WhiteClickON
+Map	Blue Encoder		Channel 4 Bass Amount	1		EQ4-6	ShiftON	BlueClickON
+Map	Green Encoder		Channel 5 Bass Amount	1		EQ4-6	ShiftON	GreenClickON
+Map	White Encoder		Channel 6 Bass Amount	1		EQ4-6	ShiftON	WhiteClickON
+Map	Blue Encoder		Channel 7 Bass Amount	1		EQ7-10	ShiftON	BlueClickON
+Map	Green Encoder		Channel 8 Bass Amount	1		EQ7-10	ShiftON	GreenClickON
+Map	White Encoder		Channel 9 Bass Amount	1		EQ7-10	ShiftON	WhiteClickON
+Map	Red Encoder		Channel 10 Bass Amount	1		EQ7-10	ShiftON	RedClickON
+Map	Blue Encoder		Channel 11 Bass Amount	1		EQ11-14	ShiftON	BlueClickON
+Map	Green Encoder		Channel 12 Bass Amount	1		EQ11-14	ShiftON	GreenClickON
+Map	White Encoder		Channel 13 Bass Amount	1		EQ11-14	ShiftON	WhiteClickON
+Map	Red Encoder		Channel 14 Bass Amount	1		EQ11-14	ShiftON	RedClickON
+
+Map	Sound 1 Button		Channel 1 EQ On/Off			EQ1-3
+Map	Sound 2 Button		Channel 2 EQ On/Off			EQ1-3
+Map	Sound 3 Button		Channel 3 EQ On/Off			EQ1-3
+Map	Sound 4 Button		0			EQ1-3
+Map	Sound 5 Button		Channel 1 Aux 4 Pre Fader On/Off			EQ1-3
+Map	Sound 6 Button		Channel 2 Aux 4 Pre Fader On/Off			EQ1-3
+Map	Sound 7 Button		Channel 3 Aux 4 Pre Fader On/Off			EQ1-3
+Map	Sound 8 Button		0			EQ1-3
+Map	Sound 1 Button		Channel 4 EQ On/Off			EQ4-6
+Map	Sound 2 Button		Channel 5 EQ On/Off			EQ4-6
+Map	Sound 3 Button		Channel 6 EQ On/Off			EQ4-6
+Map	Sound 4 Button		0			EQ4-6
+Map	Sound 5 Button		Channel 4 Aux 4 Pre Fader On/Off			EQ4-6
+Map	Sound 6 Button		Channel 5 Aux 4 Pre Fader On/Off			EQ4-6
+Map	Sound 7 Button		Channel 6 Aux 4 Pre Fader On/Off			EQ4-6
+Map	Sound 8 Button		0			EQ4-6
+Map	Sound 1 Button		Channel 7 EQ On/Off			EQ7-10
+Map	Sound 2 Button		Channel 8 EQ On/Off			EQ7-10
+Map	Sound 3 Button		Channel 9 EQ On/Off			EQ7-10
+Map	Sound 4 Button		Channel 10 EQ On/Off			EQ7-10
+Map	Sound 5 Button		Channel 7 Aux 4 Pre Fader On/Off			EQ7-10
+Map	Sound 6 Button		Channel 8 Aux 4 Pre Fader On/Off			EQ7-10
+Map	Sound 7 Button		Channel 9 Aux 4 Pre Fader On/Off			EQ7-10
+Map	Sound 8 Button		Channel 10 Aux 4 Pre Fader On/Off			EQ7-10
+Map	Sound 1 Button		Channel 11 EQ On/Off			EQ11-14
+Map	Sound 2 Button		Channel 12 EQ On/Off			EQ11-14
+Map	Sound 3 Button		Channel 13 EQ On/Off			EQ11-14
+Map	Sound 4 Button		Channel 14 EQ On/Off			EQ11-14
+Map	Sound 5 Button		Channel 11 Aux 4 Pre Fader On/Off			EQ11-14
+Map	Sound 6 Button		Channel 12 Aux 4 Pre Fader On/Off			EQ11-14
+Map	Sound 7 Button		Channel 13 Aux 4 Pre Fader On/Off			EQ11-14
+Map	Sound 8 Button		Channel 14 Aux 4 Pre Fader On/Off			EQ11-14
+
+
+
+Scope	Propellerheads	Line Mixer 6:2
+Define Group	ControlSet	Level1-3	Level4-6	Aux1-3	Aux4-6
+Define Group	ShiftState	ShiftOFF	ShiftON
+Define Group	BlueClickState	BlueClickOFF	BlueClickON
+Define Group	GreenClickState	GreenClickOFF	GreenClickON
+Define Group	WhiteClickState	WhiteClickOFF	WhiteClickON
+Define Group	RedClickState	RedClickOFF	RedClickON
+//	Control Surface Item	Key	Remotable Item	Scale	Mode
+Map	Blue Click On		BlueClickState=BlueClickON
+Map	Blue Click Off		BlueClickState=BlueClickOFF
+Map	Green Click On		GreenClickState=GreenClickON
+Map	Green Click Off		GreenClickState=GreenClickOFF
+Map	White Click On		WhiteClickState=WhiteClickON
+Map	White Click Off		WhiteClickState=WhiteClickOFF
+Map	Red Click On		RedClickState=RedClickON
+Map	Red Click Off		RedClickState=RedClickOFF
+Map	Shift On		ShiftState=ShiftON
+Map	Shift Off		ShiftState=ShiftOFF
+Map	T1 Button		ControlSet=Level1-3
+Map	T2 Button		ControlSet=Level4-6
+Map	T3 Button		ControlSet=Aux1-3
+Map	T4 Button		ControlSet=Aux4-6
+
+Map	Red Encoder		Master Level	3			ShiftOFF
+Map	Red Encoder		Aux Return Level	3			ShiftON
+Map	Red Encoder		Master Level	1			ShiftOFF	RedClickON
+Map	Red Encoder		Aux Return Level	1			ShiftON	RedClickON
+
+Map	Blue Encoder		Channel 1 Level	3		Level1-3	ShiftOFF
+Map	Green Encoder		Channel 2 Level	3		Level1-3	ShiftOFF
+Map	White Encoder		Channel 3 Level	3		Level1-3	ShiftOFF
+Map	Blue Encoder		Channel 4 Level	3		Level4-6	ShiftOFF
+Map	Green Encoder		Channel 5 Level	3		Level4-6	ShiftOFF
+Map	White Encoder		Channel 6 Level	3		Level4-6	ShiftOFF
+Map	Blue Encoder		Channel 1 Pan	3		Level1-3	ShiftON
+Map	Green Encoder		Channel 2 Pan	3		Level1-3	ShiftON
+Map	White Encoder		Channel 3 Pan	3		Level1-3	ShiftON
+Map	Blue Encoder		Channel 4 Pan	3		Level4-6	ShiftON
+Map	Green Encoder		Channel 5 Pan	3		Level4-6	ShiftON
+Map	White Encoder		Channel 6 Pan	3		Level4-6	ShiftON
+Map	Blue Encoder		Channel 1 Level	1		Level1-3	ShiftOFF	BlueClickON
+Map	Green Encoder		Channel 2 Level	1		Level1-3	ShiftOFF	GreenClickON
+Map	White Encoder		Channel 3 Level	1		Level1-3	ShiftOFF	WhiteClickON
+Map	Blue Encoder		Channel 4 Level	1		Level4-6	ShiftOFF	BlueClickON
+Map	Green Encoder		Channel 5 Level	1		Level4-6	ShiftOFF	GreenClickON
+Map	White Encoder		Channel 6 Level	1		Level4-6	ShiftOFF	WhiteClickON
+Map	Blue Encoder		Channel 1 Pan	1		Level1-3	ShiftON	BlueClickON
+Map	Green Encoder		Channel 2 Pan	1		Level1-3	ShiftON	GreenClickON
+Map	White Encoder		Channel 3 Pan	1		Level1-3	ShiftON	WhiteClickON
+Map	Blue Encoder		Channel 4 Pan	1		Level4-6	ShiftON	BlueClickON
+Map	Green Encoder		Channel 5 Pan	1		Level4-6	ShiftON	GreenClickON
+Map	White Encoder		Channel 6 Pan	1		Level4-6	ShiftON	WhiteClickON
+
+Map	Sound 1 Button		Channel 1 Mute			Level1-3
+Map	Sound 2 Button		Channel 2 Mute			Level1-3
+Map	Sound 3 Button		Channel 3 Mute			Level1-3
+Map	Sound 4 Button		Channel 4 Solo			Level1-3
+Map	Sound 5 Button		Channel 5 Solo			Level1-3
+Map	Sound 6 Button		Channel 6 Solo			Level1-3
+Map	Sound 1 Button		Channel 1 Mute			Level4-6
+Map	Sound 2 Button		Channel 2 Mute			Level4-6
+Map	Sound 3 Button		Channel 3 Mute			Level4-6
+Map	Sound 4 Button		Channel 4 Solo			Level4-6
+Map	Sound 5 Button		Channel 5 Solo			Level4-6
+Map	Sound 6 Button		Channel 6 Solo			Level4-6
+
+Map	Blue Encoder		Channel 1 Aux Send	3		Aux1-3
+Map	Green Encoder		Channel 2 Aux Send	3		Aux1-3
+Map	White Encoder		Channel 3 Aux Send	3		Aux1-3
+Map	Blue Encoder		Channel 4 Aux Send	3		Aux4-6
+Map	Green Encoder		Channel 5 Aux Send	3		Aux4-6
+Map	White Encoder		Channel 6 Aux Send	3		Aux4-6
+Map	Blue Encoder		Channel 1 Pan	3		Aux1-3	ShiftON
+Map	Green Encoder		Channel 2 Pan	3		Aux1-3	ShiftON
+Map	White Encoder		Channel 3 Pan	3		Aux1-3	ShiftON
+Map	Blue Encoder		Channel 4 Pan	3		Aux4-6	ShiftON
+Map	Green Encoder		Channel 5 Pan	3		Aux4-6	ShiftON
+Map	White Encoder		Channel 6 Pan	3		Aux4-6	ShiftON
+Map	Blue Encoder		Channel 1 Aux Send	1		Aux1-3		BlueClickON
+Map	Green Encoder		Channel 2 Aux Send	1		Aux1-3		GreenClickON
+Map	White Encoder		Channel 3 Aux Send	1		Aux1-3		WhiteClickON
+Map	Blue Encoder		Channel 4 Aux Send	1		Aux4-6		BlueClickON
+Map	Green Encoder		Channel 5 Aux Send	1		Aux4-6		GreenClickON
+Map	White Encoder		Channel 6 Aux Send	1		Aux4-6		WhiteClickON
+Map	Blue Encoder		Channel 1 Pan	1		Aux1-3	ShiftON	BlueClickON
+Map	Green Encoder		Channel 2 Pan	1		Aux1-3	ShiftON	GreenClickON
+Map	White Encoder		Channel 3 Pan	1		Aux1-3	ShiftON	WhiteClickON
+Map	Blue Encoder		Channel 4 Pan	1		Aux4-6	ShiftON	BlueClickON
+Map	Green Encoder		Channel 5 Pan	1		Aux4-6	ShiftON	GreenClickON
+Map	White Encoder		Channel 6 Pan	1		Aux4-6	ShiftON	WhiteClickON
+
+Map	Sound 1 Button		Channel 1 Mute			Aux1-3
+Map	Sound 2 Button		Channel 2 Mute			Aux1-3
+Map	Sound 3 Button		Channel 3 Mute			Aux1-3
+Map	Sound 4 Button		Channel 4 Solo			Aux1-3
+Map	Sound 5 Button		Channel 5 Solo			Aux1-3
+Map	Sound 6 Button		Channel 6 Solo			Aux1-3
+Map	Sound 1 Button		Channel 1 Mute			Aux4-6
+Map	Sound 2 Button		Channel 2 Mute			Aux4-6
+Map	Sound 3 Button		Channel 3 Mute			Aux4-6
+Map	Sound 4 Button		Channel 4 Solo			Aux4-6
+Map	Sound 5 Button		Channel 5 Solo			Aux4-6
+Map	Sound 6 Button		Channel 6 Solo			Aux4-6
+
+
+
+Scope	Propellerheads	Matrix Pattern Sequencer
+Define Group	ShiftState	ShiftOFF	ShiftON
+Define Group	BlueClickState	BlueClickOFF	BlueClickON
+Define Group	GreenClickState	GreenClickOFF	GreenClickON
+Define Group	WhiteClickState	WhiteClickOFF	WhiteClickON
+Define Group	RedClickState	RedClickOFF	RedClickON
+//	Control Surface Item	Key	Remotable Item	Scale	Mode
+Map	Blue Click On		BlueClickState=BlueClickON
+Map	Blue Click Off		BlueClickState=BlueClickOFF
+Map	Green Click On		GreenClickState=GreenClickON
+Map	Green Click Off		GreenClickState=GreenClickOFF
+Map	White Click On		WhiteClickState=WhiteClickON
+Map	White Click Off		WhiteClickState=WhiteClickOFF
+Map	Red Click On		RedClickState=RedClickON
+Map	Red Click Off		RedClickState=RedClickOFF
+Map	Shift On		ShiftState=ShiftON
+Map	Shift Off		ShiftState=ShiftOFF
+
+Map	Play Button		Run				ShiftON
+
+Map	Blue Encoder		Bank Select
+Map	Green Encoder		Pattern Select in Bank
+Map	White Encoder		Resolution
+Map	Red Encoder		0
+
+Map	Sound 1 Button		Pattern Enable
+Map	Sound 2 Button		0
+Map	Sound 3 Button		Bank A
+Map	Sound 4 Button		Bank B
+Map	Sound 5 Button		Bank C
+Map	Sound 6 Button		Bank D
+Map	Sound 7 Button		0
+Map	Sound 8 Button		0
+
+Map	Sound 1 Button		Pattern 1				ShiftON
+Map	Sound 2 Button		Pattern 2				ShiftON
+Map	Sound 3 Button		Pattern 3				ShiftON
+Map	Sound 4 Button		Pattern 4				ShiftON
+Map	Sound 5 Button		Pattern 5				ShiftON
+Map	Sound 6 Button		Pattern 6				ShiftON
+Map	Sound 7 Button		Pattern 7				ShiftON
+Map	Sound 8 Button		Pattern 8				ShiftON
+
+
+
+Scope	Propellerheads	RPG-8 Monophonic Arpeggiator
+Define Group	ControlSet	Main	Pattern
+Define Group	ShiftState	ShiftOFF	ShiftON
+Define Group	BlueClickState	BlueClickOFF	BlueClickON
+Define Group	GreenClickState	GreenClickOFF	GreenClickON
+Define Group	WhiteClickState	WhiteClickOFF	WhiteClickON
+Define Group	RedClickState	RedClickOFF	RedClickON
+//	Control Surface Item	Key	Remotable Item	Scale	Mode
+Map	Blue Click On		BlueClickState=BlueClickON
+Map	Blue Click Off		BlueClickState=BlueClickOFF
+Map	Green Click On		GreenClickState=GreenClickON
+Map	Green Click Off		GreenClickState=GreenClickOFF
+Map	White Click On		WhiteClickState=WhiteClickON
+Map	White Click Off		WhiteClickState=WhiteClickOFF
+Map	Red Click On		RedClickState=RedClickON
+Map	Red Click Off		RedClickState=RedClickOFF
+Map	Shift On		ShiftState=ShiftON
+Map	Shift Off		ShiftState=ShiftOFF
+
+Map	Mixer Button		ControlSet=Main
+Map	T1 Button		ControlSet=Pattern
+Map	T2 Button		0
+Map	T3 Button		0
+Map	T4 Button		0
+
+Map	Play Button		Arpeggiator Enable				ShiftON
+
+Map	Blue Encoder		Velocity/Manual	3		Main	ShiftOFF
+Map	Green Encoder		Mode			Main	ShiftOFF
+Map	White Encoder		Rate	2		Main	ShiftOFF
+Map	Red Encoder		Gate Length	3		Main	ShiftOFF
+Map	Blue Encoder		Octave Shift			Main	ShiftON
+Map	Green Encoder		Octave			Main	ShiftON
+Map	White Encoder		Insert			Main	ShiftON
+Map	Red Encoder		Pattern Step Count			Main	ShiftON
+Map	Blue Encoder		Velocity/Manual	1		Main	ShiftOFF	BlueClickON
+Map	White Encoder		Rate	1		Main	ShiftOFF	WhiteClickON
+Map	Red Encoder		Gate Length	1		Main	ShiftOFF	RedClickON
+
+Map	Sound 1 Button		Arpeggiator Enable				ShiftOFF
+Map	Sound 2 Button		Hold
+Map	Sound 3 Button		Manual Velocity
+Map	Sound 4 Button		Insert Off
+Map	Sound 5 Button		Sync
+Map	Sound 6 Button		Single Note Repeat
+Map	Sound 7 Button		Shuffle
+Map	Sound 8 Button		Pattern Enable
+
+Map	Blue Encoder		Mode			Pattern
+Map	Green Encoder		Rate	2		Pattern
+Map	White Encoder		Gate Length	3		Pattern
+Map	Red Encoder		Pattern Step Count			Pattern
+Map	Green Encoder		Rate	1		Pattern		GreenClickON
+Map	White Encoder		Gate Length	1		Pattern		WhiteClickON
+
+Map	Sound 1 Button		Pattern Step 1			Pattern	ShiftOFF
+Map	Sound 2 Button		Pattern Step 2			Pattern	ShiftOFF
+Map	Sound 3 Button		Pattern Step 3			Pattern	ShiftOFF
+Map	Sound 4 Button		Pattern Step 4			Pattern	ShiftOFF
+Map	Sound 5 Button		Pattern Step 5			Pattern	ShiftOFF
+Map	Sound 6 Button		Pattern Step 6			Pattern	ShiftOFF
+Map	Sound 7 Button		Pattern Step 7			Pattern	ShiftOFF
+Map	Sound 8 Button		Pattern Step 8			Pattern	ShiftOFF
+Map	Sound 1 Button		Pattern Step 9			Pattern	ShiftON
+Map	Sound 2 Button		Pattern Step 10			Pattern	ShiftON
+Map	Sound 3 Button		Pattern Step 11			Pattern	ShiftON
+Map	Sound 4 Button		Pattern Step 12			Pattern	ShiftON
+Map	Sound 5 Button		Pattern Step 13			Pattern	ShiftON
+Map	Sound 6 Button		Pattern Step 14			Pattern	ShiftON
+Map	Sound 7 Button		Pattern Step 15			Pattern	ShiftON
+Map	Sound 8 Button		Pattern Step 16			Pattern	ShiftON
+
+
+
+Scope	Propellerheads	ReBirth Input Machine
+//	Control Surface Item	Key	Remotable Item	Scale	Mode	Group
+
+
+
+//* Instruments
+
+
+
+Scope	Propellerheads	ID8 Instrument Device
+Define Group	BlueClickState	BlueClickOFF	BlueClickON
+Define Group	GreenClickState	GreenClickOFF	GreenClickON
+Define Group	WhiteClickState	WhiteClickOFF	WhiteClickON
+Define Group	RedClickState	RedClickOFF	RedClickON
+//	Control Surface Item	Key	Remotable Item	Scale	Mode
+Map	Blue Click On		BlueClickState=BlueClickON
+Map	Blue Click Off		BlueClickState=BlueClickOFF
+Map	Green Click On		GreenClickState=GreenClickON
+Map	Green Click Off		GreenClickState=GreenClickOFF
+Map	White Click On		WhiteClickState=WhiteClickON
+Map	White Click Off		WhiteClickState=WhiteClickOFF
+Map	Red Click On		RedClickState=RedClickON
+Map	Red Click Off		RedClickState=RedClickOFF
+
+Map	Blue Encoder		Mod Wheel	3
+Map	Green Encoder		Parameter 1	3
+Map	White Encoder		Parameter 2	3
+Map	Red Encoder		Volume	3
+Map	Blue Encoder		Mod Wheel	1				BlueClickON
+Map	Green Encoder		Parameter 1	1				GreenClickON
+Map	White Encoder		Parameter 2	1				WhiteClickON
+Map	Red Encoder		Volume	1				RedClickON
+
+Map	Synth Button		Select Previous Preset
+Map	Drum Button		Select Next Preset
+
+Map	Sound 1 Button		Sound A
+Map	Sound 2 Button		Sound B
+Map	Sound 3 Button		Sound C
+Map	Sound 4 Button		Sound D
+Map	Sound 5 Button		Select Previous Category
+Map	Sound 6 Button		Select Next Category
+Map	Sound 7 Button		0
+Map	Sound 8 Button		0
+
+
+
+Scope	Propellerheads	SubTractor Analog Synthesizer
+Define Group	ControlSet	Main	Amp	Filter	LFO	Osc
+Define Group	ShiftState	ShiftOFF	ShiftON
+Define Group	BlueClickState	BlueClickOFF	BlueClickON
+Define Group	GreenClickState	GreenClickOFF	GreenClickON
+Define Group	WhiteClickState	WhiteClickOFF	WhiteClickON
+Define Group	RedClickState	RedClickOFF	RedClickON
+//	Control Surface Item	Key	Remotable Item	Scale	Mode
+Map	Blue Click On		BlueClickState=BlueClickON
+Map	Blue Click Off		BlueClickState=BlueClickOFF
+Map	Green Click On		GreenClickState=GreenClickON
+Map	Green Click Off		GreenClickState=GreenClickOFF
+Map	White Click On		WhiteClickState=WhiteClickON
+Map	White Click Off		WhiteClickState=WhiteClickOFF
+Map	Red Click On		RedClickState=RedClickON
+Map	Red Click Off		RedClickState=RedClickOFF
+Map	Shift On		ShiftState=ShiftON
+Map	Shift Off		ShiftState=ShiftOFF
+
+Map	Mixer Button		ControlSet=Main
+Map	T1 Button		ControlSet=Osc
+Map	T2 Button		ControlSet=Amp
+Map	T3 Button		ControlSet=Filter
+Map	T4 Button		ControlSet=LFO
+
+Map	Blue Encoder		Mod Wheel	3		Main	ShiftOFF
+Map	Green Encoder		Filter Freq	3		Main	ShiftOFF
+Map	White Encoder		Filter Res	3		Main	ShiftOFF
+Map	Red Encoder		Master Level	3		Main	ShiftOFF
+Map	Blue Encoder		Portamento	3		Main	ShiftON
+Map	Green Encoder		Filter2 Freq	3		Main	ShiftON
+Map	White Encoder		Filter2 Res	3		Main	ShiftON
+Map	Red Encoder		Osc Mix	3		Main	ShiftON
+Map	Blue Encoder		Mod Wheel	1		Main	ShiftOFF	BlueClickON
+Map	Green Encoder		Filter Freq	1		Main	ShiftOFF	GreenClickON
+Map	White Encoder		Filter Res	1		Main	ShiftOFF	WhiteClickON
+Map	Red Encoder		Master Level	1		Main	ShiftOFF	RedClickON
+Map	Blue Encoder		Portamento	1		Main	ShiftON	BlueClickON
+Map	Green Encoder		Filter2 Freq	1		Main	ShiftON	GreenClickON
+Map	White Encoder		Filter2 Res	1		Main	ShiftON	WhiteClickON
+Map	Red Encoder		Osc Mix	1		Main	ShiftON	RedClickON
+
+Map	Blue Encoder		Amp Env Attack	3		Amp	ShiftOFF
+Map	Green Encoder		Amp Env Decay	3		Amp	ShiftOFF
+Map	White Encoder		Amp Env Sustain	3		Amp	ShiftOFF
+Map	Red Encoder		Amp Env Release	3		Amp	ShiftOFF
+Map	Blue Encoder		Amp Vel Amount	3		Amp	ShiftON
+Map	Green Encoder		FM Vel Amount	3		Amp	ShiftON
+Map	White Encoder		Mod Env Vel Amount	3		Amp	ShiftON
+Map	Red Encoder		Phase Vel Amount	3		Amp	ShiftON
+Map	Blue Encoder		Amp Env Attack	1		Amp	ShiftOFF	BlueClickON
+Map	Green Encoder		Amp Env Decay	1		Amp	ShiftOFF	GreenClickON
+Map	White Encoder		Amp Env Sustain	1		Amp	ShiftOFF	WhiteClickON
+Map	Red Encoder		Amp Env Release	1		Amp	ShiftOFF	RedClickON
+Map	Blue Encoder		Amp Vel Amount	1		Amp	ShiftON	BlueClickON
+Map	Green Encoder		FM Vel Amount	1		Amp	ShiftON	GreenClickON
+Map	White Encoder		Mod Env Vel Amount	1		Amp	ShiftON	WhiteClickON
+Map	Red Encoder		Phase Vel Amount	1		Amp	ShiftON	RedClickON
+
+Map	Blue Encoder		Filter Env Attack	3		Filter	ShiftOFF
+Map	Green Encoder		Filter Env Decay	3		Filter	ShiftOFF
+Map	White Encoder		Filter Env Sustain	3		Filter	ShiftOFF
+Map	Red Encoder		Filter Env Release	3		Filter	ShiftOFF
+Map	Blue Encoder		Filter Type			Filter	ShiftON
+Map	Green Encoder		Filter Kbd Track	3		Filter	ShiftON
+Map	White Encoder		Filter Env Vel Amount	3		Filter	ShiftON
+Map	Red Encoder		Filter Env Amount	3		Filter	ShiftON
+Map	Blue Encoder		Filter Env Attack	1		Filter	ShiftOFF	BlueClickON
+Map	Green Encoder		Filter Env Decay	1		Filter	ShiftOFF	GreenClickON
+Map	White Encoder		Filter Env Sustain	1		Filter	ShiftOFF	WhiteClickON
+Map	Red Encoder		Filter Env Release	1		Filter	ShiftOFF	RedClickON
+Map	Green Encoder		Filter Kbd Track	1		Filter	ShiftON	GreenClickON
+Map	White Encoder		Filter Env Vel Amount	1		Filter	ShiftON	WhiteClickON
+Map	Red Encoder		Filter Env Amount	1		Filter	ShiftON	RedClickON
+
+Map	Blue Encoder		Osc1 Phase Diff	3		Osc	ShiftOFF
+Map	Green Encoder		Osc1 Wave			Osc	ShiftOFF
+Map	White Encoder		Osc1 Octave			Osc	ShiftOFF
+Map	Red Encoder		FM Amount	3		Osc	ShiftOFF
+Map	Blue Encoder		Osc2 Phase Diff	3		Osc	ShiftON
+Map	Green Encoder		Osc2 Wave			Osc	ShiftON
+Map	White Encoder		Osc2 Octave			Osc	ShiftON
+Map	Red Encoder		Noise Level	3		Osc	ShiftON
+Map	Blue Encoder		Osc1 Phase Diff	1		Osc	ShiftOFF	BlueClickON
+Map	Red Encoder		FM Amount	1		Osc	ShiftOFF	RedClickON
+Map	Blue Encoder		Osc2 Phase Diff	1		Osc	ShiftON	BlueClickON
+Map	Red Encoder		Noise Level	1		Osc	ShiftON	RedClickON
+
+Map	Blue Encoder		LFO1 Wave			LFO	ShiftOFF
+Map	Green Encoder		LFO1 Rate	3		LFO	ShiftOFF
+Map	White Encoder		LFO1 Amount	3		LFO	ShiftOFF
+Map	Red Encoder		LFO1 Dest			LFO	ShiftOFF
+Map	Blue Encoder		LFO2 Delay	3		LFO	ShiftON
+Map	Green Encoder		LFO2 Rate	3		LFO	ShiftON
+Map	White Encoder		LFO2 Amount	3		LFO	ShiftON
+Map	Red Encoder		LFO2 Dest			LFO	ShiftON
+Map	Green Encoder		LFO1 Rate	1		LFO	ShiftOFF	GreenClickON
+Map	White Encoder		LFO1 Amount	1		LFO	ShiftOFF	WhiteClickON
+Map	Blue Encoder		LFO2 Delay	1		LFO	ShiftON	BlueClickON
+Map	Green Encoder		LFO2 Rate	1		LFO	ShiftON	GreenClickON
+Map	White Encoder		LFO2 Amount	1		LFO	ShiftON	WhiteClickON
+
+Map	Sound 1 Button		Osc1 Phase Mode				ShiftOFF
+Map	Sound 2 Button		Noise On/Off				ShiftOFF
+Map	Sound 3 Button		Osc1 Kbd Track				ShiftOFF
+Map	Sound 4 Button		Ring Mod				ShiftOFF
+Map	Sound 5 Button		LFO Sync Enable				ShiftOFF
+Map	Sound 6 Button		Filter Env Invert				ShiftOFF
+Map	Sound 7 Button		Filter Link Freq On/Off				ShiftOFF
+Map	Sound 8 Button		Low Bandwidth On/Off				ShiftOFF
+Map	Sound 1 Button		Osc2 Phase Mode				ShiftON
+Map	Sound 2 Button		Osc2 On/Off				ShiftON
+Map	Sound 3 Button		Osc2 Kbd Track				ShiftON
+Map	Sound 4 Button		Mod Env Dest				ShiftON
+Map	Sound 5 Button		Mod Env Invert				ShiftON
+Map	Sound 7 Button		Filter2 On/Off				ShiftON
+Map	Sound 8 Button		Ext Mod Select				ShiftON
+
+
+
+Scope	Propellerheads	Thor Polysonic Synthesizer
+Define Group	ControlSet	Main	GEnv	Amp	Filter	LFO	Osc 1	Osc 2	Osc 3	ModEnv	Filters
+Define Group	ShiftState	ShiftOFF	ShiftON
+Define Group	BlueClickState	BlueClickOFF	BlueClickON
+Define Group	GreenClickState	GreenClickOFF	GreenClickON
+Define Group	WhiteClickState	WhiteClickOFF	WhiteClickON
+Define Group	RedClickState	RedClickOFF	RedClickON
+//	Control Surface Item	Key	Remotable Item	Scale	Mode
+Map	Blue Click On		BlueClickState=BlueClickON
+Map	Blue Click Off		BlueClickState=BlueClickOFF
+Map	Green Click On		GreenClickState=GreenClickON
+Map	Green Click Off		GreenClickState=GreenClickOFF
+Map	White Click On		WhiteClickState=WhiteClickON
+Map	White Click Off		WhiteClickState=WhiteClickOFF
+Map	Red Click On		RedClickState=RedClickON
+Map	Red Click Off		RedClickState=RedClickOFF
+Map	Shift On		ShiftState=ShiftON
+Map	Shift Off		ShiftState=ShiftOFF
+
+Map	Mixer Button		ControlSet=Main				ShiftOFF
+Map	Mixer Button		ControlSet=GEnv				ShiftON
+Map	T1 Button		ControlSet=Osc 1				ShiftOFF
+Map	T2 Button		ControlSet=Amp				ShiftOFF
+Map	T3 Button		ControlSet=Filter				ShiftOFF
+Map	T4 Button		ControlSet=LFO				ShiftOFF
+Map	T1 Button		ControlSet=Osc 2				ShiftON
+Map	T2 Button		ControlSet=Osc 3				ShiftON
+Map	T3 Button		ControlSet=ModEnv				ShiftON
+Map	T4 Button		ControlSet=Filters				ShiftON
+
+Map	Play Button		Step Sequencer Run				ShiftON
+
+Map	Sound 1 Button		Button 1				ShiftOFF
+Map	Sound 2 Button		Button 2				ShiftOFF
+Map	Sound 3 Button		Key Mode				ShiftOFF
+Map	Sound 4 Button		Portamento Mode				ShiftOFF
+Map	Sound 5 Button		Note Trigger MIDI				ShiftOFF
+Map	Sound 6 Button		Note Trigger Step Seq				ShiftOFF
+Map	Sound 7 Button		Delay On				ShiftOFF
+Map	Sound 8 Button		Chorus On				ShiftOFF
+Map	Sound 1 Button		Step Sequencer Run Mode				ShiftON
+Map	Sound 2 Button		Step Sequencer Direction				ShiftON
+Map	Sound 3 Button		Step Sequencer Synced				ShiftON
+Map	Sound 4 Button		Step Sequencer Edit Mode				ShiftON
+Map	Sound 5 Button		Step Sequencer Octave Range				ShiftON
+Map	Sound 6 Button		Global Env Gate Trig On				ShiftON
+Map	Sound 7 Button		Delay Sync				ShiftON
+Map	Sound 8 Button		Global Env Tempo Sync				ShiftON
+
+Map	Blue Encoder		Mod Wheel	3		Main	ShiftOFF
+Map	Green Encoder		Rotary 1	3		Main	ShiftOFF
+Map	White Encoder		Rotary 2	3		Main	ShiftOFF
+Map	Red Encoder		Master Level	3		Main	ShiftOFF
+Map	Blue Encoder		Portamento	3		Main	ShiftON
+Map	Green Encoder		Delay Dry Wet	3		Main	ShiftON
+Map	White Encoder		Chorus Dry Wet	3		Main	ShiftON
+Map	Red Encoder		Amplifier Pan	3		Main	ShiftON
+Map	Blue Encoder		Mod Wheel	1		Main	ShiftOFF	BlueClickON
+Map	Green Encoder		Rotary 1	1		Main	ShiftOFF	GreenClickON
+Map	White Encoder		Rotary 2	1		Main	ShiftOFF	WhiteClickON
+Map	Red Encoder		Master Level	1		Main	ShiftOFF	RedClickON
+Map	Blue Encoder		Portamento	1		Main	ShiftON	BlueClickON
+Map	Green Encoder		Delay Dry Wet	1		Main	ShiftON	GreenClickON
+Map	White Encoder		Chorus Dry Wet	1		Main	ShiftON	WhiteClickON
+Map	Red Encoder		Amplifier Pan	1		Main	ShiftON	RedClickON
+
+Map	Blue Encoder		Global Env Attack	3		GEnv	ShiftOFF
+Map	Green Encoder		Global Env Decay	3		GEnv	ShiftOFF
+Map	White Encoder		Global Env Sustain	3		GEnv
+Map	Red Encoder		Global Env Release	3		GEnv
+Map	Blue Encoder		Global Env Delay	3		GEnv	ShiftON
+Map	Green Encoder		Global Env Hold	3		GEnv	ShiftON
+Map	Blue Encoder		Global Env Attack	1		GEnv	ShiftOFF	BlueClickON
+Map	Green Encoder		Global Env Decay	1		GEnv	ShiftOFF	GreenClickON
+Map	White Encoder		Global Env Sustain	1		GEnv		WhiteClickON
+Map	Red Encoder		Global Env Release	1		GEnv		RedClickON
+Map	Blue Encoder		Global Env Delay	1		GEnv	ShiftON	BlueClickON
+Map	Green Encoder		Global Env Hold	1		GEnv	ShiftON	GreenClickON
+Map	Sound 3 Button		Mod Env Gate Trig On			GEnv
+Map	Sound 4 Button		Mod Env Tempo Sync			GEnv
+Map	Sound 5 Button		Mod Env Loop			GEnv
+Map	Sound 6 Button		Global Env Gate Trig On			GEnv
+Map	Sound 7 Button		Global Env Loop			GEnv
+Map	Sound 8 Button		Global Env Tempo Sync			GEnv
+
+Map	Blue Encoder		Mod Env Delay	3		ModEnv
+Map	Green Encoder		Mod Env Attack	3		ModEnv
+Map	White Encoder		Mod Env Decay	3		ModEnv
+Map	Red Encoder		Mod Env Release	3		ModEnv
+Map	Blue Encoder		Mod Env Delay	1		ModEnv		BlueClickON
+Map	Green Encoder		Mod Env Attack	1		ModEnv		GreenClickON
+Map	White Encoder		Mod Env Decay	1		ModEnv		WhiteClickON
+Map	Red Encoder		Mod Env Release	1		ModEnv		RedClickON
+Map	Sound 3 Button		Mod Env Gate Trig On			ModEnv
+Map	Sound 4 Button		Mod Env Tempo Sync			ModEnv
+Map	Sound 5 Button		Mod Env Loop			ModEnv
+Map	Sound 6 Button		Global Env Gate Trig On			ModEnv
+Map	Sound 7 Button		Global Env Loop			ModEnv
+Map	Sound 8 Button		Global Env Tempo Sync			ModEnv
+
+Map	Blue Encoder		Amp Env Attack	3		Amp	ShiftOFF
+Map	Green Encoder		Amp Env Decay	3		Amp	ShiftOFF
+Map	White Encoder		Amp Env Sustain	3		Amp	ShiftOFF
+Map	Red Encoder		Amp Env Release	3		Amp	ShiftOFF
+Map	Blue Encoder		Shaper Drive	3		Amp	ShiftON
+Map	Green Encoder		Amplifier Velocity	3		Amp	ShiftON
+Map	White Encoder		Amplifier Gain	3		Amp	ShiftON
+Map	Red Encoder		Amplifier Pan	3		Amp	ShiftON
+Map	Blue Encoder		Amp Env Attack	1		Amp	ShiftOFF	BlueClickON
+Map	Green Encoder		Amp Env Decay	1		Amp	ShiftOFF	GreenClickON
+Map	White Encoder		Amp Env Sustain	1		Amp	ShiftOFF	WhiteClickON
+Map	Red Encoder		Amp Env Release	1		Amp	ShiftOFF	RedClickON
+Map	Blue Encoder		Shaper Drive	1		Amp	ShiftON	BlueClickON
+Map	Green Encoder		Amplifier Velocity	1		Amp	ShiftON	GreenClickON
+Map	White Encoder		Amplifier Gain	1		Amp	ShiftON	WhiteClickON
+Map	Red Encoder		Amplifier Pan	1		Amp	ShiftON	RedClickON
+Map	Sound 1 Button		Amp Env Gate Trig On			Amp	ShiftOFF
+Map	Sound 3 Button		Mod Env Gate Trig On			Amp	ShiftOFF
+Map	Sound 4 Button		Mod Env Tempo Sync			Amp	ShiftOFF
+Map	Sound 5 Button		Mod Env Loop			Amp	ShiftOFF
+Map	Sound 6 Button		Global Env Gate Trig On			Amp
+Map	Sound 7 Button		Global Env Loop			Amp
+Map	Sound 8 Button		Global Env Tempo Sync			Amp
+Map	Sound 1 Button		Shaper On			Amp	ShiftON
+Map	Sound 2 Button		Shaper Type			Amp
+Map	Sound 3 Button		Shaper Output Dest			Amp	ShiftON
+Map	Sound 4 Button		Filter2toAmplifier Enable			Amp	ShiftON
+
+Map	Blue Encoder		Filter Env Attack	3		Filter	ShiftOFF
+Map	Green Encoder		Filter Env Decay	3		Filter	ShiftOFF
+Map	White Encoder		Filter Env Sustain	3		Filter	ShiftOFF
+Map	Red Encoder		Filter Env Release	3		Filter	ShiftOFF
+Map	Blue Encoder		Filter 3 Drive	3		Filter	ShiftON
+Map	Green Encoder		Filter 3 Freq	3		Filter	ShiftON
+Map	White Encoder		Filter 3 Res	3		Filter	ShiftON
+Map	Red Encoder		Filter 3 Param X			Filter	ShiftON
+Map	Blue Encoder		Filter Env Attack	1		Filter	ShiftOFF	BlueClickON
+Map	Green Encoder		Filter Env Decay	1		Filter	ShiftOFF	GreenClickON
+Map	White Encoder		Filter Env Sustain	1		Filter	ShiftOFF	WhiteClickON
+Map	Red Encoder		Filter Env Release	1		Filter	ShiftOFF	RedClickON
+Map	Blue Encoder		Filter 3 Drive	1		Filter	ShiftON	BlueClickON
+Map	Green Encoder		Filter 3 Freq	1		Filter	ShiftON	GreenClickON
+Map	White Encoder		Filter 3 Res	1		Filter	ShiftON	WhiteClickON
+Map	Sound 1 Button		Filter Env Gate Trig On			Filter	ShiftOFF
+Map	Sound 1 Button		Filter 3 Type			Filter	ShiftON
+Map	Sound 2 Button		Filter 3 Self Osc			Filter	ShiftON
+Map	Sound 3 Button		Filter 3 Global Env Invert			Filter	ShiftON
+
+Map	Blue Encoder		LFO 1 Waveform			LFO	ShiftOFF
+Map	Green Encoder		LFO 1 Rate	3		LFO	ShiftOFF
+Map	White Encoder		LFO 1 Delay	3		LFO	ShiftOFF
+Map	Red Encoder		LFO 1 KbdFollow	3		LFO	ShiftOFF
+Map	Blue Encoder		LFO 2 Waveform			LFO	ShiftON
+Map	Green Encoder		LFO 2 Rate	3		LFO	ShiftON
+Map	White Encoder		LFO 2 Delay	3		LFO	ShiftON
+Map	Red Encoder		Amplifier Gain	3		LFO	ShiftON
+Map	Green Encoder		LFO 1 Rate	1		LFO	ShiftOFF	GreenClickON
+Map	White Encoder		LFO 1 Delay	1		LFO	ShiftOFF	WhiteClickON
+Map	Red Encoder		LFO 1 KbdFollow	1		LFO	ShiftOFF	RedClickON
+Map	Green Encoder		LFO 2 Rate	1		LFO	ShiftON	GreenClickON
+Map	White Encoder		LFO 2 Delay	1		LFO	ShiftON	WhiteClickON
+Map	Red Encoder		Amplifier Gain	1		LFO	ShiftON	RedClickON
+Map	Sound 1 Button		LFO 1 Key Sync			LFO	ShiftOFF
+Map	Sound 2 Button		LFO 1 Tempo Sync			LFO	ShiftOFF
+Map	Sound 1 Button		LFO 2 Key Sync			LFO	ShiftON
+Map	Sound 2 Button		LFO 2 Tempo Sync			LFO	ShiftON
+
+Map	Blue Encoder		Osc 1 Param B			Osc 1	ShiftOFF
+Map	Green Encoder		Osc 1 Param C			Osc 1	ShiftOFF
+Map	White Encoder		Osc 1 Mod	3		Osc 1	ShiftOFF
+Map	Red Encoder		Osc 1 AM from Osc 2	3		Osc 1	ShiftOFF
+Map	Blue Encoder		Osc 1 Oct			Osc 1	ShiftON
+Map	Green Encoder		Osc 1 Semi			Osc 1	ShiftON
+Map	White Encoder		Osc 1 Tune	3		Osc 1	ShiftON
+Map	Red Encoder		Osc 1 Kbd	3		Osc 1	ShiftON
+Map	White Encoder		Osc 1 Mod	1		Osc 1	ShiftOFF	WhiteClickON
+Map	Red Encoder		Osc 1 AM from Osc 2	1		Osc 1	ShiftOFF	RedClickON
+Map	White Encoder		Osc 1 Tune	1		Osc 1	ShiftON	WhiteClickON
+Map	Red Encoder		Osc 1 Kbd	1		Osc 1	ShiftON	RedClickON
+Map	Sound 1 Button		Osc 1 Type			Osc 1
+Map	Sound 2 Button		Osc 1 to Filter 1 Enable			Osc 1
+Map	Sound 3 Button		Osc 1 to Filter 2 Enable			Osc 1
+Map	Sound 4 Button		Osc 2 Sync to Osc 1			Osc 1
+
+Map	Blue Encoder		Osc 2 Param B			Osc 2	ShiftOFF
+Map	Green Encoder		Osc 2 Param C			Osc 2	ShiftOFF
+Map	White Encoder		Osc 2 Mod	3		Osc 2	ShiftOFF
+Map	Red Encoder		Osc 2 Sync BW	3		Osc 2	ShiftOFF
+Map	Blue Encoder		Osc 2 Oct			Osc 2	ShiftON
+Map	Green Encoder		Osc 2 Semi			Osc 2	ShiftON
+Map	White Encoder		Osc 2 Tune	3		Osc 2	ShiftON
+Map	Red Encoder		Osc 2 Kbd	3		Osc 2	ShiftON
+Map	White Encoder		Osc 2 Mod	1		Osc 2	ShiftOFF	WhiteClickON
+Map	Red Encoder		Osc 2 Sync BW	1		Osc 2	ShiftOFF	RedClickON
+Map	White Encoder		Osc 2 Tune	1		Osc 2	ShiftON	WhiteClickON
+Map	Red Encoder		Osc 2 Kbd	1		Osc 2	ShiftON	RedClickON
+Map	Sound 1 Button		Osc 2 Type			Osc 2
+Map	Sound 2 Button		Osc 2 to Filter 1 Enable			Osc 2
+Map	Sound 3 Button		Osc 2 to Filter 2 Enable			Osc 2
+Map	Sound 4 Button		Osc 2 Sync to Osc 1			Osc 2
+
+Map	Blue Encoder		Osc 3 Param B			Osc 3	ShiftOFF
+Map	Green Encoder		Osc 3 Param C			Osc 3	ShiftOFF
+Map	White Encoder		Osc 3 Mod	3		Osc 3	ShiftOFF
+Map	Red Encoder		Osc 3 Sync BW	3		Osc 3	ShiftOFF
+Map	Blue Encoder		Osc 3 Oct			Osc 3	ShiftON
+Map	Green Encoder		Osc 3 Semi			Osc 3	ShiftON
+Map	White Encoder		Osc 3 Tune	3		Osc 3	ShiftON
+Map	Red Encoder		Osc 3 Kbd	3		Osc 3	ShiftON
+Map	White Encoder		Osc 3 Mod	1		Osc 3	ShiftOFF	WhiteClickON
+Map	Red Encoder		Osc 3 Sync BW	1		Osc 3	ShiftOFF	RedClickON
+Map	White Encoder		Osc 3 Tune	1		Osc 3	ShiftON	WhiteClickON
+Map	Red Encoder		Osc 3 Kbd	1		Osc 3	ShiftON	RedClickON
+Map	Sound 1 Button		Osc 3 Type			Osc 3
+Map	Sound 2 Button		Osc 3 to Filter 1 Enable			Osc 3
+Map	Sound 3 Button		Osc 3 to Filter 2 Enable			Osc 3
+Map	Sound 4 Button		Osc 3 Sync to Osc 1			Osc 3
+
+Map	Blue Encoder		Filter 1 Drive	3		Filters	ShiftOFF
+Map	Green Encoder		Filter 1 Freq	3		Filters	ShiftOFF
+Map	White Encoder		Filter 1 Res	3		Filters	ShiftOFF
+Map	Red Encoder		Filter 1 Param X			Filters	ShiftOFF
+Map	Blue Encoder		Filter 2 Drive	3		Filters	ShiftON
+Map	Green Encoder		Filter 2 Freq	3		Filters	ShiftON
+Map	White Encoder		Filter 2 Res	3		Filters	ShiftON
+Map	Red Encoder		Filter 2 Param X			Filters	ShiftON
+Map	Blue Encoder		Filter 1 Drive	1		Filters	ShiftOFF	BlueClickON
+Map	Green Encoder		Filter 1 Freq	1		Filters	ShiftOFF	GreenClickON
+Map	White Encoder		Filter 1 Res	1		Filters	ShiftOFF	WhiteClickON
+Map	Blue Encoder		Filter 2 Drive	1		Filters	ShiftON	BlueClickON
+Map	Green Encoder		Filter 2 Freq	1		Filters	ShiftON	GreenClickON
+Map	White Encoder		Filter 2 Res	1		Filters	ShiftON	WhiteClickON
+Map	Sound 1 Button		Filter 1 Type			Filters	ShiftOFF
+Map	Sound 2 Button		Filter 1 Self Osc			Filters	ShiftOFF
+Map	Sound 3 Button		Filter 1 Env Invert			Filters	ShiftOFF
+Map	Sound 1 Button		Filter 2 Type			Filters	ShiftON
+Map	Sound 2 Button		Filter 2 Self Osc			Filters	ShiftON
+Map	Sound 3 Button		Filter 2 Env Invert			Filters	ShiftON
+Map	Sound 4 Button		Filter2toAmplifier Enable			Filters
+Map	Sound 5 Button		Filter Env Gate Trig On			Filters
+
+
+
+Scope	Propellerheads	Malstrom Graintable Synthesizer
+Define Group	ControlSet	Main	Amp	Filter	LFO	Osc A	Osc B
+Define Group	ShiftState	ShiftOFF	ShiftON
+Define Group	BlueClickState	BlueClickOFF	BlueClickON
+Define Group	GreenClickState	GreenClickOFF	GreenClickON
+Define Group	WhiteClickState	WhiteClickOFF	WhiteClickON
+Define Group	RedClickState	RedClickOFF	RedClickON
+//	Control Surface Item	Key	Remotable Item	Scale	Mode
+Map	Blue Click On		BlueClickState=BlueClickON
+Map	Blue Click Off		BlueClickState=BlueClickOFF
+Map	Green Click On		GreenClickState=GreenClickON
+Map	Green Click Off		GreenClickState=GreenClickOFF
+Map	White Click On		WhiteClickState=WhiteClickON
+Map	White Click Off		WhiteClickState=WhiteClickOFF
+Map	Red Click On		RedClickState=RedClickON
+Map	Red Click Off		RedClickState=RedClickOFF
+Map	Shift On		ShiftState=ShiftON
+Map	Shift Off		ShiftState=ShiftOFF
+
+Map	Mixer Button		ControlSet=Main				ShiftOFF
+Map	T1 Button		ControlSet=Osc A				ShiftOFF
+Map	T2 Button		ControlSet=Amp				ShiftOFF
+Map	T3 Button		ControlSet=Filter				ShiftOFF
+Map	T4 Button		ControlSet=LFO				ShiftOFF
+Map	T1 Button		ControlSet=Osc B				ShiftON
+
+Map	Blue Encoder		Mod Wheel	3		Main	ShiftOFF
+Map	Green Encoder		Filter A Freq	3		Main	ShiftOFF
+Map	White Encoder		Filter A Resonance	3		Main	ShiftOFF
+Map	Red Encoder		Master Level	3		Main	ShiftOFF
+Map	Blue Encoder		Portamento	3		Main	ShiftON
+Map	Green Encoder		Filter B Freq	3		Main	ShiftON
+Map	White Encoder		Filter B Resonance	3		Main	ShiftON
+Map	Red Encoder		Spread Amount	3		Main	ShiftON
+Map	Blue Encoder		Mod Wheel	1		Main	ShiftOFF	BlueClickON
+Map	Green Encoder		Filter A Freq	1		Main	ShiftOFF	GreenClickON
+Map	White Encoder		Filter A Resonance	1		Main	ShiftOFF	WhiteClickON
+Map	Red Encoder		Master Level	1		Main	ShiftOFF	RedClickON
+Map	Blue Encoder		Portamento	1		Main	ShiftON	BlueClickON
+Map	Green Encoder		Filter B Freq	1		Main	ShiftON	GreenClickON
+Map	White Encoder		Filter B Resonance	1		Main	ShiftON	WhiteClickON
+Map	Red Encoder		Spread Amount	1		Main	ShiftON	RedClickON
+
+Map	Blue Encoder		Oscillator A Attack	3		Amp	ShiftOFF
+Map	Green Encoder		Oscillator A Decay	3		Amp	ShiftOFF
+Map	White Encoder		Oscillator A Sustain	3		Amp	ShiftOFF
+Map	Red Encoder		Oscillator A Release	3		Amp	ShiftOFF
+Map	Blue Encoder		Oscillator B Attack	3		Amp	ShiftON
+Map	Green Encoder		Oscillator B Decay	3		Amp	ShiftON
+Map	White Encoder		Oscillator B Sustain	3		Amp	ShiftON
+Map	Red Encoder		Oscillator B Release	3		Amp	ShiftON
+Map	Blue Encoder		Oscillator A Attack	1		Amp	ShiftOFF	BlueClickON
+Map	Green Encoder		Oscillator A Decay	1		Amp	ShiftOFF	GreenClickON
+Map	White Encoder		Oscillator A Sustain	1		Amp	ShiftOFF	WhiteClickON
+Map	Red Encoder		Oscillator A Release	1		Amp	ShiftOFF	RedClickON
+Map	Blue Encoder		Oscillator B Attack	1		Amp	ShiftON	BlueClickON
+Map	Green Encoder		Oscillator B Decay	1		Amp	ShiftON	GreenClickON
+Map	White Encoder		Oscillator B Sustain	1		Amp	ShiftON	WhiteClickON
+Map	Red Encoder		Oscillator B Release	1		Amp	ShiftON	RedClickON
+
+Map	Blue Encoder		Filter Env Attack	3		Filter	ShiftOFF
+Map	Green Encoder		Filter Env Decay	3		Filter	ShiftOFF
+Map	White Encoder		Filter Env Sustain	3		Filter	ShiftOFF
+Map	Red Encoder		Filter Env Release	3		Filter	ShiftOFF
+Map	Blue Encoder		Modulator B to Filter	3		Filter	ShiftON
+Map	Green Encoder		Mod Wheel to Filter	3		Filter	ShiftON
+Map	White Encoder		Shaper Mode			Filter	ShiftON
+Map	Red Encoder		Shaper Amount	3		Filter	ShiftON
+Map	Blue Encoder		Filter Env Attack	1		Filter	ShiftOFF	BlueClickON
+Map	Green Encoder		Filter Env Decay	1		Filter	ShiftOFF	GreenClickON
+Map	White Encoder		Filter Env Sustain	1		Filter	ShiftOFF	WhiteClickON
+Map	Red Encoder		Filter Env Release	1		Filter	ShiftOFF	RedClickON
+Map	Blue Encoder		Modulator B to Filter	1		Filter	ShiftON	BlueClickON
+Map	Green Encoder		Mod Wheel to Filter	1		Filter	ShiftON	GreenClickON
+Map	Red Encoder		Shaper Amount	1		Filter	ShiftON	RedClickON
+
+Map	Blue Encoder		Oscillator A Motion	3		Osc A	ShiftOFF
+Map	Green Encoder		Oscillator A Index	3		Osc A	ShiftOFF
+Map	White Encoder		Oscillator A Shift	3		Osc A	ShiftOFF
+Map	Red Encoder		Oscillator A Gain	3		Osc A	ShiftOFF
+Map	Blue Encoder		Oscillator A Octave			Osc A	ShiftON
+Map	Green Encoder		Oscillator A Semi			Osc A	ShiftON
+Map	White Encoder		Oscillator A Cent	3		Osc A	ShiftON
+Map	Red Encoder		Modulator A to Shift	3		Osc A	ShiftON
+Map	Blue Encoder		Oscillator A Motion	1		Osc A	ShiftOFF	BlueClickON
+Map	Green Encoder		Oscillator A Index	1		Osc A	ShiftOFF	GreenClickON
+Map	White Encoder		Oscillator A Shift	1		Osc A	ShiftOFF	WhiteClickON
+Map	Red Encoder		Oscillator A Gain	1		Osc A	ShiftOFF	RedClickON
+Map	White Encoder		Oscillator A Cent	1		Osc A	ShiftON	WhiteClickON
+Map	Red Encoder		Modulator A to Shift	1		Osc A	ShiftON	RedClickON
+
+Map	Blue Encoder		Oscillator B Motion	3		Osc B	ShiftOFF
+Map	Green Encoder		Oscillator B Index	3		Osc B	ShiftOFF
+Map	White Encoder		Oscillator B Shift	3		Osc B	ShiftOFF
+Map	Red Encoder		Oscillator B Gain	3		Osc B	ShiftOFF
+Map	Blue Encoder		Oscillator B Octave			Osc B	ShiftON
+Map	Green Encoder		Oscillator B Semi			Osc B	ShiftON
+Map	White Encoder		Oscillator B Cent	3		Osc B	ShiftON
+Map	Red Encoder		Modulator B to Modulator A	3		Osc B	ShiftON
+Map	Blue Encoder		Oscillator B Motion	1		Osc B	ShiftOFF	BlueClickON
+Map	Green Encoder		Oscillator B Index	1		Osc B	ShiftOFF	GreenClickON
+Map	White Encoder		Oscillator B Shift	1		Osc B	ShiftOFF	WhiteClickON
+Map	Red Encoder		Oscillator B Gain	1		Osc B	ShiftOFF	RedClickON
+Map	White Encoder		Oscillator B Cent	1		Osc B	ShiftON	WhiteClickON
+Map	Red Encoder		Modulator B to Modulator A	1		Osc B	ShiftON	RedClickON
+
+Map	Blue Encoder		Modulator A Curve			LFO	ShiftOFF
+Map	Green Encoder		Modulator A Rate	3		LFO	ShiftOFF
+Map	White Encoder		Modulator A to Pitch	3		LFO	ShiftOFF
+Map	Red Encoder		Modulator A to Index	3		LFO	ShiftOFF
+Map	Blue Encoder		Modulator B Curve			LFO	ShiftON
+Map	Green Encoder		Modulator B Rate	3		LFO	ShiftON
+Map	White Encoder		Modulator B to Motion	3		LFO	ShiftON
+Map	Red Encoder		Modulator B to Level	3		LFO	ShiftON
+Map	Green Encoder		Modulator A Rate	1		LFO	ShiftOFF	GreenClickON
+Map	White Encoder		Modulator A to Pitch	1		LFO	ShiftOFF	WhiteClickON
+Map	Red Encoder		Modulator A to Index	1		LFO	ShiftOFF	RedClickON
+Map	Green Encoder		Modulator B Rate	1		LFO	ShiftON	GreenClickON
+Map	White Encoder		Modulator B to Motion	1		LFO	ShiftON	WhiteClickON
+Map	Red Encoder		Modulator B to Level	1		LFO	ShiftON	RedClickON
+
+Map	Sound 1 Button		Oscillator A On/Off				ShiftOFF
+Map	Sound 2 Button		Oscillator B On/Off				ShiftOFF
+Map	Sound 3 Button		Modulator A On/Off				ShiftOFF
+Map	Sound 4 Button		Modulator B On/Off				ShiftOFF
+Map	Sound 5 Button		Filter A On/Off				ShiftOFF
+Map	Sound 6 Button		Filter B On/Off				ShiftOFF
+Map	Sound 7 Button		Shaper On/Off				ShiftOFF
+Map	Sound 8 Button		Legato On/Off				ShiftOFF
+Map	Sound 1 Button		Route Oscillator A To Filter B				ShiftON
+Map	Sound 2 Button		Route Oscillator B To Filter B				ShiftON
+Map	Sound 3 Button		Modulator A Target				ShiftON
+Map	Sound 4 Button		Modulator B Target				ShiftON
+Map	Sound 5 Button		Filter A Env				ShiftON
+Map	Sound 6 Button		Filter B Env				ShiftON
+Map	Sound 7 Button		Route Oscillator A To Shaper				ShiftON
+Map	Sound 8 Button		Mod Wheel Target				ShiftON
+
+
+
+Scope	Propellerheads	NN19 Digital Sampler
+Define Group	ControlSet	Main	Amp & Osc	Filter	LFO
+Define Group	ShiftState	ShiftOFF	ShiftON
+Define Group	BlueClickState	BlueClickOFF	BlueClickON
+Define Group	GreenClickState	GreenClickOFF	GreenClickON
+Define Group	WhiteClickState	WhiteClickOFF	WhiteClickON
+Define Group	RedClickState	RedClickOFF	RedClickON
+//	Control Surface Item	Key	Remotable Item	Scale	Mode
+Map	Blue Click On		BlueClickState=BlueClickON
+Map	Blue Click Off		BlueClickState=BlueClickOFF
+Map	Green Click On		GreenClickState=GreenClickON
+Map	Green Click Off		GreenClickState=GreenClickOFF
+Map	White Click On		WhiteClickState=WhiteClickON
+Map	White Click Off		WhiteClickState=WhiteClickOFF
+Map	Red Click On		RedClickState=RedClickON
+Map	Red Click Off		RedClickState=RedClickOFF
+Map	Shift On		ShiftState=ShiftON
+Map	Shift Off		ShiftState=ShiftOFF
+
+Map	Mixer Button		ControlSet=Main
+Map	T1 Button		ControlSet=Amp & Osc
+Map	T2 Button		ControlSet=Filter
+Map	T3 Button		ControlSet=LFO
+Map	T4 Button		0
+Map	Sample Button		Sample
+
+Map	Blue Encoder		Mod Wheel	3		Main	ShiftOFF
+Map	Green Encoder		Filter Freq	3		Main	ShiftOFF
+Map	White Encoder		Filter Res	3		Main	ShiftOFF
+Map	Red Encoder		Master Level	3		Main	ShiftOFF
+Map	Blue Encoder		Portamento	3		Main	ShiftON
+Map	Green Encoder		Filter Env Vel Amount	3		Main	ShiftON
+Map	White Encoder		Amp Vel Amount	3		Main	ShiftON
+Map	Red Encoder		Stereo Spread	3		Main	ShiftON
+Map	Blue Encoder		Mod Wheel	1		Main	ShiftOFF	BlueClickON
+Map	Green Encoder		Filter Freq	1		Main	ShiftOFF	GreenClickON
+Map	White Encoder		Filter Res	1		Main	ShiftOFF	WhiteClickON
+Map	Red Encoder		Master Level	1		Main	ShiftOFF	RedClickON
+Map	Blue Encoder		Portamento	1		Main	ShiftON	BlueClickON
+Map	Green Encoder		Filter Env Vel Amount	1		Main	ShiftON	GreenClickON
+Map	White Encoder		Amp Vel Amount	1		Main	ShiftON	WhiteClickON
+Map	Red Encoder		Stereo Spread	1		Main	ShiftON	RedClickON
+
+Map	Blue Encoder		Amp Env Attack	3		Amp & Osc	ShiftOFF
+Map	Green Encoder		Amp Env Decay	3		Amp & Osc	ShiftOFF
+Map	White Encoder		Amp Env Sustain	3		Amp & Osc	ShiftOFF
+Map	Red Encoder		Amp Env Release	3		Amp & Osc	ShiftOFF
+Map	Blue Encoder		Sample Start	3		Amp & Osc	ShiftON
+Map	Green Encoder		Osc Octave			Amp & Osc	ShiftON
+Map	White Encoder		Osc Semitone			Amp & Osc	ShiftON
+Map	Red Encoder		Osc Env Amount	3		Amp & Osc	ShiftON
+Map	Blue Encoder		Amp Env Attack	1		Amp & Osc	ShiftOFF	BlueClickON
+Map	Green Encoder		Amp Env Decay	1		Amp & Osc	ShiftOFF	GreenClickON
+Map	White Encoder		Amp Env Sustain	1		Amp & Osc	ShiftOFF	WhiteClickON
+Map	Red Encoder		Amp Env Release	1		Amp & Osc	ShiftOFF	RedClickON
+Map	Blue Encoder		Sample Start	1		Amp & Osc	ShiftON	BlueClickON
+Map	Red Encoder		Osc Env Amount	1		Amp & Osc	ShiftON	RedClickON
+
+Map	Blue Encoder		Filter Env Attack	3		Filter	ShiftOFF
+Map	Green Encoder		Filter Env Decay	3		Filter	ShiftOFF
+Map	White Encoder		Filter Env Sustain	3		Filter	ShiftOFF
+Map	Red Encoder		Filter Env Release	3		Filter	ShiftOFF
+Map	Blue Encoder		Filter Mode			Filter	ShiftON
+Map	Green Encoder		Filter Freq	3		Filter	ShiftON
+Map	White Encoder		Filter Res	3		Filter	ShiftON
+Map	Red Encoder		Filter Env Amount	3		Filter	ShiftON
+Map	Blue Encoder		Filter Env Attack	1		Filter	ShiftOFF	BlueClickON
+Map	Green Encoder		Filter Env Decay	1		Filter	ShiftOFF	GreenClickON
+Map	White Encoder		Filter Env Sustain	1		Filter	ShiftOFF	WhiteClickON
+Map	Red Encoder		Filter Env Release	1		Filter	ShiftOFF	RedClickON
+Map	Green Encoder		Filter Freq	1		Filter	ShiftON	GreenClickON
+Map	White Encoder		Filter Res	1		Filter	ShiftON	WhiteClickON
+Map	Red Encoder		Filter Env Amount	1		Filter	ShiftON	RedClickON
+
+Map	Blue Encoder		LFO Wave			LFO	ShiftOFF
+Map	Green Encoder		LFO Rate	3		LFO	ShiftOFF
+Map	White Encoder		LFO Amount	3		LFO	ShiftOFF
+Map	Red Encoder		LFO Dest			LFO	ShiftOFF
+Map	Blue Encoder		Portamento	3		LFO	ShiftON
+Map	Green Encoder		Filter Freq Ext Mod	3		LFO	ShiftON
+Map	White Encoder		LFO Ext Mod	3		LFO	ShiftON
+Map	Red Encoder		Amp Ext Mod	3		LFO	ShiftON
+Map	Green Encoder		LFO Rate	1		LFO	ShiftOFF	GreenClickON
+Map	White Encoder		LFO Amount	1		LFO	ShiftOFF	WhiteClickON
+Map	Blue Encoder		Portamento	1		LFO	ShiftON	BlueClickON
+Map	Green Encoder		Filter Freq Ext Mod	1		LFO	ShiftON	GreenClickON
+Map	White Encoder		LFO Ext Mod	1		LFO	ShiftON	WhiteClickON
+Map	Red Encoder		Amp Ext Mod	1		LFO	ShiftON	RedClickON
+
+Map	Sound 1 Button		Key Mode
+Map	Sound 2 Button		Filter On/Off
+Map	Sound 3 Button		Filter Env Invert
+Map	Sound 4 Button		LFO Sync Enable
+Map	Sound 5 Button		Spread Mode
+Map	Sound 6 Button		Osc Kbd Track
+Map	Sound 7 Button		Ext Mod Select
+Map	Sound 8 Button		High Quality Interpolation
+
+
+
+Scope	Propellerheads	NN-XT Advanced Sampler
+Define Group	ShiftState	ShiftOFF	ShiftON
+Define Group	BlueClickState	BlueClickOFF	BlueClickON
+Define Group	GreenClickState	GreenClickOFF	GreenClickON
+Define Group	WhiteClickState	WhiteClickOFF	WhiteClickON
+Define Group	RedClickState	RedClickOFF	RedClickON
+//	Control Surface Item	Key	Remotable Item	Scale	Mode
+Map	Blue Click On		BlueClickState=BlueClickON
+Map	Blue Click Off		BlueClickState=BlueClickOFF
+Map	Green Click On		GreenClickState=GreenClickON
+Map	Green Click Off		GreenClickState=GreenClickOFF
+Map	White Click On		WhiteClickState=WhiteClickON
+Map	White Click Off		WhiteClickState=WhiteClickOFF
+Map	Red Click On		RedClickState=RedClickON
+Map	Red Click Off		RedClickState=RedClickOFF
+Map	Shift On		ShiftState=ShiftON
+Map	Shift Off		ShiftState=ShiftOFF
+
+Map	Mixer Button		ShiftState=ShiftOFF
+Map	T1 Button		ShiftState=ShiftON
+Map	T2 Button		0
+Map	T3 Button		0
+Map	T4 Button		0
+Map	Sample Button		Sample
+
+Map	Blue Encoder		Mod Wheel	3			ShiftOFF
+Map	Green Encoder		Filter Freq	3			ShiftOFF
+Map	White Encoder		Filter Res	3			ShiftOFF
+Map	Red Encoder		Master Volume	3			ShiftOFF
+Map	Blue Encoder		Amp Env Attack	3			ShiftON
+Map	Green Encoder		Amp Env Decay	3			ShiftON
+Map	White Encoder		Amp Env Release	3			ShiftON
+Map	Red Encoder		Mod Env Decay	3			ShiftON
+Map	Blue Encoder		Mod Wheel	1			ShiftOFF	BlueClickON
+Map	Green Encoder		Filter Freq	1			ShiftOFF	GreenClickON
+Map	White Encoder		Filter Res	1			ShiftOFF	WhiteClickON
+Map	Red Encoder		Master Volume	1			ShiftOFF	RedClickON
+Map	Blue Encoder		Amp Env Attack	1			ShiftON	BlueClickON
+Map	Green Encoder		Amp Env Decay	1			ShiftON	GreenClickON
+Map	White Encoder		Amp Env Release	1			ShiftON	WhiteClickON
+Map	Red Encoder		Mod Env Decay	1			ShiftON	RedClickON
+
+Map	Sound 1 Button		0
+Map	Sound 2 Button		0
+Map	Sound 3 Button		0
+Map	Sound 4 Button		0
+Map	Sound 5 Button		0
+Map	Sound 6 Button		0
+Map	Sound 7 Button		External Controller Source
+Map	Sound 8 Button		High Quality Interpolation
+
+
+
+Scope	Propellerheads	Dr.REX Loop Player
+Define Group	ControlSet	Main	Amp	Filter	LFO
+Define Group	ShiftState	ShiftOFF	ShiftON
+Define Group	BlueClickState	BlueClickOFF	BlueClickON
+Define Group	GreenClickState	GreenClickOFF	GreenClickON
+Define Group	WhiteClickState	WhiteClickOFF	WhiteClickON
+Define Group	RedClickState	RedClickOFF	RedClickON
+//	Control Surface Item	Key	Remotable Item	Scale	Mode
+Map	Blue Click On		BlueClickState=BlueClickON
+Map	Blue Click Off		BlueClickState=BlueClickOFF
+Map	Green Click On		GreenClickState=GreenClickON
+Map	Green Click Off		GreenClickState=GreenClickOFF
+Map	White Click On		WhiteClickState=WhiteClickON
+Map	White Click Off		WhiteClickState=WhiteClickOFF
+Map	Red Click On		RedClickState=RedClickON
+Map	Red Click Off		RedClickState=RedClickOFF
+Map	Shift On		ShiftState=ShiftON
+Map	Shift Off		ShiftState=ShiftOFF
+
+Map	Mixer Button		ControlSet=Main
+Map	T1 Button		ControlSet=Amp
+Map	T2 Button		ControlSet=Filter
+Map	T3 Button		ControlSet=LFO
+Map	T4 Button		0
+
+Map	Play Button		Run				ShiftON
+
+Map	Blue Encoder		Mod Wheel	3		Main	ShiftOFF
+Map	Green Encoder		Filter Freq	3		Main	ShiftOFF
+Map	White Encoder		Filter Res	3		Main	ShiftOFF
+Map	Red Encoder		Master Level	3		Main	ShiftOFF
+Map	Blue Encoder		Transpose			Main	ShiftON
+Map	Green Encoder		Notes to Slot			Main	ShiftON
+Map	White Encoder		Loop Transpose			Main	ShiftON
+Map	Red Encoder		Loop Level	3		Main	ShiftON
+Map	Blue Encoder		Mod Wheel	1		Main	ShiftOFF	BlueClickON
+Map	Green Encoder		Filter Freq	1		Main	ShiftOFF	GreenClickON
+Map	White Encoder		Filter Res	1		Main	ShiftOFF	WhiteClickON
+Map	Red Encoder		Master Level	1		Main	ShiftOFF	RedClickON
+Map	Red Encoder		Loop Level	1		Main	ShiftON	RedClickON
+
+Map	Blue Encoder		Amp Env Attack	3		Amp	ShiftOFF
+Map	Green Encoder		Amp Env Decay	3		Amp	ShiftOFF
+Map	White Encoder		Amp Env Sustain	3		Amp	ShiftOFF
+Map	Red Encoder		Amp Env Release	3		Amp	ShiftOFF
+Map	Blue Encoder		Osc Env Amount	3		Amp	ShiftON
+Map	Green Encoder		Osc Octave			Amp	ShiftON
+Map	White Encoder		Osc Fine Tune	5		Amp	ShiftON
+Map	Red Encoder		Amp Vel Amount	3		Amp	ShiftON
+Map	Blue Encoder		Amp Env Attack	1		Amp	ShiftOFF	BlueClickON
+Map	Green Encoder		Amp Env Decay	1		Amp	ShiftOFF	GreenClickON
+Map	White Encoder		Amp Env Sustain	1		Amp	ShiftOFF	WhiteClickON
+Map	Red Encoder		Amp Env Release	1		Amp	ShiftOFF	RedClickON
+Map	Blue Encoder		Osc Env Amount	1		Amp	ShiftON	BlueClickON
+Map	White Encoder		Osc Fine Tune	1		Amp	ShiftON	WhiteClickON
+Map	Red Encoder		Amp Vel Amount	1		Amp	ShiftON	RedClickON
+
+Map	Blue Encoder		Filter Env Attack	3		Filter	ShiftOFF
+Map	Green Encoder		Filter Env Decay	3		Filter	ShiftOFF
+Map	White Encoder		Filter Env Sustain	3		Filter	ShiftOFF
+Map	Red Encoder		Filter Env Release	3		Filter	ShiftOFF
+Map	Blue Encoder		Filter Mode			Filter	ShiftON
+Map	Green Encoder		Filter Decay Vel Amount	3		Filter	ShiftON
+Map	White Encoder		Filter Env Vel Amount	3		Filter	ShiftON
+Map	Red Encoder		Filter Env Amount	3		Filter	ShiftON
+Map	Blue Encoder		Filter Env Attack	1		Filter	ShiftOFF	BlueClickON
+Map	Green Encoder		Filter Env Decay	1		Filter	ShiftOFF	GreenClickON
+Map	White Encoder		Filter Env Sustain	1		Filter	ShiftOFF	WhiteClickON
+Map	Red Encoder		Filter Env Release	1		Filter	ShiftOFF	RedClickON
+Map	Green Encoder		Filter Decay Vel Amount	1		Filter	ShiftON	GreenClickON
+Map	White Encoder		Filter Env Vel Amount	1		Filter	ShiftON	WhiteClickON
+Map	Red Encoder		Filter Env Amount	1		Filter	ShiftON	RedClickON
+
+Map	Blue Encoder		LFO1 Wave			LFO
+Map	Green Encoder		LFO1 Rate	3		LFO
+Map	White Encoder		LFO1 Amount	3		LFO
+Map	Red Encoder		LFO1 Dest			LFO
+Map	Green Encoder		LFO1 Rate	1		LFO		GreenClickON
+Map	White Encoder		LFO1 Amount	1		LFO		WhiteClickON
+
+Map	Sound 1 Button		Select Loop 1				ShiftOFF
+Map	Sound 2 Button		Select Loop 2				ShiftOFF
+Map	Sound 3 Button		Select Loop 3				ShiftOFF
+Map	Sound 4 Button		Select Loop 4				ShiftOFF
+Map	Sound 5 Button		Select Loop 5				ShiftOFF
+Map	Sound 6 Button		Select Loop 6				ShiftOFF
+Map	Sound 7 Button		Select Loop 7				ShiftOFF
+Map	Sound 8 Button		Select Loop 8				ShiftOFF
+
+Map	Sound 1 Button		Enable Loop Playback				ShiftON
+Map	Sound 2 Button		Trigger Next Setting				ShiftON
+Map	Sound 3 Button		LFO Sync Enable				ShiftON
+Map	Sound 4 Button		Filter On/Off				ShiftON
+Map	Sound 5 Button		0				ShiftON
+Map	Sound 6 Button		0				ShiftON
+Map	Sound 7 Button		Low Bandwidth On/Off				ShiftON
+Map	Sound 8 Button		High Quality Interpolation				ShiftON
+
+
+
+Scope	Propellerheads	Redrum Drum Computer
+Define Group	ControlSet	Main	Ch1-3	Ch4-6	Ch7-10	Ch1-3 Aux	Ch4-6 Aux	Ch7-10 Aux	Sampling
+Define Group	ShiftState	ShiftOFF	ShiftON
+Define Group	BlueClickState	BlueClickOFF	BlueClickON
+Define Group	GreenClickState	GreenClickOFF	GreenClickON
+Define Group	WhiteClickState	WhiteClickOFF	WhiteClickON
+Define Group	RedClickState	RedClickOFF	RedClickON
+//	Control Surface Item	Key	Remotable Item	Scale	Mode
+Map	Blue Click On		BlueClickState=BlueClickON
+Map	Blue Click Off		BlueClickState=BlueClickOFF
+Map	Green Click On		GreenClickState=GreenClickON
+Map	Green Click Off		GreenClickState=GreenClickOFF
+Map	White Click On		WhiteClickState=WhiteClickON
+Map	White Click Off		WhiteClickState=WhiteClickOFF
+Map	Red Click On		RedClickState=RedClickON
+Map	Red Click Off		RedClickState=RedClickOFF
+Map	Shift On		ShiftState=ShiftON
+Map	Shift Off		ShiftState=ShiftOFF
+
+Map	Mixer Button		ControlSet=Main
+Map	T1 Button		ControlSet=Ch1-3				ShiftOFF
+Map	T2 Button		ControlSet=Ch4-6				ShiftOFF
+Map	T3 Button		ControlSet=Ch7-10				ShiftOFF
+Map	T4 Button		0
+Map	T1 Button		ControlSet=Ch1-3 Aux				ShiftON
+Map	T2 Button		ControlSet=Ch4-6 Aux				ShiftON
+Map	T3 Button		ControlSet=Ch7-10 Aux				ShiftON
+Map	Sample Button		ControlSet=Sampling
+Map	Sample Button		ControlSet=Main			Sampling
+
+Map	Sound 1 Button		Channel 1 Sample			Sampling
+Map	Sound 2 Button		Channel 2 Sample			Sampling
+Map	Sound 3 Button		Channel 3 Sample			Sampling
+Map	Sound 4 Button		Channel 4 Sample			Sampling
+Map	Sound 5 Button		Channel 5 Sample			Sampling
+Map	Sound 6 Button		Channel 6 Sample			Sampling
+Map	Sound 7 Button		Channel 7 Sample			Sampling	ShiftOFF
+Map	Sound 8 Button		Channel 8 Sample			Sampling	ShiftOFF
+Map	Sound 7 Button		Channel 9 Sample			Sampling	ShiftON
+Map	Sound 8 Button		Channel 10 Sample			Sampling	ShiftON
+
+Map	Keyboard	F#2	Channel 1 Play
+Map	Keyboard	G#2	Channel 2 Play
+Map	Keyboard	A#2	Channel 3 Play
+Map	Keyboard	C#3	Channel 4 Play
+Map	Keyboard	D#3	Channel 5 Play
+Map	Keyboard	F#3	Channel 6 Play
+Map	Keyboard	G#3	Channel 7 Play
+Map	Keyboard	A#3	Channel 8 Play
+Map	Keyboard	C#4	Channel 9 Play
+Map	Keyboard	D#4	Channel 10 Play
+
+Map	Play Button		Run				ShiftON
+
+Map	Blue Encoder		Bank Select			Main	ShiftOFF
+Map	Green Encoder		Pattern Select in Bank			Main	ShiftOFF
+Map	White Encoder		Resolution			Main	ShiftOFF
+Map	Red Encoder		Master Level	3
+Map	Blue Encoder		Selected Pattern			Main	ShiftON
+Map	Green Encoder		Flam Amount	3		Main	ShiftON
+Map	Red Encoder		Master Level	1				RedClickON
+Map	Green Encoder		Flam Amount	1		Main	ShiftON	GreenClickON
+
+Map	Sound 1 Button		Pattern Enable			Main	ShiftOFF
+Map	Sound 2 Button		Enable Pattern Section Playback			Main	ShiftOFF
+Map	Sound 3 Button		Bank A			Main	ShiftOFF
+Map	Sound 4 Button		Bank B			Main	ShiftOFF
+Map	Sound 5 Button		Bank C			Main	ShiftOFF
+Map	Sound 6 Button		Bank D			Main	ShiftOFF
+Map	Sound 7 Button		Channel 8 and 9 Exclusive			Main	ShiftOFF
+Map	Sound 8 Button		High Quality Interpolation			Main	ShiftOFF
+Map	Sound 1 Button		Pattern 1			Main	ShiftON
+Map	Sound 2 Button		Pattern 2			Main	ShiftON
+Map	Sound 3 Button		Pattern 3			Main	ShiftON
+Map	Sound 4 Button		Pattern 4			Main	ShiftON
+Map	Sound 5 Button		Pattern 5			Main	ShiftON
+Map	Sound 6 Button		Pattern 6			Main	ShiftON
+Map	Sound 7 Button		Pattern 7			Main	ShiftON
+Map	Sound 8 Button		Pattern 8			Main	ShiftON
+
+Map	Blue Encoder		Drum 1 Level	3		Ch1-3	ShiftOFF
+Map	Green Encoder		Drum 2 Level	3		Ch1-3	ShiftOFF
+Map	White Encoder		Drum 3 Level	3		Ch1-3	ShiftOFF
+Map	Blue Encoder		Drum 4 Level	3		Ch4-6	ShiftOFF
+Map	Green Encoder		Drum 5 Level	3		Ch4-6	ShiftOFF
+Map	White Encoder		Drum 6 Level	3		Ch4-6	ShiftOFF
+Map	Blue Encoder		Drum 7 Level	3		Ch7-10	ShiftOFF
+Map	Green Encoder		Drum 8 Level	3		Ch7-10	ShiftOFF
+Map	White Encoder		Drum 9 Level	3		Ch7-10	ShiftOFF
+Map	Red Encoder		Drum 10 Level	3		Ch7-10	ShiftOFF
+Map	Blue Encoder		Drum 1 Level	1		Ch1-3	ShiftOFF	BlueClickON
+Map	Green Encoder		Drum 2 Level	1		Ch1-3	ShiftOFF	GreenClickON
+Map	White Encoder		Drum 3 Level	1		Ch1-3	ShiftOFF	WhiteClickON
+Map	Blue Encoder		Drum 4 Level	1		Ch4-6	ShiftOFF	BlueClickON
+Map	Green Encoder		Drum 5 Level	1		Ch4-6	ShiftOFF	GreenClickON
+Map	White Encoder		Drum 6 Level	1		Ch4-6	ShiftOFF	WhiteClickON
+Map	Blue Encoder		Drum 7 Level	1		Ch7-10	ShiftOFF	BlueClickON
+Map	Green Encoder		Drum 8 Level	1		Ch7-10	ShiftOFF	GreenClickON
+Map	White Encoder		Drum 9 Level	1		Ch7-10	ShiftOFF	WhiteClickON
+Map	Red Encoder		Drum 10 Level	1		Ch7-10	ShiftOFF	RedClickON
+
+Map	Blue Encoder		Drum 1 Pan	3		Ch1-3	ShiftON
+Map	Green Encoder		Drum 2 Pan	3		Ch1-3	ShiftON
+Map	White Encoder		Drum 3 Pan	3		Ch1-3	ShiftON
+Map	Blue Encoder		Drum 4 Pan	3		Ch4-6	ShiftON
+Map	Green Encoder		Drum 5 Pan	3		Ch4-6	ShiftON
+Map	White Encoder		Drum 6 Pan	3		Ch4-6	ShiftON
+Map	Blue Encoder		Drum 7 Pan	3		Ch7-10	ShiftON
+Map	Green Encoder		Drum 8 Pan	3		Ch7-10	ShiftON
+Map	White Encoder		Drum 9 Pan	3		Ch7-10	ShiftON
+Map	Red Encoder		Drum 10 Pan	3		Ch7-10	ShiftON
+Map	Blue Encoder		Drum 1 Pan	1		Ch1-3	ShiftON	BlueClickON
+Map	Green Encoder		Drum 2 Pan	1		Ch1-3	ShiftON	GreenClickON
+Map	White Encoder		Drum 3 Pan	1		Ch1-3	ShiftON	WhiteClickON
+Map	Blue Encoder		Drum 4 Pan	1		Ch4-6	ShiftON	BlueClickON
+Map	Green Encoder		Drum 5 Pan	1		Ch4-6	ShiftON	GreenClickON
+Map	White Encoder		Drum 6 Pan	1		Ch4-6	ShiftON	WhiteClickON
+Map	Blue Encoder		Drum 7 Pan	1		Ch7-10	ShiftON	BlueClickON
+Map	Green Encoder		Drum 8 Pan	1		Ch7-10	ShiftON	GreenClickON
+Map	White Encoder		Drum 9 Pan	1		Ch7-10	ShiftON	WhiteClickON
+Map	Red Encoder		Drum 10 Pan	1		Ch7-10	ShiftON	RedClickON
+
+Map	Sound 1 Button		Drum 1 Mute			Ch1-3
+Map	Sound 2 Button		Drum 2 Mute			Ch1-3
+Map	Sound 3 Button		Drum 3 Mute			Ch1-3
+Map	Sound 4 Button		0			Ch1-3
+Map	Sound 1 Button		Drum 4 Mute			Ch4-6
+Map	Sound 2 Button		Drum 5 Mute			Ch4-6
+Map	Sound 3 Button		Drum 6 Mute			Ch4-6
+Map	Sound 4 Button		0			Ch4-6
+Map	Sound 1 Button		Drum 7 Mute			Ch7-10
+Map	Sound 2 Button		Drum 8 Mute			Ch7-10
+Map	Sound 3 Button		Drum 9 Mute			Ch7-10
+Map	Sound 4 Button		Drum 10 Mute			Ch7-10
+Map	Sound 5 Button		Drum 1 Solo			Ch1-3
+Map	Sound 6 Button		Drum 2 Solo			Ch1-3
+Map	Sound 7 Button		Drum 3 Solo			Ch1-3
+Map	Sound 8 Button		0			Ch1-3
+Map	Sound 5 Button		Drum 4 Solo			Ch4-6
+Map	Sound 6 Button		Drum 5 Solo			Ch4-6
+Map	Sound 7 Button		Drum 6 Solo			Ch4-6
+Map	Sound 8 Button		0			Ch4-6
+Map	Sound 5 Button		Drum 7 Solo			Ch7-10
+Map	Sound 6 Button		Drum 8 Solo			Ch7-10
+Map	Sound 7 Button		Drum 9 Solo			Ch7-10
+Map	Sound 8 Button		Drum 10 Solo			Ch7-10
+
+Map	Blue Encoder		Drum 1 Send 1 Amount			Ch1-3 Aux	ShiftOFF
+Map	Green Encoder		Drum 2 Send 1 Amount			Ch1-3 Aux	ShiftOFF
+Map	White Encoder		Drum 3 Send 1 Amount			Ch1-3 Aux	ShiftOFF
+Map	Blue Encoder		Drum 4 Send 1 Amount			Ch4-6 Aux	ShiftOFF
+Map	Green Encoder		Drum 5 Send 1 Amount			Ch4-6 Aux	ShiftOFF
+Map	White Encoder		Drum 6 Send 1 Amount			Ch4-6 Aux	ShiftOFF
+Map	Blue Encoder		Drum 7 Send 1 Amount			Ch7-10 Aux	ShiftOFF
+Map	Green Encoder		Drum 8 Send 1 Amount			Ch7-10 Aux	ShiftOFF
+Map	White Encoder		Drum 9 Send 1 Amount			Ch7-10 Aux	ShiftOFF
+Map	Red Encoder		Drum 10 Send 1 Amount			Ch7-10 Aux	ShiftOFF
+Map	Blue Encoder		Drum 1 Send 1 Amount	1		Ch1-3 Aux	ShiftOFF	BlueClickON
+Map	Green Encoder		Drum 2 Send 1 Amount	1		Ch1-3 Aux	ShiftOFF	GreenClickON
+Map	White Encoder		Drum 3 Send 1 Amount	1		Ch1-3 Aux	ShiftOFF	WhiteClickON
+Map	Blue Encoder		Drum 4 Send 1 Amount	1		Ch4-6 Aux	ShiftOFF	BlueClickON
+Map	Green Encoder		Drum 5 Send 1 Amount	1		Ch4-6 Aux	ShiftOFF	GreenClickON
+Map	White Encoder		Drum 6 Send 1 Amount	1		Ch4-6 Aux	ShiftOFF	WhiteClickON
+Map	Blue Encoder		Drum 7 Send 1 Amount	1		Ch7-10 Aux	ShiftOFF	BlueClickON
+Map	Green Encoder		Drum 8 Send 1 Amount	1		Ch7-10 Aux	ShiftOFF	GreenClickON
+Map	White Encoder		Drum 9 Send 1 Amount	1		Ch7-10 Aux	ShiftOFF	WhiteClickON
+Map	Red Encoder		Drum 10 Send 1 Amount	1		Ch7-10 Aux	ShiftOFF	RedClickON
+
+Map	Blue Encoder		Drum 1 Send 2 Amount	3		Ch1-3 Aux	ShiftON
+Map	Green Encoder		Drum 2 Send 2 Amount	3		Ch1-3 Aux	ShiftON
+Map	White Encoder		Drum 3 Send 2 Amount	3		Ch1-3 Aux	ShiftON
+Map	Blue Encoder		Drum 4 Send 2 Amount	3		Ch4-6 Aux	ShiftON
+Map	Green Encoder		Drum 5 Send 2 Amount	3		Ch4-6 Aux	ShiftON
+Map	White Encoder		Drum 6 Send 2 Amount	3		Ch4-6 Aux	ShiftON
+Map	Blue Encoder		Drum 7 Send 2 Amount	3		Ch7-10 Aux	ShiftON
+Map	Green Encoder		Drum 8 Send 2 Amount	3		Ch7-10 Aux	ShiftON
+Map	White Encoder		Drum 9 Send 2 Amount	3		Ch7-10 Aux	ShiftON
+Map	Red Encoder		Drum 10 Send 2 Amount	3		Ch7-10 Aux	ShiftON
+Map	Blue Encoder		Drum 1 Send 2 Amount	1		Ch1-3 Aux	ShiftON	BlueClickON
+Map	Green Encoder		Drum 2 Send 2 Amount	1		Ch1-3 Aux	ShiftON	GreenClickON
+Map	White Encoder		Drum 3 Send 2 Amount	1		Ch1-3 Aux	ShiftON	WhiteClickON
+Map	Blue Encoder		Drum 4 Send 2 Amount	1		Ch4-6 Aux	ShiftON	BlueClickON
+Map	Green Encoder		Drum 5 Send 2 Amount	1		Ch4-6 Aux	ShiftON	GreenClickON
+Map	White Encoder		Drum 6 Send 2 Amount	1		Ch4-6 Aux	ShiftON	WhiteClickON
+Map	Blue Encoder		Drum 7 Send 2 Amount	1		Ch7-10 Aux	ShiftON	BlueClickON
+Map	Green Encoder		Drum 8 Send 2 Amount	1		Ch7-10 Aux	ShiftON	GreenClickON
+Map	White Encoder		Drum 9 Send 2 Amount	1		Ch7-10 Aux	ShiftON	WhiteClickON
+Map	Red Encoder		Drum 10 Send 2 Amount	1		Ch7-10 Aux	ShiftON	RedClickON
+
+Map	Sound 1 Button		Drum 1 Mute			Ch1-3 Aux
+Map	Sound 2 Button		Drum 2 Mute			Ch1-3 Aux
+Map	Sound 3 Button		Drum 3 Mute			Ch1-3 Aux
+Map	Sound 4 Button		0			Ch1-3 Aux
+Map	Sound 1 Button		Drum 4 Mute			Ch4-6 Aux
+Map	Sound 2 Button		Drum 5 Mute			Ch4-6 Aux
+Map	Sound 3 Button		Drum 6 Mute			Ch4-6 Aux
+Map	Sound 4 Button		0			Ch4-6 Aux
+Map	Sound 1 Button		Drum 7 Mute			Ch7-10 Aux
+Map	Sound 2 Button		Drum 8 Mute			Ch7-10 Aux
+Map	Sound 3 Button		Drum 9 Mute			Ch7-10 Aux
+Map	Sound 4 Button		Drum 10 Mute			Ch7-10 Aux
+Map	Sound 5 Button		Drum 1 Solo			Ch1-3 Aux
+Map	Sound 6 Button		Drum 2 Solo			Ch1-3 Aux
+Map	Sound 7 Button		Drum 3 Solo			Ch1-3 Aux
+Map	Sound 8 Button		0			Ch1-3 Aux
+Map	Sound 5 Button		Drum 4 Solo			Ch4-6 Aux
+Map	Sound 6 Button		Drum 5 Solo			Ch4-6 Aux
+Map	Sound 7 Button		Drum 6 Solo			Ch4-6 Aux
+Map	Sound 8 Button		0			Ch4-6 Aux
+Map	Sound 5 Button		Drum 7 Solo			Ch7-10 Aux
+Map	Sound 6 Button		Drum 8 Solo			Ch7-10 Aux
+Map	Sound 7 Button		Drum 9 Solo			Ch7-10 Aux
+Map	Sound 8 Button		Drum 10 Solo			Ch7-10 Aux
+
+
+
+Scope	Propellerheads	Kong Drum Designer
+Define Group	ControlSet	Main	D1-4	D5-8	D9-12	D13-16	D1-4 Aux	D5-8 Aux	D9-12 Aux	D13-16 Aux
+Define Group	ShiftState	ShiftOFF	ShiftON
+Define Group	BlueClickState	BlueClickOFF	BlueClickON
+Define Group	GreenClickState	GreenClickOFF	GreenClickON
+Define Group	WhiteClickState	WhiteClickOFF	WhiteClickON
+Define Group	RedClickState	RedClickOFF	RedClickON
+//	Control Surface Item	Key	Remotable Item	Scale	Mode
+Map	Blue Click On		BlueClickState=BlueClickON
+Map	Blue Click Off		BlueClickState=BlueClickOFF
+Map	Green Click On		GreenClickState=GreenClickON
+Map	Green Click Off		GreenClickState=GreenClickOFF
+Map	White Click On		WhiteClickState=WhiteClickON
+Map	White Click Off		WhiteClickState=WhiteClickOFF
+Map	Red Click On		RedClickState=RedClickON
+Map	Red Click Off		RedClickState=RedClickOFF
+Map	Shift On		ShiftState=ShiftON
+Map	Shift Off		ShiftState=ShiftOFF
+
+Map	Mixer Button		ControlSet=Main
+Map	T1 Button		ControlSet=D1-4				ShiftOFF
+Map	T2 Button		ControlSet=D5-8				ShiftOFF
+Map	T3 Button		ControlSet=D9-12				ShiftOFF
+Map	T4 Button		ControlSet=D13-16				ShiftOFF
+Map	T1 Button		ControlSet=D1-4 Aux				ShiftON
+Map	T2 Button		ControlSet=D5-8 Aux				ShiftON
+Map	T3 Button		ControlSet=D9-12 Aux				ShiftON
+Map	T4 Button		ControlSet=D13-16 Aux				ShiftON
+Map	Sample Button		Quick Sample
+
+Map	Blue Encoder		Mod Wheel	3		Main
+Map	Green Encoder		Master FX P1	3		Main	ShiftOFF
+Map	White Encoder		Master FX P2	3		Main	ShiftOFF
+Map	Red Encoder		Master Level	3		Main
+Map	Green Encoder		Bus FX P1	3		Main	ShiftON
+Map	White Encoder		Bus FX P2	3		Main	ShiftON
+Map	Blue Encoder		Mod Wheel	1		Main		BlueClickON
+Map	Green Encoder		Master FX P1	1		Main	ShiftOFF	GreenClickON
+Map	White Encoder		Master FX P2	1		Main	ShiftOFF	WhiteClickON
+Map	Red Encoder		Master Level	1		Main		RedClickON
+Map	Green Encoder		Bus FX P1	1		Main	ShiftON	GreenClickON
+Map	White Encoder		Bus FX P2	1		Main	ShiftON	WhiteClickON
+
+Map	Sound 1 Button		Set all Mutes and Solos to Off			Main
+Map	Sound 2 Button		0			Main
+Map	Sound 3 Button		0			Main
+Map	Sound 4 Button		0			Main
+Map	Sound 5 Button		0			Main
+Map	Sound 6 Button		0			Main
+Map	Sound 7 Button		Bus FX On			Main
+Map	Sound 8 Button		Master FX On			Main
+
+Map	Blue Encoder		Drum 1 Level	3		D1-4	ShiftOFF
+Map	Green Encoder		Drum 2 Level	3		D1-4	ShiftOFF
+Map	White Encoder		Drum 3 Level	3		D1-4	ShiftOFF
+Map	Red Encoder		Drum 4 Level	3		D1-4	ShiftOFF
+Map	Blue Encoder		Drum 1 Pan	3		D1-4	ShiftON
+Map	Green Encoder		Drum 2 Pan	3		D1-4	ShiftON
+Map	White Encoder		Drum 3 Pan	3		D1-4	ShiftON
+Map	Red Encoder		Drum 4 Pan	3		D1-4	ShiftON
+Map	Blue Encoder		Drum 1 Level	1		D1-4	ShiftOFF	BlueClickON
+Map	Green Encoder		Drum 2 Level	1		D1-4	ShiftOFF	GreenClickON
+Map	White Encoder		Drum 3 Level	1		D1-4	ShiftOFF	WhiteClickON
+Map	Red Encoder		Drum 4 Level	1		D1-4	ShiftOFF	RedClickON
+Map	Blue Encoder		Drum 1 Pan	1		D1-4	ShiftON	BlueClickON
+Map	Green Encoder		Drum 2 Pan	1		D1-4	ShiftON	GreenClickON
+Map	White Encoder		Drum 3 Pan	1		D1-4	ShiftON	WhiteClickON
+Map	Red Encoder		Drum 4 Pan	1		D1-4	ShiftON	RedClickON
+
+Map	Blue Encoder		Drum 5 Level	3		D5-8	ShiftOFF
+Map	Green Encoder		Drum 6 Level	3		D5-8	ShiftOFF
+Map	White Encoder		Drum 7 Level	3		D5-8	ShiftOFF
+Map	Red Encoder		Drum 8 Level	3		D5-8	ShiftOFF
+Map	Blue Encoder		Drum 5 Pan	3		D5-8	ShiftON
+Map	Green Encoder		Drum 6 Pan	3		D5-8	ShiftON
+Map	White Encoder		Drum 7 Pan	3		D5-8	ShiftON
+Map	Red Encoder		Drum 8 Pan	3		D5-8	ShiftON
+Map	Blue Encoder		Drum 5 Level	1		D5-8	ShiftOFF	BlueClickON
+Map	Green Encoder		Drum 6 Level	1		D5-8	ShiftOFF	GreenClickON
+Map	White Encoder		Drum 7 Level	1		D5-8	ShiftOFF	WhiteClickON
+Map	Red Encoder		Drum 8 Level	1		D5-8	ShiftOFF	RedClickON
+Map	Blue Encoder		Drum 5 Pan	1		D5-8	ShiftON	BlueClickON
+Map	Green Encoder		Drum 6 Pan	1		D5-8	ShiftON	GreenClickON
+Map	White Encoder		Drum 7 Pan	1		D5-8	ShiftON	WhiteClickON
+Map	Red Encoder		Drum 8 Pan	1		D5-8	ShiftON	RedClickON
+
+Map	Blue Encoder		Drum 9 Level	3		D9-12	ShiftOFF
+Map	Green Encoder		Drum 10 Level	3		D9-12	ShiftOFF
+Map	White Encoder		Drum 11 Level	3		D9-12	ShiftOFF
+Map	Red Encoder		Drum 12 Level	3		D9-12	ShiftOFF
+Map	Blue Encoder		Drum 9 Pan	3		D9-12	ShiftON
+Map	Green Encoder		Drum 10 Pan	3		D9-12	ShiftON
+Map	White Encoder		Drum 11 Pan	3		D9-12	ShiftON
+Map	Red Encoder		Drum 12 Pan	3		D9-12	ShiftON
+Map	Blue Encoder		Drum 9 Level	1		D9-12	ShiftOFF	BlueClickON
+Map	Green Encoder		Drum 10 Level	1		D9-12	ShiftOFF	GreenClickON
+Map	White Encoder		Drum 11 Level	1		D9-12	ShiftOFF	WhiteClickON
+Map	Red Encoder		Drum 12 Level	1		D9-12	ShiftOFF	RedClickON
+Map	Blue Encoder		Drum 9 Pan	1		D9-12	ShiftON	BlueClickON
+Map	Green Encoder		Drum 10 Pan	1		D9-12	ShiftON	GreenClickON
+Map	White Encoder		Drum 11 Pan	1		D9-12	ShiftON	WhiteClickON
+Map	Red Encoder		Drum 12 Pan	1		D9-12	ShiftON	RedClickON
+
+Map	Blue Encoder		Drum 13 Level	3		D13-16	ShiftOFF
+Map	Green Encoder		Drum 14 Level	3		D13-16	ShiftOFF
+Map	White Encoder		Drum 15 Level	3		D13-16	ShiftOFF
+Map	Red Encoder		Drum 16 Level	3		D13-16	ShiftOFF
+Map	Blue Encoder		Drum 13 Pan	3		D13-16	ShiftON
+Map	Green Encoder		Drum 14 Pan	3		D13-16	ShiftON
+Map	White Encoder		Drum 15 Pan	3		D13-16	ShiftON
+Map	Red Encoder		Drum 16 Pan	3		D13-16	ShiftON
+Map	Blue Encoder		Drum 13 Level	1		D13-16	ShiftOFF	BlueClickON
+Map	Green Encoder		Drum 14 Level	1		D13-16	ShiftOFF	GreenClickON
+Map	White Encoder		Drum 15 Level	1		D13-16	ShiftOFF	WhiteClickON
+Map	Red Encoder		Drum 16 Level	1		D13-16	ShiftOFF	RedClickON
+Map	Blue Encoder		Drum 13 Pan	1		D13-16	ShiftON	BlueClickON
+Map	Green Encoder		Drum 14 Pan	1		D13-16	ShiftON	GreenClickON
+Map	White Encoder		Drum 15 Pan	1		D13-16	ShiftON	WhiteClickON
+Map	Red Encoder		Drum 16 Pan	1		D13-16	ShiftON	RedClickON
+
+Map	Blue Encoder		Drum 1 Bus FX Send	3		D1-4 Aux	ShiftOFF
+Map	Green Encoder		Drum 2 Bus FX Send	3		D1-4 Aux	ShiftOFF
+Map	White Encoder		Drum 3 Bus FX Send	3		D1-4 Aux	ShiftOFF
+Map	Red Encoder		Drum 4 Bus FX Send	3		D1-4 Aux	ShiftOFF
+Map	Blue Encoder		Drum 1 Decay Offset	3		D1-4 Aux	ShiftON
+Map	Green Encoder		Drum 2 Decay Offset	3		D1-4 Aux	ShiftON
+Map	White Encoder		Drum 3 Decay Offset	3		D1-4 Aux	ShiftON
+Map	Red Encoder		Drum 4 Decay Offset	3		D1-4 Aux	ShiftON
+Map	Blue Encoder		Drum 1 Bus FX Send	1		D1-4 Aux	ShiftOFF	BlueClickON
+Map	Green Encoder		Drum 2 Bus FX Send	1		D1-4 Aux	ShiftOFF	GreenClickON
+Map	White Encoder		Drum 3 Bus FX Send	1		D1-4 Aux	ShiftOFF	WhiteClickON
+Map	Red Encoder		Drum 4 Bus FX Send	1		D1-4 Aux	ShiftOFF	RedClickON
+Map	Blue Encoder		Drum 1 Decay Offset	1		D1-4 Aux	ShiftON	BlueClickON
+Map	Green Encoder		Drum 2 Decay Offset	1		D1-4 Aux	ShiftON	GreenClickON
+Map	White Encoder		Drum 3 Decay Offset	1		D1-4 Aux	ShiftON	WhiteClickON
+Map	Red Encoder		Drum 4 Decay Offset	1		D1-4 Aux	ShiftON	RedClickON
+
+Map	Blue Encoder		Drum 5 Bus FX Send	3		D5-8 Aux	ShiftOFF
+Map	Green Encoder		Drum 6 Bus FX Send	3		D5-8 Aux	ShiftOFF
+Map	White Encoder		Drum 7 Bus FX Send	3		D5-8 Aux	ShiftOFF
+Map	Red Encoder		Drum 8 Bus FX Send	3		D5-8 Aux	ShiftOFF
+Map	Blue Encoder		Drum 5 Decay Offset	3		D5-8 Aux	ShiftON
+Map	Green Encoder		Drum 6 Decay Offset	3		D5-8 Aux	ShiftON
+Map	White Encoder		Drum 7 Decay Offset	3		D5-8 Aux	ShiftON
+Map	Red Encoder		Drum 8 Decay Offset	3		D5-8 Aux	ShiftON
+Map	Blue Encoder		Drum 5 Bus FX Send	1		D5-8 Aux	ShiftOFF	BlueClickON
+Map	Green Encoder		Drum 6 Bus FX Send	1		D5-8 Aux	ShiftOFF	GreenClickON
+Map	White Encoder		Drum 7 Bus FX Send	1		D5-8 Aux	ShiftOFF	WhiteClickON
+Map	Red Encoder		Drum 8 Bus FX Send	1		D5-8 Aux	ShiftOFF	RedClickON
+Map	Blue Encoder		Drum 5 Decay Offset	1		D5-8 Aux	ShiftON	BlueClickON
+Map	Green Encoder		Drum 6 Decay Offset	1		D5-8 Aux	ShiftON	GreenClickON
+Map	White Encoder		Drum 7 Decay Offset	1		D5-8 Aux	ShiftON	WhiteClickON
+Map	Red Encoder		Drum 8 Decay Offset	1		D5-8 Aux	ShiftON	RedClickON
+
+Map	Blue Encoder		Drum 9 Bus FX Send	3		D9-12 Aux	ShiftOFF
+Map	Green Encoder		Drum 10 Bus FX Send	3		D9-12 Aux	ShiftOFF
+Map	White Encoder		Drum 11 Bus FX Send	3		D9-12 Aux	ShiftOFF
+Map	Red Encoder		Drum 12 Bus FX Send	3		D9-12 Aux	ShiftOFF
+Map	Blue Encoder		Drum 9 Decay Offset	3		D9-12 Aux	ShiftON
+Map	Green Encoder		Drum 10 Decay Offset	3		D9-12 Aux	ShiftON
+Map	White Encoder		Drum 11 Decay Offset	3		D9-12 Aux	ShiftON
+Map	Red Encoder		Drum 12 Decay Offset	3		D9-12 Aux	ShiftON
+Map	Blue Encoder		Drum 9 Bus FX Send	1		D9-12 Aux	ShiftOFF	BlueClickON
+Map	Green Encoder		Drum 10 Bus FX Send	1		D9-12 Aux	ShiftOFF	GreenClickON
+Map	White Encoder		Drum 11 Bus FX Send	1		D9-12 Aux	ShiftOFF	WhiteClickON
+Map	Red Encoder		Drum 12 Bus FX Send	1		D9-12 Aux	ShiftOFF	RedClickON
+Map	Blue Encoder		Drum 9 Decay Offset	1		D9-12 Aux	ShiftON	BlueClickON
+Map	Green Encoder		Drum 10 Decay Offset	1		D9-12 Aux	ShiftON	GreenClickON
+Map	White Encoder		Drum 11 Decay Offset	1		D9-12 Aux	ShiftON	WhiteClickON
+Map	Red Encoder		Drum 12 Decay Offset	1		D9-12 Aux	ShiftON	RedClickON
+
+Map	Blue Encoder		Drum 13 Bus FX Send	3		D13-16 Aux	ShiftOFF
+Map	Green Encoder		Drum 14 Bus FX Send	3		D13-16 Aux	ShiftOFF
+Map	White Encoder		Drum 15 Bus FX Send	3		D13-16 Aux	ShiftOFF
+Map	Red Encoder		Drum 16 Bus FX Send	3		D13-16 Aux	ShiftOFF
+Map	Blue Encoder		Drum 13 Decay Offset	3		D13-16 Aux	ShiftON
+Map	Green Encoder		Drum 14 Decay Offset	3		D13-16 Aux	ShiftON
+Map	White Encoder		Drum 15 Decay Offset	3		D13-16 Aux	ShiftON
+Map	Red Encoder		Drum 16 Decay Offset	3		D13-16 Aux	ShiftON
+Map	Blue Encoder		Drum 13 Bus FX Send	1		D13-16 Aux	ShiftOFF	BlueClickON
+Map	Green Encoder		Drum 14 Bus FX Send	1		D13-16 Aux	ShiftOFF	GreenClickON
+Map	White Encoder		Drum 15 Bus FX Send	1		D13-16 Aux	ShiftOFF	WhiteClickON
+Map	Red Encoder		Drum 16 Bus FX Send	1		D13-16 Aux	ShiftOFF	RedClickON
+Map	Blue Encoder		Drum 13 Decay Offset	1		D13-16 Aux	ShiftON	BlueClickON
+Map	Green Encoder		Drum 14 Decay Offset	1		D13-16 Aux	ShiftON	GreenClickON
+Map	White Encoder		Drum 15 Decay Offset	1		D13-16 Aux	ShiftON	WhiteClickON
+Map	Red Encoder		Drum 16 Decay Offset	1		D13-16 Aux	ShiftON	RedClickON
+
+Map	Sound 1 Button		Pad 1 Mute			D1-4	ShiftOFF
+Map	Sound 2 Button		Pad 2 Mute			D1-4	ShiftOFF
+Map	Sound 3 Button		Pad 3 Mute			D1-4	ShiftOFF
+Map	Sound 4 Button		Pad 4 Mute			D1-4	ShiftOFF
+Map	Sound 5 Button		Pad 1 Solo			D1-4	ShiftOFF
+Map	Sound 6 Button		Pad 2 Solo			D1-4	ShiftOFF
+Map	Sound 7 Button		Pad 3 Solo			D1-4	ShiftOFF
+Map	Sound 8 Button		Pad 4 Solo			D1-4	ShiftOFF
+Map	Sound 1 Button		Drum 1 FX1 On			D1-4	ShiftON
+Map	Sound 2 Button		Drum 2 FX1 On			D1-4	ShiftON
+Map	Sound 3 Button		Drum 3 FX1 On			D1-4	ShiftON
+Map	Sound 4 Button		Drum 4 FX1 On			D1-4	ShiftON
+Map	Sound 5 Button		Drum 1 FX2 On			D1-4	ShiftON
+Map	Sound 6 Button		Drum 2 FX2 On			D1-4	ShiftON
+Map	Sound 7 Button		Drum 3 FX2 On			D1-4	ShiftON
+Map	Sound 8 Button		Drum 4 FX2 On			D1-4	ShiftON
+
+Map	Sound 1 Button		Pad 5 Mute			D5-8	ShiftOFF
+Map	Sound 2 Button		Pad 6 Mute			D5-8	ShiftOFF
+Map	Sound 3 Button		Pad 7 Mute			D5-8	ShiftOFF
+Map	Sound 4 Button		Pad 8 Mute			D5-8	ShiftOFF
+Map	Sound 5 Button		Pad 5 Solo			D5-8	ShiftOFF
+Map	Sound 6 Button		Pad 6 Solo			D5-8	ShiftOFF
+Map	Sound 7 Button		Pad 7 Solo			D5-8	ShiftOFF
+Map	Sound 8 Button		Pad 8 Solo			D5-8	ShiftOFF
+Map	Sound 1 Button		Drum 5 FX1 On			D5-8	ShiftON
+Map	Sound 2 Button		Drum 6 FX1 On			D5-8	ShiftON
+Map	Sound 3 Button		Drum 7 FX1 On			D5-8	ShiftON
+Map	Sound 4 Button		Drum 8 FX1 On			D5-8	ShiftON
+Map	Sound 5 Button		Drum 5 FX2 On			D5-8	ShiftON
+Map	Sound 6 Button		Drum 6 FX2 On			D5-8	ShiftON
+Map	Sound 7 Button		Drum 7 FX2 On			D5-8	ShiftON
+Map	Sound 8 Button		Drum 8 FX2 On			D5-8	ShiftON
+
+Map	Sound 1 Button		Pad 9 Mute			D9-12	ShiftOFF
+Map	Sound 2 Button		Pad 10 Mute			D9-12	ShiftOFF
+Map	Sound 3 Button		Pad 11 Mute			D9-12	ShiftOFF
+Map	Sound 4 Button		Pad 12 Mute			D9-12	ShiftOFF
+Map	Sound 5 Button		Pad 9 Solo			D9-12	ShiftOFF
+Map	Sound 6 Button		Pad 10 Solo			D9-12	ShiftOFF
+Map	Sound 7 Button		Pad 11 Solo			D9-12	ShiftOFF
+Map	Sound 8 Button		Pad 12 Solo			D9-12	ShiftOFF
+Map	Sound 1 Button		Drum 9 FX1 On			D9-12	ShiftON
+Map	Sound 2 Button		Drum 10 FX1 On			D9-12	ShiftON
+Map	Sound 3 Button		Drum 11 FX1 On			D9-12	ShiftON
+Map	Sound 4 Button		Drum 12 FX1 On			D9-12	ShiftON
+Map	Sound 5 Button		Drum 9 FX2 On			D9-12	ShiftON
+Map	Sound 6 Button		Drum 10 FX2 On			D9-12	ShiftON
+Map	Sound 7 Button		Drum 11 FX2 On			D9-12	ShiftON
+Map	Sound 8 Button		Drum 12 FX2 On			D9-12	ShiftON
+
+Map	Sound 1 Button		Pad 13 Mute			D13-16	ShiftOFF
+Map	Sound 2 Button		Pad 14 Mute			D13-16	ShiftOFF
+Map	Sound 3 Button		Pad 15 Mute			D13-16	ShiftOFF
+Map	Sound 4 Button		Pad 16 Mute			D13-16	ShiftOFF
+Map	Sound 5 Button		Pad 13 Solo			D13-16	ShiftOFF
+Map	Sound 6 Button		Pad 14 Solo			D13-16	ShiftOFF
+Map	Sound 7 Button		Pad 15 Solo			D13-16	ShiftOFF
+Map	Sound 8 Button		Pad 16 Solo			D13-16	ShiftOFF
+Map	Sound 1 Button		Drum 13 FX1 On			D13-16	ShiftON
+Map	Sound 2 Button		Drum 14 FX1 On			D13-16	ShiftON
+Map	Sound 3 Button		Drum 15 FX1 On			D13-16	ShiftON
+Map	Sound 4 Button		Drum 16 FX1 On			D13-16	ShiftON
+Map	Sound 5 Button		Drum 13 FX2 On			D13-16	ShiftON
+Map	Sound 6 Button		Drum 14 FX2 On			D13-16	ShiftON
+Map	Sound 7 Button		Drum 15 FX2 On			D13-16	ShiftON
+Map	Sound 8 Button		Drum 16 FX2 On			D13-16	ShiftON
+
+Map	Sound 1 Button		Pad 1 Mute			D1-4 Aux	ShiftOFF
+Map	Sound 2 Button		Pad 2 Mute			D1-4 Aux	ShiftOFF
+Map	Sound 3 Button		Pad 3 Mute			D1-4 Aux	ShiftOFF
+Map	Sound 4 Button		Pad 4 Mute			D1-4 Aux	ShiftOFF
+Map	Sound 5 Button		Pad 1 Solo			D1-4 Aux	ShiftOFF
+Map	Sound 6 Button		Pad 2 Solo			D1-4 Aux	ShiftOFF
+Map	Sound 7 Button		Pad 3 Solo			D1-4 Aux	ShiftOFF
+Map	Sound 8 Button		Pad 4 Solo			D1-4 Aux	ShiftOFF
+Map	Sound 1 Button		Drum 1 FX1 On			D1-4 Aux	ShiftON
+Map	Sound 2 Button		Drum 2 FX1 On			D1-4 Aux	ShiftON
+Map	Sound 3 Button		Drum 3 FX1 On			D1-4 Aux	ShiftON
+Map	Sound 4 Button		Drum 4 FX1 On			D1-4 Aux	ShiftON
+Map	Sound 5 Button		Drum 1 FX2 On			D1-4 Aux	ShiftON
+Map	Sound 6 Button		Drum 2 FX2 On			D1-4 Aux	ShiftON
+Map	Sound 7 Button		Drum 3 FX2 On			D1-4 Aux	ShiftON
+Map	Sound 8 Button		Drum 4 FX2 On			D1-4 Aux	ShiftON
+
+Map	Sound 1 Button		Pad 5 Mute			D5-8 Aux	ShiftOFF
+Map	Sound 2 Button		Pad 6 Mute			D5-8 Aux	ShiftOFF
+Map	Sound 3 Button		Pad 7 Mute			D5-8 Aux	ShiftOFF
+Map	Sound 4 Button		Pad 8 Mute			D5-8 Aux	ShiftOFF
+Map	Sound 5 Button		Pad 5 Solo			D5-8 Aux	ShiftOFF
+Map	Sound 6 Button		Pad 6 Solo			D5-8 Aux	ShiftOFF
+Map	Sound 7 Button		Pad 7 Solo			D5-8 Aux	ShiftOFF
+Map	Sound 8 Button		Pad 8 Solo			D5-8 Aux	ShiftOFF
+Map	Sound 1 Button		Drum 5 FX1 On			D5-8 Aux	ShiftON
+Map	Sound 2 Button		Drum 6 FX1 On			D5-8 Aux	ShiftON
+Map	Sound 3 Button		Drum 7 FX1 On			D5-8 Aux	ShiftON
+Map	Sound 4 Button		Drum 8 FX1 On			D5-8 Aux	ShiftON
+Map	Sound 5 Button		Drum 5 FX2 On			D5-8 Aux	ShiftON
+Map	Sound 6 Button		Drum 6 FX2 On			D5-8 Aux	ShiftON
+Map	Sound 7 Button		Drum 7 FX2 On			D5-8 Aux	ShiftON
+Map	Sound 8 Button		Drum 8 FX2 On			D5-8 Aux	ShiftON
+
+Map	Sound 1 Button		Pad 9 Mute			D9-12 Aux	ShiftOFF
+Map	Sound 2 Button		Pad 10 Mute			D9-12 Aux	ShiftOFF
+Map	Sound 3 Button		Pad 11 Mute			D9-12 Aux	ShiftOFF
+Map	Sound 4 Button		Pad 12 Mute			D9-12 Aux	ShiftOFF
+Map	Sound 5 Button		Pad 9 Solo			D9-12 Aux	ShiftOFF
+Map	Sound 6 Button		Pad 10 Solo			D9-12 Aux	ShiftOFF
+Map	Sound 7 Button		Pad 11 Solo			D9-12 Aux	ShiftOFF
+Map	Sound 8 Button		Pad 12 Solo			D9-12 Aux	ShiftOFF
+Map	Sound 1 Button		Drum 9 FX1 On			D9-12 Aux	ShiftON
+Map	Sound 2 Button		Drum 10 FX1 On			D9-12 Aux	ShiftON
+Map	Sound 3 Button		Drum 11 FX1 On			D9-12 Aux	ShiftON
+Map	Sound 4 Button		Drum 12 FX1 On			D9-12 Aux	ShiftON
+Map	Sound 5 Button		Drum 9 FX2 On			D9-12 Aux	ShiftON
+Map	Sound 6 Button		Drum 10 FX2 On			D9-12 Aux	ShiftON
+Map	Sound 7 Button		Drum 11 FX2 On			D9-12 Aux	ShiftON
+Map	Sound 8 Button		Drum 12 FX2 On			D9-12 Aux	ShiftON
+
+Map	Sound 1 Button		Pad 13 Mute			D13-16 Aux	ShiftOFF
+Map	Sound 2 Button		Pad 14 Mute			D13-16 Aux	ShiftOFF
+Map	Sound 3 Button		Pad 15 Mute			D13-16 Aux	ShiftOFF
+Map	Sound 4 Button		Pad 16 Mute			D13-16 Aux	ShiftOFF
+Map	Sound 5 Button		Pad 13 Solo			D13-16 Aux	ShiftOFF
+Map	Sound 6 Button		Pad 14 Solo			D13-16 Aux	ShiftOFF
+Map	Sound 7 Button		Pad 15 Solo			D13-16 Aux	ShiftOFF
+Map	Sound 8 Button		Pad 16 Solo			D13-16 Aux	ShiftOFF
+Map	Sound 1 Button		Drum 13 FX1 On			D13-16 Aux	ShiftON
+Map	Sound 2 Button		Drum 14 FX1 On			D13-16 Aux	ShiftON
+Map	Sound 3 Button		Drum 15 FX1 On			D13-16 Aux	ShiftON
+Map	Sound 4 Button		Drum 16 FX1 On			D13-16 Aux	ShiftON
+Map	Sound 5 Button		Drum 13 FX2 On			D13-16 Aux	ShiftON
+Map	Sound 6 Button		Drum 14 FX2 On			D13-16 Aux	ShiftON
+Map	Sound 7 Button		Drum 15 FX2 On			D13-16 Aux	ShiftON
+Map	Sound 8 Button		Drum 16 FX2 On			D13-16 Aux	ShiftON
+
+
+
+//* Effects
+
+
+
+Scope	Propellerheads	MClass Equalizer
+Define Group	ControlSet	Main	Q
+Define Group	ShiftState	ShiftOFF	ShiftON
+Define Group	BlueClickState	BlueClickOFF	BlueClickON
+Define Group	GreenClickState	GreenClickOFF	GreenClickON
+Define Group	WhiteClickState	WhiteClickOFF	WhiteClickON
+Define Group	RedClickState	RedClickOFF	RedClickON
+//	Control Surface Item	Key	Remotable Item	Scale	Mode
+Map	Blue Click On		BlueClickState=BlueClickON
+Map	Blue Click Off		BlueClickState=BlueClickOFF
+Map	Green Click On		GreenClickState=GreenClickON
+Map	Green Click Off		GreenClickState=GreenClickOFF
+Map	White Click On		WhiteClickState=WhiteClickON
+Map	White Click Off		WhiteClickState=WhiteClickOFF
+Map	Red Click On		RedClickState=RedClickON
+Map	Red Click Off		RedClickState=RedClickOFF
+Map	Shift On		ShiftState=ShiftON
+Map	Shift Off		ShiftState=ShiftOFF
+
+Map	Mixer Button		ControlSet=Main
+Map	T1 Button		ControlSet=Q
+Map	T2 Button		0
+Map	T3 Button		0
+Map	T4 Button		0
+
+Map	Blue Encoder		Low Shelf Gain	3		Main	ShiftOFF
+Map	Green Encoder		Parametric 1 Gain	3		Main	ShiftOFF
+Map	White Encoder		Parametric 2 Gain	3		Main	ShiftOFF
+Map	Red Encoder		Hi Shelf Gain	3		Main	ShiftOFF
+Map	Blue Encoder		Low Shelf Gain	1		Main	ShiftOFF	BlueClickON
+Map	Green Encoder		Parametric 1 Gain	1		Main	ShiftOFF	GreenClickON
+Map	White Encoder		Parametric 2 Gain	1		Main	ShiftOFF	WhiteClickON
+Map	Red Encoder		Hi Shelf Gain	1		Main	ShiftOFF	RedClickON
+
+Map	Blue Encoder		Low Shelf Frequency	4			ShiftON
+Map	Green Encoder		Parametric 1 Frequency	4			ShiftON
+Map	White Encoder		Parametric 2 Frequency	4			ShiftON
+Map	Red Encoder		Hi Shelf Frequency	4			ShiftON
+Map	Blue Encoder		Low Shelf Frequency	1			ShiftON	BlueClickON
+Map	Green Encoder		Parametric 1 Frequency	1			ShiftON	GreenClickON
+Map	White Encoder		Parametric 2 Frequency	1			ShiftON	WhiteClickON
+Map	Red Encoder		Hi Shelf Frequency	1			ShiftON	RedClickON
+
+Map	Blue Encoder		Low Shelf Q	3		Q	ShiftOFF
+Map	Green Encoder		Parametric 1 Q	3		Q	ShiftOFF
+Map	White Encoder		Parametric 2 Q	3		Q	ShiftOFF
+Map	Red Encoder		Hi Shelf Q	3		Q	ShiftOFF
+Map	Blue Encoder		Low Shelf Q	1		Q	ShiftOFF	BlueClickON
+Map	Green Encoder		Parametric 1 Q	1		Q	ShiftOFF	GreenClickON
+Map	White Encoder		Parametric 2 Q	1		Q	ShiftOFF	WhiteClickON
+Map	Red Encoder		Hi Shelf Q	1		Q	ShiftOFF	RedClickON
+
+Map	Sound 1 Button		Low Cut Enable
+Map	Sound 2 Button		Low Shelf Enable
+Map	Sound 3 Button		Parametric 1 Enable
+Map	Sound 4 Button		Parametric 2 Enable
+Map	Sound 5 Button		Hi Shelf Enable
+Map	Sound 6 Button		0
+Map	Sound 7 Button		0
+Map	Sound 8 Button		Enabled
+
+
+
+Scope	Propellerheads	MClass Stereo Imager
+Define Group	BlueClickState	BlueClickOFF	BlueClickON
+Define Group	GreenClickState	GreenClickOFF	GreenClickON
+Define Group	WhiteClickState	WhiteClickOFF	WhiteClickON
+Define Group	RedClickState	RedClickOFF	RedClickON
+//	Control Surface Item	Key	Remotable Item	Scale	Mode
+Map	Blue Click On		BlueClickState=BlueClickON
+Map	Blue Click Off		BlueClickState=BlueClickOFF
+Map	Green Click On		GreenClickState=GreenClickON
+Map	Green Click Off		GreenClickState=GreenClickOFF
+Map	White Click On		WhiteClickState=WhiteClickON
+Map	White Click Off		WhiteClickState=WhiteClickOFF
+Map	Red Click On		RedClickState=RedClickON
+Map	Red Click Off		RedClickState=RedClickOFF
+
+Map	Blue Encoder		Low Width	3
+Map	Green Encoder		X-Over Frequency	3
+Map	White Encoder		High Width	3
+Map	Red Encoder		Solo Mode
+Map	Blue Encoder		Low Width	1				BlueClickON
+Map	Green Encoder		X-Over Frequency	1				GreenClickON
+Map	White Encoder		High Width	1				WhiteClickON
+
+Map	Sound 1 Button		Separate Out Mode
+Map	Sound 2 Button		0
+Map	Sound 3 Button		0
+Map	Sound 4 Button		0
+Map	Sound 5 Button		0
+Map	Sound 6 Button		0
+Map	Sound 7 Button		0
+Map	Sound 8 Button		Enabled
+
+
+
+Scope	Propellerheads	MClass Compressor
+Define Group	ShiftState	ShiftOFF	ShiftON
+Define Group	BlueClickState	BlueClickOFF	BlueClickON
+Define Group	GreenClickState	GreenClickOFF	GreenClickON
+Define Group	WhiteClickState	WhiteClickOFF	WhiteClickON
+Define Group	RedClickState	RedClickOFF	RedClickON
+//	Control Surface Item	Key	Remotable Item	Scale	Mode
+Map	Blue Click On		BlueClickState=BlueClickON
+Map	Blue Click Off		BlueClickState=BlueClickOFF
+Map	Green Click On		GreenClickState=GreenClickON
+Map	Green Click Off		GreenClickState=GreenClickOFF
+Map	White Click On		WhiteClickState=WhiteClickON
+Map	White Click Off		WhiteClickState=WhiteClickOFF
+Map	Red Click On		RedClickState=RedClickON
+Map	Red Click Off		RedClickState=RedClickOFF
+Map	Shift On		ShiftState=ShiftON
+Map	Shift Off		ShiftState=ShiftOFF
+
+Map	Blue Encoder		Input Gain	3
+Map	Green Encoder		Threshold	3			ShiftOFF
+Map	White Encoder		Ratio	3			ShiftOFF
+Map	Red Encoder		Output Gain	3
+Map	Blue Encoder		Input Gain	1				BlueClickON
+Map	Green Encoder		Threshold	1			ShiftOFF	GreenClickON
+Map	White Encoder		Ratio	1			ShiftOFF	WhiteClickON
+Map	Red Encoder		Output Gain	1				RedClickON
+
+Map	Green Encoder		Attack	3			ShiftON
+Map	White Encoder		Release	3			ShiftON
+Map	Green Encoder		Attack	1			ShiftON	GreenClickON
+Map	White Encoder		Release	1			ShiftON	WhiteClickON
+
+Map	Sound 1 Button		Soft Knee
+Map	Sound 2 Button		Sidechain Solo
+Map	Sound 3 Button		Adapt
+Map	Sound 4 Button		0
+Map	Sound 5 Button		0
+Map	Sound 6 Button		0
+Map	Sound 7 Button		0
+Map	Sound 8 Button		Enabled
+
+
+
+Scope	Propellerheads	MClass Maximizer
+Define Group	ShiftState	ShiftOFF	ShiftON
+Define Group	BlueClickState	BlueClickOFF	BlueClickON
+Define Group	GreenClickState	GreenClickOFF	GreenClickON
+Define Group	WhiteClickState	WhiteClickOFF	WhiteClickON
+Define Group	RedClickState	RedClickOFF	RedClickON
+//	Control Surface Item	Key	Remotable Item	Scale	Mode
+Map	Blue Click On		BlueClickState=BlueClickON
+Map	Blue Click Off		BlueClickState=BlueClickOFF
+Map	Green Click On		GreenClickState=GreenClickON
+Map	Green Click Off		GreenClickState=GreenClickOFF
+Map	White Click On		WhiteClickState=WhiteClickON
+Map	White Click Off		WhiteClickState=WhiteClickOFF
+Map	Red Click On		RedClickState=RedClickON
+Map	Red Click Off		RedClickState=RedClickOFF
+Map	Shift On		ShiftState=ShiftON
+Map	Shift Off		ShiftState=ShiftOFF
+
+Map	Blue Encoder		Input Gain	3
+Map	Green Encoder		Attack Speed
+Map	White Encoder		Release Speed
+Map	Red Encoder		Output Gain	3			ShiftOFF
+Map	Red Encoder		Soft Clip Amount	3			ShiftON
+Map	Blue Encoder		Input Gain	1				BlueClickON
+Map	Red Encoder		Output Gain	1			ShiftOFF	RedClickON
+Map	Red Encoder		Soft Clip Amount	1			ShiftON	RedClickON
+
+Map	Sound 1 Button		Limiter Enable
+Map	Sound 2 Button		Look Ahead Enable
+Map	Sound 3 Button		Soft Clip Enable
+Map	Sound 4 Button		Output Level Meter Mode
+Map	Sound 5 Button		0
+Map	Sound 6 Button		0
+Map	Sound 7 Button		0
+Map	Sound 8 Button		Enabled
+
+
+
+Scope	Propellerheads	Line 6 Guitar Amp
+Define Group	ShiftState	ShiftOFF	ShiftON
+Define Group	BlueClickState	BlueClickOFF	BlueClickON
+Define Group	GreenClickState	GreenClickOFF	GreenClickON
+Define Group	WhiteClickState	WhiteClickOFF	WhiteClickON
+Define Group	RedClickState	RedClickOFF	RedClickON
+//	Control Surface Item	Key	Remotable Item	Scale	Mode
+Map	Blue Click On		BlueClickState=BlueClickON
+Map	Blue Click Off		BlueClickState=BlueClickOFF
+Map	Green Click On		GreenClickState=GreenClickON
+Map	Green Click Off		GreenClickState=GreenClickOFF
+Map	White Click On		WhiteClickState=WhiteClickON
+Map	White Click Off		WhiteClickState=WhiteClickOFF
+Map	Red Click On		RedClickState=RedClickON
+Map	Red Click Off		RedClickState=RedClickOFF
+Map	Shift On		ShiftState=ShiftON
+Map	Shift Off		ShiftState=ShiftOFF
+
+Map	Blue Encoder		Drive 	3			ShiftOFF
+Map	Green Encoder		Volume Pedal	3			ShiftOFF
+Map	White Encoder		Wah Pedal	3			ShiftOFF
+Map	Red Encoder		Volume	3
+Map	Blue Encoder		Bass	3			ShiftON
+Map	Green Encoder		Middle	3			ShiftON
+Map	White Encoder		Treble	3			ShiftON
+Map	Red Encoder		Presence	3			ShiftON
+Map	Blue Encoder		Drive 	1			ShiftOFF	BlueClickON
+Map	Green Encoder		Volume Pedal	1			ShiftOFF	GreenClickON
+Map	White Encoder		Wah Pedal	1			ShiftOFF	WhiteClickON
+Map	Red Encoder		Volume	1				RedClickON
+Map	Blue Encoder		Bass	1			ShiftON	BlueClickON
+Map	Green Encoder		Middle	1			ShiftON	GreenClickON
+Map	White Encoder		Treble	1			ShiftON	WhiteClickON
+Map	Red Encoder		Presence	1			ShiftON	RedClickON
+
+Map	Sound 1 Button		Wah Pedal On
+Map	Sound 2 Button		0
+Map	Sound 3 Button		Select Previous Amp Model
+Map	Sound 4 Button		Select Next Amp Model
+Map	Sound 5 Button		Select Previous Cab Model
+Map	Sound 6 Button		Select Next Cab Model
+Map	Sound 7 Button		0
+Map	Sound 8 Button		Enabled
+
+
+
+Scope	Propellerheads	Line 6 Bass Amp
+Define Group	ShiftState	ShiftOFF	ShiftON
+Define Group	BlueClickState	BlueClickOFF	BlueClickON
+Define Group	GreenClickState	GreenClickOFF	GreenClickON
+Define Group	WhiteClickState	WhiteClickOFF	WhiteClickON
+Define Group	RedClickState	RedClickOFF	RedClickON
+//	Control Surface Item	Key	Remotable Item	Scale	Mode
+Map	Blue Click On		BlueClickState=BlueClickON
+Map	Blue Click Off		BlueClickState=BlueClickOFF
+Map	Green Click On		GreenClickState=GreenClickON
+Map	Green Click Off		GreenClickState=GreenClickOFF
+Map	White Click On		WhiteClickState=WhiteClickON
+Map	White Click Off		WhiteClickState=WhiteClickOFF
+Map	Red Click On		RedClickState=RedClickON
+Map	Red Click Off		RedClickState=RedClickOFF
+Map	Shift On		ShiftState=ShiftON
+Map	Shift Off		ShiftState=ShiftOFF
+
+Map	Blue Encoder		Drive 	3			ShiftOFF
+Map	Green Encoder		Bass	3			ShiftOFF
+Map	White Encoder		Treble	3			ShiftOFF
+Map	Red Encoder		Volume	3
+Map	Blue Encoder		Comp Threshold	3			ShiftON
+Map	Green Encoder		Lo Mid	3			ShiftON
+Map	White Encoder		Hi Mid	3			ShiftON
+Map	Blue Encoder		Drive 	1			ShiftOFF	BlueClickON
+Map	Green Encoder		Bass	1			ShiftOFF	GreenClickON
+Map	White Encoder		Treble	1			ShiftOFF	WhiteClickON
+Map	Red Encoder		Volume	1				RedClickON
+Map	Blue Encoder		Comp Threshold	1			ShiftON	BlueClickON
+Map	Green Encoder		Lo Mid	1			ShiftON	GreenClickON
+Map	White Encoder		Hi Mid	1			ShiftON	WhiteClickON
+
+Map	Sound 1 Button		Compressor On
+Map	Sound 2 Button		0
+Map	Sound 3 Button		Select Previous Amp Model
+Map	Sound 4 Button		Select Next Amp Model
+Map	Sound 5 Button		Select Previous Cab Model
+Map	Sound 6 Button		Select Next Cab Model
+Map	Sound 7 Button		0
+Map	Sound 8 Button		Enabled
+
+
+
+Scope	Propellerheads	Scream 4 Distortion
+Define Group	ControlSet	Main	Body
+Define Group	ShiftState	ShiftOFF	ShiftON
+Define Group	BlueClickState	BlueClickOFF	BlueClickON
+Define Group	GreenClickState	GreenClickOFF	GreenClickON
+Define Group	WhiteClickState	WhiteClickOFF	WhiteClickON
+Define Group	RedClickState	RedClickOFF	RedClickON
+//	Control Surface Item	Key	Remotable Item	Scale	Mode
+Map	Blue Click On		BlueClickState=BlueClickON
+Map	Blue Click Off		BlueClickState=BlueClickOFF
+Map	Green Click On		GreenClickState=GreenClickON
+Map	Green Click Off		GreenClickState=GreenClickOFF
+Map	White Click On		WhiteClickState=WhiteClickON
+Map	White Click Off		WhiteClickState=WhiteClickOFF
+Map	Red Click On		RedClickState=RedClickON
+Map	Red Click Off		RedClickState=RedClickOFF
+Map	Shift On		ShiftState=ShiftON
+Map	Shift Off		ShiftState=ShiftOFF
+
+Map	Mixer Button		ControlSet=Main
+Map	T1 Button		ControlSet=Body
+Map	T2 Button		0
+Map	T3 Button		0
+Map	T4 Button		0
+
+Map	Blue Encoder		Damage Control	3		Main	ShiftOFF
+Map	Green Encoder		Parameter 1	3		Main	ShiftOFF
+Map	White Encoder		Parameter 2	3		Main	ShiftOFF
+Map	Red Encoder		Master Level	3		Main	ShiftOFF
+Map	Blue Encoder		Damage Type			Main	ShiftON
+Map	Green Encoder		Cut Lo	3		Main	ShiftON
+Map	White Encoder		Cut Mid	3		Main	ShiftON
+Map	Red Encoder		Cut Hi	3		Main	ShiftON
+Map	Blue Encoder		Damage Control	1		Main	ShiftOFF	BlueClickON
+Map	Green Encoder		Parameter 1	1		Main	ShiftOFF	GreenClickON
+Map	White Encoder		Parameter 2	1		Main	ShiftOFF	WhiteClickON
+Map	Red Encoder		Master Level	1		Main	ShiftOFF	RedClickON
+Map	Green Encoder		Cut Lo	1		Main	ShiftON	GreenClickON
+Map	White Encoder		Cut Mid	1		Main	ShiftON	WhiteClickON
+Map	Red Encoder		Cut Hi	1		Main	ShiftON	RedClickON
+
+Map	Blue Encoder		Body Resonance	3		Body
+Map	Green Encoder		Body Scale	3		Body
+Map	White Encoder		Body Auto	3		Body
+Map	Red Encoder		Body Type			Body
+Map	Blue Encoder		Body Resonance	1		Body		BlueClickON
+Map	Green Encoder		Body Scale	1		Body		GreenClickON
+Map	White Encoder		Body Auto	1		Body		WhiteClickON
+
+Map	Sound 1 Button		Damage On/Off
+Map	Sound 2 Button		Cut On/Off
+Map	Sound 3 Button		Body On/Off
+Map	Sound 4 Button		0
+Map	Sound 5 Button		0
+Map	Sound 6 Button		0
+Map	Sound 7 Button		0
+Map	Sound 8 Button		Enabled
+
+
+
+Scope	Propellerheads	Pulveriser
+Define Group	ControlSet	Main	Filter	Follower	LFO
+Define Group	ShiftState	ShiftOFF	ShiftON
+Define Group	BlueClickState	BlueClickOFF	BlueClickON
+Define Group	GreenClickState	GreenClickOFF	GreenClickON
+Define Group	WhiteClickState	WhiteClickOFF	WhiteClickON
+Define Group	RedClickState	RedClickOFF	RedClickON
+//	Control Surface Item	Key	Remotable Item	Scale	Mode
+Map	Blue Click On		BlueClickState=BlueClickON
+Map	Blue Click Off		BlueClickState=BlueClickOFF
+Map	Green Click On		GreenClickState=GreenClickON
+Map	Green Click Off		GreenClickState=GreenClickOFF
+Map	White Click On		WhiteClickState=WhiteClickON
+Map	White Click Off		WhiteClickState=WhiteClickOFF
+Map	Red Click On		RedClickState=RedClickON
+Map	Red Click Off		RedClickState=RedClickOFF
+Map	Shift On		ShiftState=ShiftON
+Map	Shift Off		ShiftState=ShiftOFF
+
+Map	Mixer Button		ControlSet=Main
+Map	T1 Button		ControlSet=Filter
+Map	T2 Button		ControlSet=Follower
+Map	T3 Button		ControlSet=LFO
+Map	T4 Button		0
+
+Map	Blue Encoder		Squash	3		Main	ShiftOFF
+Map	Green Encoder		Dirt	3		Main	ShiftOFF
+Map	White Encoder		Filter Frequency	3		Main	ShiftOFF
+Map	Red Encoder		Blend	3		Main	ShiftOFF
+Map	Blue Encoder		Release	3		Main	ShiftON
+Map	Green Encoder		Tone	3		Main	ShiftON
+Map	White Encoder		Peak	3		Main	ShiftON
+Map	Red Encoder		Volume	3		Main	ShiftON
+Map	Blue Encoder		Squash	1		Main	ShiftOFF	BlueClickON
+Map	Green Encoder		Dirt	1		Main	ShiftOFF	GreenClickON
+Map	White Encoder		Filter Frequency	1		Main	ShiftOFF	WhiteClickON
+Map	Red Encoder		Blend	1		Main	ShiftOFF	RedClickON
+Map	Blue Encoder		Release	1		Main	ShiftON	BlueClickON
+Map	Green Encoder		Tone	1		Main	ShiftON	GreenClickON
+Map	White Encoder		Peak	1		Main	ShiftON	WhiteClickON
+Map	Red Encoder		Volume	1		Main	ShiftON	RedClickON
+
+Map	Blue Encoder		Filter Mode			Filter	ShiftOFF
+Map	Green Encoder		Filter Frequency	3		Filter
+Map	White Encoder		Peak	3		Filter
+Map	Red Encoder		Blend	3		Filter	ShiftOFF
+Map	Blue Encoder		Tremor to Frequency	3		Filter	ShiftON
+Map	Red Encoder		Follower to Frequency	3		Filter	ShiftON
+Map	Green Encoder		Filter Frequency	1		Filter		GreenClickON
+Map	White Encoder		Peak	1		Filter		WhiteClickON
+Map	Red Encoder		Blend	1		Filter	ShiftOFF	RedClickON
+Map	Blue Encoder		Tremor to Frequency	1		Filter	ShiftON	BlueClickON
+Map	Red Encoder		Follower to Frequency	1		Filter	ShiftON	RedClickON
+
+Map	Blue Encoder		Follower to Frequency	3		Follower	ShiftOFF
+Map	Green Encoder		Follower Threshold	3		Follower
+Map	White Encoder		Follower Attack	3		Follower
+Map	Red Encoder		Follower Release	3		Follower
+Map	Blue Encoder		Follower to Rate	3		Follower	ShiftON
+Map	Blue Encoder		Follower to Frequency	1		Follower	ShiftOFF	BlueClickON
+Map	Green Encoder		Follower Threshold	1		Follower		GreenClickON
+Map	White Encoder		Follower Attack	1		Follower		WhiteClickON
+Map	Red Encoder		Follower Release	1		Follower		RedClickON
+Map	Blue Encoder		Follower to Rate	1		Follower	ShiftON	BlueClickON
+
+Map	Blue Encoder		Tremor Rate	3		LFO	ShiftOFF
+Map	Green Encoder		Tremor Waveform			LFO
+Map	White Encoder		Tremor Lag	3		LFO
+Map	Red Encoder		Tremor to Volume	3		LFO
+Map	Blue Encoder		Tremor to Frequency	3		LFO	ShiftON
+Map	Blue Encoder		Tremor Rate	1		LFO	ShiftOFF	BlueClickON
+Map	White Encoder		Tremor Lag	1		LFO		WhiteClickON
+Map	Red Encoder		Tremor to Volume	1		LFO		RedClickON
+Map	Blue Encoder		Tremor to Frequency	1		LFO	ShiftON	BlueClickON
+
+Map	Sound 1 Button		Routing
+Map	Sound 2 Button		Filter Mode
+Map	Sound 3 Button		Follower Trig
+Map	Sound 4 Button		Sync
+Map	Sound 5 Button		Tremor Spread
+Map	Sound 6 Button		0
+Map	Sound 7 Button		0
+Map	Sound 8 Button		Enabled
+
+
+
+Scope	Propellerheads	Alligator
+Define Group	ControlSet	Main	Amp	Filter	Delay	LFO	VolPan	FreqRes	Drive	Phaser
+Define Group	ShiftState	ShiftOFF	ShiftON
+Define Group	BlueClickState	BlueClickOFF	BlueClickON
+Define Group	GreenClickState	GreenClickOFF	GreenClickON
+Define Group	WhiteClickState	WhiteClickOFF	WhiteClickON
+Define Group	RedClickState	RedClickOFF	RedClickON
+//	Control Surface Item	Key	Remotable Item	Scale	Mode
+Map	Blue Click On		BlueClickState=BlueClickON
+Map	Blue Click Off		BlueClickState=BlueClickOFF
+Map	Green Click On		GreenClickState=GreenClickON
+Map	Green Click Off		GreenClickState=GreenClickOFF
+Map	White Click On		WhiteClickState=WhiteClickON
+Map	White Click Off		WhiteClickState=WhiteClickOFF
+Map	Red Click On		RedClickState=RedClickON
+Map	Red Click Off		RedClickState=RedClickOFF
+Map	Shift On		ShiftState=ShiftON
+Map	Shift Off		ShiftState=ShiftOFF
+
+Map	Mixer Button		ControlSet=Main
+Map	T1 Button		ControlSet=Amp				ShiftOFF
+Map	T2 Button		ControlSet=Filter				ShiftOFF
+Map	T3 Button		ControlSet=Delay				ShiftOFF
+Map	T4 Button		ControlSet=LFO				ShiftOFF
+Map	T1 Button		ControlSet=VolPan				ShiftON
+Map	T2 Button		ControlSet=FreqRes				ShiftON
+Map	T3 Button		ControlSet=Drive				ShiftON
+Map	T4 Button		ControlSet=Phaser				ShiftON
+
+Map	Play Button		Pattern Enable				ShiftON
+
+Map	Sound 1 Button		Shuffle
+Map	Sound 2 Button		Gate 1 Trig				ShiftOFF
+Map	Sound 3 Button		Gate 2 Trig				ShiftOFF
+Map	Sound 4 Button		Gate 3 Trig				ShiftOFF
+Map	Sound 2 Button		High Pass Filter On				ShiftON
+Map	Sound 3 Button		Band Pass Filter On				ShiftON
+Map	Sound 4 Button		Low Pass Filter On				ShiftON
+Map	Sound 5 Button		LFOSync
+Map	Sound 6 Button		DelaySync
+Map	Sound 7 Button		Pattern Enable				ShiftOFF
+Map	Sound 8 Button		Enabled
+
+Map	Blue Encoder		Pattern			Main	ShiftOFF
+Map	Green Encoder		Resolution			Main	ShiftOFF
+Map	White Encoder		Shift
+Map	Red Encoder		Master Volume	3
+Map	Red Encoder		Master Volume	1				RedClickON
+Map	Blue Encoder		Ducking	3		Main	ShiftON
+Map	Green Encoder		Dry Pan	3		Main	ShiftON
+Map	White Encoder		Dry Volume	3		Main	ShiftON
+Map	Blue Encoder		Ducking	1		Main	ShiftON	BlueClickON
+Map	Green Encoder		Dry Pan	1		Main	ShiftON	GreenClickON
+Map	White Encoder		Dry Volume	1		Main	ShiftON	WhiteClickON
+
+Map	Blue Encoder		Amp Env Attack	3		Amp	ShiftOFF
+Map	Green Encoder		Amp Env Decay	3		Amp	ShiftOFF
+Map	White Encoder		Amp Env Release	3		Amp	ShiftOFF
+Map	Blue Encoder		High Pass Volume	3		Amp	ShiftON
+Map	Green Encoder		Band Pass Volume	3		Amp	ShiftON
+Map	White Encoder		Low Pass Volume	3		Amp	ShiftON
+Map	Red Encoder		Dry Volume	3		Amp	ShiftON
+Map	Blue Encoder		Amp Env Attack	1		Amp	ShiftOFF	BlueClickON
+Map	Green Encoder		Amp Env Decay	1		Amp	ShiftOFF	GreenClickON
+Map	White Encoder		Amp Env Release	1		Amp	ShiftOFF	WhiteClickON
+Map	Blue Encoder		High Pass Volume	1		Amp	ShiftON	BlueClickON
+Map	Green Encoder		Band Pass Volume	1		Amp	ShiftON	GreenClickON
+Map	White Encoder		Low Pass Volume	1		Amp	ShiftON	WhiteClickON
+Map	Red Encoder		Dry Volume	1		Amp	ShiftON	RedClickON
+
+Map	Blue Encoder		Filter Env Attack	3		Filter	ShiftOFF
+Map	Green Encoder		Filter Env Decay	3		Filter	ShiftOFF
+Map	White Encoder		Filter Env Release	3		Filter	ShiftOFF
+Map	Blue Encoder		High Pass Frequency	3		Filter	ShiftON
+Map	Green Encoder		Band Pass Frequency	3		Filter	ShiftON
+Map	White Encoder		Low Pass Frequency	3		Filter	ShiftON
+Map	Blue Encoder		Filter Env Attack	1		Filter	ShiftOFF	BlueClickON
+Map	Green Encoder		Filter Env Decay	1		Filter	ShiftOFF	GreenClickON
+Map	White Encoder		Filter Env Release	1		Filter	ShiftOFF	WhiteClickON
+Map	Blue Encoder		High Pass Frequency	1		Filter	ShiftON	BlueClickON
+Map	Green Encoder		Band Pass Frequency	1		Filter	ShiftON	GreenClickON
+Map	White Encoder		Low Pass Frequency	1		Filter	ShiftON	WhiteClickON
+
+Map	Blue Encoder		Delay Time	3		Delay	ShiftOFF
+Map	Green Encoder		Delay Feedback	3		Delay	ShiftOFF
+Map	White Encoder		Delay Pan	3		Delay	ShiftOFF
+Map	Blue Encoder		High Pass Delay Amount	3		Delay	ShiftON
+Map	Green Encoder		Band Pass Delay Amount	3		Delay	ShiftON
+Map	White Encoder		Low Pass Delay Amount	3		Delay	ShiftON
+Map	Blue Encoder		Delay Time	1		Delay	ShiftOFF	BlueClickON
+Map	Green Encoder		Delay Feedback	1		Delay	ShiftOFF	GreenClickON
+Map	White Encoder		Delay Pan	1		Delay	ShiftOFF	WhiteClickON
+Map	Blue Encoder		High Pass Delay Amount	1		Delay	ShiftON	BlueClickON
+Map	Green Encoder		Band Pass Delay Amount	1		Delay	ShiftON	GreenClickON
+Map	White Encoder		Low Pass Delay Amount	1		Delay	ShiftON	WhiteClickON
+
+Map	Blue Encoder		LFO Waveform			LFO	ShiftOFF
+Map	Green Encoder		LFO Freq	3		LFO	ShiftOFF
+Map	White Encoder		Phaser Rate	3		LFO	ShiftOFF
+Map	Red Encoder		Phaser Feedback	3		LFO	ShiftOFF
+Map	Blue Encoder		High Pass LFO Amount	3		LFO	ShiftON
+Map	Green Encoder		Band Pass LFO Amount	3		LFO	ShiftON
+Map	White Encoder		Low Pass LFO Amount	3		LFO	ShiftON
+Map	Red Encoder		Ducking	3		LFO	ShiftON
+Map	Green Encoder		LFO Freq	1		LFO	ShiftOFF	GreenClickON
+Map	White Encoder		Phaser Rate	1		LFO	ShiftOFF	WhiteClickON
+Map	Red Encoder		Phaser Feedback	1		LFO	ShiftOFF	RedClickON
+Map	Blue Encoder		High Pass LFO Amount	1		LFO	ShiftON	BlueClickON
+Map	Green Encoder		Band Pass LFO Amount	1		LFO	ShiftON	GreenClickON
+Map	White Encoder		Low Pass LFO Amount	1		LFO	ShiftON	WhiteClickON
+Map	Red Encoder		Ducking	1		LFO	ShiftON	RedClickON
+
+Map	Blue Encoder		High Pass Volume	3		VolPan	ShiftOFF
+Map	Green Encoder		Band Pass Volume	3		VolPan	ShiftOFF
+Map	White Encoder		Low Pass Volume	3		VolPan	ShiftOFF
+Map	Red Encoder		Dry Volume	3		VolPan	ShiftOFF
+Map	Blue Encoder		High Pass Pan	3		VolPan	ShiftON
+Map	Green Encoder		Band Pass Pan	3		VolPan	ShiftON
+Map	White Encoder		Low Pass Pan	3		VolPan	ShiftON
+Map	Red Encoder		Dry Pan	3		VolPan	ShiftON
+Map	Blue Encoder		High Pass Volume	1		VolPan	ShiftOFF	BlueClickON
+Map	Green Encoder		Band Pass Volume	1		VolPan	ShiftOFF	GreenClickON
+Map	White Encoder		Low Pass Volume	1		VolPan	ShiftOFF	WhiteClickON
+Map	Red Encoder		Dry Volume	1		VolPan	ShiftOFF	RedClickON
+Map	Blue Encoder		High Pass Pan	1		VolPan	ShiftON	BlueClickON
+Map	Green Encoder		Band Pass Pan	1		VolPan	ShiftON	GreenClickON
+Map	White Encoder		Low Pass Pan	1		VolPan	ShiftON	WhiteClickON
+Map	Red Encoder		Dry Pan	1		VolPan	ShiftON	RedClickON
+
+Map	Blue Encoder		High Pass Frequency	3		FreqRes	ShiftOFF
+Map	Green Encoder		Band Pass Frequency	3		FreqRes	ShiftOFF
+Map	White Encoder		Low Pass Frequency	3		FreqRes	ShiftOFF
+Map	Blue Encoder		High Pass Resonance	3		FreqRes	ShiftON
+Map	Green Encoder		Band Pass Resonance	3		FreqRes	ShiftON
+Map	White Encoder		Low Pass Resonance	3		FreqRes	ShiftON
+Map	Blue Encoder		High Pass Frequency	1		FreqRes	ShiftOFF	BlueClickON
+Map	Green Encoder		Band Pass Frequency	1		FreqRes	ShiftOFF	GreenClickON
+Map	White Encoder		Low Pass Frequency	1		FreqRes	ShiftOFF	WhiteClickON
+Map	Blue Encoder		High Pass Resonance	1		FreqRes	ShiftON	BlueClickON
+Map	Green Encoder		Band Pass Resonance	1		FreqRes	ShiftON	GreenClickON
+Map	White Encoder		Low Pass Resonance	1		FreqRes	ShiftON	WhiteClickON
+
+Map	Blue Encoder		High Pass Drive Amount	3		Drive
+Map	Green Encoder		Band Pass Drive Amount	3		Drive
+Map	White Encoder		Low Pass Drive Amount	3		Drive
+Map	Red Encoder		Ducking	3		Drive
+Map	Blue Encoder		High Pass Drive Amount	1		Drive		BlueClickON
+Map	Green Encoder		Band Pass Drive Amount	1		Drive		GreenClickON
+Map	White Encoder		Low Pass Drive Amount	1		Drive		WhiteClickON
+Map	Red Encoder		Ducking	1		Drive		RedClickON
+
+Map	Blue Encoder		High Pass Phaser Amount	3		Phaser
+Map	Green Encoder		Band Pass Phaser Amount	3		Phaser
+Map	White Encoder		Low Pass Phaser Amount	3		Phaser
+Map	Red Encoder		Phaser Rate	3		Phaser	ShiftOFF
+Map	Red Encoder		Phaser Feedback	3		Phaser	ShiftON
+Map	Blue Encoder		High Pass Phaser Amount	1		Phaser		BlueClickON
+Map	Green Encoder		Band Pass Phaser Amount	1		Phaser		GreenClickON
+Map	White Encoder		Low Pass Phaser Amount	1		Phaser		WhiteClickON
+Map	Red Encoder		Phaser Rate	1		Phaser	ShiftOFF	RedClickON
+Map	Red Encoder		Phaser Feedback	1		Phaser	ShiftON	RedClickON
+
+
+
+Scope	Propellerheads	RV7000 Advanced Reverb
+Define Group	ControlSet	Main	SoftKnobs
+Define Group	ShiftState	ShiftOFF	ShiftON
+Define Group	BlueClickState	BlueClickOFF	BlueClickON
+Define Group	GreenClickState	GreenClickOFF	GreenClickON
+Define Group	WhiteClickState	WhiteClickOFF	WhiteClickON
+Define Group	RedClickState	RedClickOFF	RedClickON
+//	Control Surface Item	Key	Remotable Item	Scale	Mode
+Map	Blue Click On		BlueClickState=BlueClickON
+Map	Blue Click Off		BlueClickState=BlueClickOFF
+Map	Green Click On		GreenClickState=GreenClickON
+Map	Green Click Off		GreenClickState=GreenClickOFF
+Map	White Click On		WhiteClickState=WhiteClickON
+Map	White Click Off		WhiteClickState=WhiteClickOFF
+Map	Red Click On		RedClickState=RedClickON
+Map	Red Click Off		RedClickState=RedClickOFF
+Map	Shift On		ShiftState=ShiftON
+Map	Shift Off		ShiftState=ShiftOFF
+
+Map	Mixer Button		ControlSet=Main
+Map	T1 Button		ControlSet=SoftKnobs
+Map	T2 Button		0
+Map	T3 Button		0
+Map	T4 Button		0
+
+Map	Blue Encoder		Decay	3		Main
+Map	Green Encoder		HF Damp	3		Main
+Map	White Encoder		Hi EQ	3		Main
+Map	Red Encoder		Dry/Wet	3		Main
+Map	Blue Encoder		Decay	1		Main		BlueClickON
+Map	Green Encoder		HF Damp	1		Main		GreenClickON
+Map	White Encoder		Hi EQ	1		Main		WhiteClickON
+Map	Red Encoder		Dry/Wet	1		Main		RedClickON
+Map	Blue Encoder		Soft Knob 1			SoftKnobs	ShiftOFF
+Map	Green Encoder		Soft Knob 2	3		SoftKnobs	ShiftOFF
+Map	White Encoder		Soft Knob 3	3		SoftKnobs	ShiftOFF
+Map	Red Encoder		Soft Knob 4	3		SoftKnobs	ShiftOFF
+Map	Blue Encoder		Soft Knob 5	3		SoftKnobs	ShiftON
+Map	Green Encoder		Soft Knob 6	3		SoftKnobs	ShiftON
+Map	White Encoder		Soft Knob 7	3		SoftKnobs	ShiftON
+Map	Red Encoder		Soft Knob 8	3		SoftKnobs	ShiftON
+Map	Green Encoder		Soft Knob 2	1		SoftKnobs	ShiftOFF	GreenClickON
+Map	White Encoder		Soft Knob 3	1		SoftKnobs	ShiftOFF	WhiteClickON
+Map	Red Encoder		Soft Knob 4	1		SoftKnobs	ShiftOFF	RedClickON
+Map	Blue Encoder		Soft Knob 5	1		SoftKnobs	ShiftON	BlueClickON
+Map	Green Encoder		Soft Knob 6	1		SoftKnobs	ShiftON	GreenClickON
+Map	White Encoder		Soft Knob 7	1		SoftKnobs	ShiftON	WhiteClickON
+Map	Red Encoder		Soft Knob 8	1		SoftKnobs	ShiftON	RedClickON
+
+Map	Sound 1 Button		EQ On/Off
+Map	Sound 2 Button		Gate On/Off
+Map	Sound 3 Button		Edit Mode
+Map	Sound 4 Button		0
+Map	Sound 5 Button		0
+Map	Sound 6 Button		0
+Map	Sound 7 Button		0
+Map	Sound 8 Button		Enabled
+
+
+
+Scope	Propellerheads	The Echo
+Define Group	ControlSet	Main	Diffusion	Filter & LFO
+Define Group	ShiftState	ShiftOFF	ShiftON
+Define Group	BlueClickState	BlueClickOFF	BlueClickON
+Define Group	GreenClickState	GreenClickOFF	GreenClickON
+Define Group	WhiteClickState	WhiteClickOFF	WhiteClickON
+Define Group	RedClickState	RedClickOFF	RedClickON
+//	Control Surface Item	Key	Remotable Item	Scale	Mode
+Map	Blue Click On		BlueClickState=BlueClickON
+Map	Blue Click Off		BlueClickState=BlueClickOFF
+Map	Green Click On		GreenClickState=GreenClickON
+Map	Green Click Off		GreenClickState=GreenClickOFF
+Map	White Click On		WhiteClickState=WhiteClickON
+Map	White Click Off		WhiteClickState=WhiteClickOFF
+Map	Red Click On		RedClickState=RedClickON
+Map	Red Click Off		RedClickState=RedClickOFF
+Map	Shift On		ShiftState=ShiftON
+Map	Shift Off		ShiftState=ShiftOFF
+
+Map	Mixer Button		ControlSet=Main
+Map	T1 Button		ControlSet=Diffusion
+Map	T2 Button		ControlSet=Filter & LFO
+Map	T3 Button		0
+Map	T4 Button		0
+
+Map	Blue Encoder		Roll Enabled	3		Main	ShiftOFF
+Map	Green Encoder		Delay Time	3		Main	ShiftOFF
+Map	White Encoder		Feedback	3			ShiftOFF
+Map	Red Encoder		Dry/Wet Balance	3			ShiftOFF
+Map	Blue Encoder		Ping-Pong Pan	3		Main	ShiftON
+Map	Green Encoder		Right Ch Time Offset	3		Main	ShiftON
+Map	White Encoder		Right Ch Feedback Offset	3			ShiftON
+Map	Red Encoder		Ducking	3			ShiftON
+Map	Blue Encoder		Roll Enabled	1		Main	ShiftOFF	BlueClickON
+Map	Green Encoder		Delay Time	1		Main	ShiftOFF	GreenClickON
+Map	White Encoder		Feedback	1			ShiftOFF	WhiteClickON
+Map	Red Encoder		Dry/Wet Balance	1			ShiftOFF	RedClickON
+Map	Blue Encoder		Ping-Pong Pan	1		Main	ShiftON	BlueClickON
+Map	Green Encoder		Right Ch Time Offset	1		Main	ShiftON	GreenClickON
+Map	White Encoder		Right Ch Feedback Offset	1			ShiftON	WhiteClickON
+Map	Red Encoder		Ducking	1			ShiftON	RedClickON
+
+Map	Blue Encoder		Diffuse Spread	3		Diffusion
+Map	Green Encoder		Diffuse Amount	3		Diffusion
+Map	Blue Encoder		Diffuse Spread	1		Diffusion		BlueClickON
+Map	Green Encoder		Diffuse Amount	1		Diffusion		GreenClickON
+
+Map	Blue Encoder		Filter Frequency	3		Filter & LFO	ShiftOFF
+Map	Green Encoder		Filter Resonance	3		Filter & LFO	ShiftOFF
+Map	White Encoder		LFO Rate	3		Filter & LFO	ShiftOFF
+Map	Red Encoder		LFO Amount	3		Filter & LFO	ShiftOFF
+Map	Blue Encoder		Drive Amount	3		Filter & LFO	ShiftON
+Map	Green Encoder		Drive Type			Filter & LFO	ShiftON
+Map	White Encoder		Envelope	3		Filter & LFO	ShiftON
+Map	Red Encoder		Wobble	3		Filter & LFO	ShiftON
+Map	Blue Encoder		Filter Frequency	1		Filter & LFO	ShiftOFF	BlueClickON
+Map	Green Encoder		Filter Resonance	1		Filter & LFO	ShiftOFF	GreenClickON
+Map	White Encoder		LFO Rate	1		Filter & LFO	ShiftOFF	WhiteClickON
+Map	Red Encoder		LFO Amount	1		Filter & LFO	ShiftOFF	RedClickON
+Map	Blue Encoder		Drive Amount	1		Filter & LFO	ShiftON	BlueClickON
+Map	White Encoder		Envelope	1		Filter & LFO	ShiftON	WhiteClickON
+Map	Red Encoder		Wobble	1		Filter & LFO	ShiftON	RedClickON
+
+Map	Sound 1 Button		Input Mode
+Map	Sound 2 Button		Trig
+Map	Sound 3 Button		Keep Pitch
+Map	Sound 4 Button		Sync
+Map	Sound 5 Button		Ping-Pong Mode
+Map	Sound 6 Button		Diffuse On
+Map	Sound 7 Button		Filter On
+Map	Sound 8 Button		Enabled
+
+
+
+Scope	Propellerheads	BV512 Digital Vocoder
+Define Group	ControlSet	Main	Band 1-8	Band 9-16	Band 17-24	Band 25-32
+Define Group	ShiftState	ShiftOFF	ShiftON
+Define Group	BlueClickState	BlueClickOFF	BlueClickON
+Define Group	GreenClickState	GreenClickOFF	GreenClickON
+Define Group	WhiteClickState	WhiteClickOFF	WhiteClickON
+Define Group	RedClickState	RedClickOFF	RedClickON
+//	Control Surface Item	Key	Remotable Item	Scale	Mode
+Map	Blue Click On		BlueClickState=BlueClickON
+Map	Blue Click Off		BlueClickState=BlueClickOFF
+Map	Green Click On		GreenClickState=GreenClickON
+Map	Green Click Off		GreenClickState=GreenClickOFF
+Map	White Click On		WhiteClickState=WhiteClickON
+Map	White Click Off		WhiteClickState=WhiteClickOFF
+Map	Red Click On		RedClickState=RedClickON
+Map	Red Click Off		RedClickState=RedClickOFF
+Map	Shift On		ShiftState=ShiftON
+Map	Shift Off		ShiftState=ShiftOFF
+
+Map	Mixer Button		ControlSet=Main
+Map	T1 Button		ControlSet=Band 1-8
+Map	T2 Button		ControlSet=Band 9-16
+Map	T3 Button		ControlSet=Band 17-24
+Map	T4 Button		ControlSet=Band 25-32
+
+Map	Blue Encoder		Band Count			Main
+Map	Green Encoder		Shift	3		Main	ShiftOFF
+Map	White Encoder		HF Emphasis	3		Main	ShiftOFF
+Map	Red Encoder		Dry/Wet	3		Main
+Map	Green Encoder		Shift	1		Main	ShiftOFF	GreenClickON
+Map	White Encoder		HF Emphasis	1		Main	ShiftOFF	WhiteClickON
+Map	Red Encoder		Dry/Wet	1		Main		RedClickON
+
+Map	Green Encoder		Attack	3		Main	ShiftON
+Map	White Encoder		Decay	3		Main	ShiftON
+Map	Green Encoder		Attack	1		Main	ShiftON	GreenClickON
+Map	White Encoder		Decay	1		Main	ShiftON	WhiteClickON
+
+Map	Sound 1 Button		Band Count
+Map	Sound 2 Button		Vocoder/Equalizer
+Map	Sound 3 Button		Hold
+Map	Sound 4 Button		0
+Map	Sound 5 Button		0
+Map	Sound 6 Button		0
+Map	Sound 7 Button		0
+Map	Sound 8 Button		Enabled
+
+Map	Blue Encoder		Band Level 1	3		Band 1-8	ShiftOFF
+Map	Green Encoder		Band Level 2	3		Band 1-8	ShiftOFF
+Map	White Encoder		Band Level 3	3		Band 1-8	ShiftOFF
+Map	Red Encoder		Band Level 4	3		Band 1-8	ShiftOFF
+Map	Blue Encoder		Band Level 5	3		Band 1-8	ShiftON
+Map	Green Encoder		Band Level 6	3		Band 1-8	ShiftON
+Map	White Encoder		Band Level 7	3		Band 1-8	ShiftON
+Map	Red Encoder		Band Level 8	3		Band 1-8	ShiftON
+Map	Blue Encoder		Band Level 1	1		Band 1-8	ShiftOFF	BlueClickON
+Map	Green Encoder		Band Level 2	1		Band 1-8	ShiftOFF	GreenClickON
+Map	White Encoder		Band Level 3	1		Band 1-8	ShiftOFF	WhiteClickON
+Map	Red Encoder		Band Level 4	1		Band 1-8	ShiftOFF	RedClickON
+Map	Blue Encoder		Band Level 5	1		Band 1-8	ShiftON	BlueClickON
+Map	Green Encoder		Band Level 6	1		Band 1-8	ShiftON	GreenClickON
+Map	White Encoder		Band Level 7	1		Band 1-8	ShiftON	WhiteClickON
+Map	Red Encoder		Band Level 8	1		Band 1-8	ShiftON	RedClickON
+
+Map	Blue Encoder		Band Level 9	3		Band 9-16	ShiftOFF
+Map	Green Encoder		Band Level 10	3		Band 9-16	ShiftOFF
+Map	White Encoder		Band Level 11	3		Band 9-16	ShiftOFF
+Map	Red Encoder		Band Level 12	3		Band 9-16	ShiftOFF
+Map	Blue Encoder		Band Level 13	3		Band 9-16	ShiftON
+Map	Green Encoder		Band Level 14	3		Band 9-16	ShiftON
+Map	White Encoder		Band Level 15	3		Band 9-16	ShiftON
+Map	Red Encoder		Band Level 16	3		Band 9-16	ShiftON
+Map	Blue Encoder		Band Level 9	1		Band 9-16	ShiftOFF	BlueClickON
+Map	Green Encoder		Band Level 10	1		Band 9-16	ShiftOFF	GreenClickON
+Map	White Encoder		Band Level 11	1		Band 9-16	ShiftOFF	WhiteClickON
+Map	Red Encoder		Band Level 12	1		Band 9-16	ShiftOFF	RedClickON
+Map	Blue Encoder		Band Level 13	1		Band 9-16	ShiftON	BlueClickON
+Map	Green Encoder		Band Level 14	1		Band 9-16	ShiftON	GreenClickON
+Map	White Encoder		Band Level 15	1		Band 9-16	ShiftON	WhiteClickON
+Map	Red Encoder		Band Level 16	1		Band 9-16	ShiftON	RedClickON
+
+Map	Blue Encoder		Band Level 17	3		Band 17-24	ShiftOFF
+Map	Green Encoder		Band Level 18	3		Band 17-24	ShiftOFF
+Map	White Encoder		Band Level 19	3		Band 17-24	ShiftOFF
+Map	Red Encoder		Band Level 20	3		Band 17-24	ShiftOFF
+Map	Blue Encoder		Band Level 21	3		Band 17-24	ShiftON
+Map	Green Encoder		Band Level 22	3		Band 17-24	ShiftON
+Map	White Encoder		Band Level 23	3		Band 17-24	ShiftON
+Map	Red Encoder		Band Level 24	3		Band 17-24	ShiftON
+Map	Blue Encoder		Band Level 17	1		Band 17-24	ShiftOFF	BlueClickON
+Map	Green Encoder		Band Level 18	1		Band 17-24	ShiftOFF	GreenClickON
+Map	White Encoder		Band Level 19	1		Band 17-24	ShiftOFF	WhiteClickON
+Map	Red Encoder		Band Level 20	1		Band 17-24	ShiftOFF	RedClickON
+Map	Blue Encoder		Band Level 21	1		Band 17-24	ShiftON	BlueClickON
+Map	Green Encoder		Band Level 22	1		Band 17-24	ShiftON	GreenClickON
+Map	White Encoder		Band Level 23	1		Band 17-24	ShiftON	WhiteClickON
+Map	Red Encoder		Band Level 24	1		Band 17-24	ShiftON	RedClickON
+
+Map	Blue Encoder		Band Level 25	3		Band 25-32	ShiftOFF
+Map	Green Encoder		Band Level 26	3		Band 25-32	ShiftOFF
+Map	White Encoder		Band Level 27	3		Band 25-32	ShiftOFF
+Map	Red Encoder		Band Level 28	3		Band 25-32	ShiftOFF
+Map	Blue Encoder		Band Level 29	3		Band 25-32	ShiftON
+Map	Green Encoder		Band Level 30	3		Band 25-32	ShiftON
+Map	White Encoder		Band Level 31	3		Band 25-32	ShiftON
+Map	Red Encoder		Band Level 32	3		Band 25-32	ShiftON
+Map	Blue Encoder		Band Level 25	1		Band 25-32	ShiftOFF	BlueClickON
+Map	Green Encoder		Band Level 26	1		Band 25-32	ShiftOFF	GreenClickON
+Map	White Encoder		Band Level 27	1		Band 25-32	ShiftOFF	WhiteClickON
+Map	Red Encoder		Band Level 28	1		Band 25-32	ShiftOFF	RedClickON
+Map	Blue Encoder		Band Level 29	1		Band 25-32	ShiftON	BlueClickON
+Map	Green Encoder		Band Level 30	1		Band 25-32	ShiftON	GreenClickON
+Map	White Encoder		Band Level 31	1		Band 25-32	ShiftON	WhiteClickON
+Map	Red Encoder		Band Level 32	1		Band 25-32	ShiftON	RedClickON
+
+
+
+Scope	Propellerheads	Neptune Pitch Adjuster
+Define Group	ShiftState	ShiftOFF	ShiftON
+Define Group	BlueClickState	BlueClickOFF	BlueClickON
+Define Group	GreenClickState	GreenClickOFF	GreenClickON
+Define Group	WhiteClickState	WhiteClickOFF	WhiteClickON
+Define Group	RedClickState	RedClickOFF	RedClickON
+//	Control Surface Item	Key	Remotable Item	Scale	Mode
+Map	Blue Click On		BlueClickState=BlueClickON
+Map	Blue Click Off		BlueClickState=BlueClickOFF
+Map	Green Click On		GreenClickState=GreenClickON
+Map	Green Click Off		GreenClickState=GreenClickOFF
+Map	White Click On		WhiteClickState=WhiteClickON
+Map	White Click Off		WhiteClickState=WhiteClickOFF
+Map	Red Click On		RedClickState=RedClickON
+Map	Red Click Off		RedClickState=RedClickOFF
+Map	Shift On		ShiftState=ShiftON
+Map	Shift Off		ShiftState=ShiftOFF
+
+Map	Blue Encoder		Mod Wheel	3			ShiftOFF
+Map	Green Encoder		Semitones				ShiftOFF
+Map	White Encoder		Formant Shift	3			ShiftOFF
+Map	Red Encoder		Voice Synth Level	3			ShiftOFF
+Map	Blue Encoder		Mod Wheel	1			ShiftOFF	BlueClickON
+Map	White Encoder		Formant Shift	1			ShiftOFF	WhiteClickON
+Map	Red Encoder		Voice Synth Level	1			ShiftOFF	RedClickON
+
+Map	Blue Encoder		Vibrato Rate	3			ShiftON
+Map	Green Encoder		Correction Speed	3			ShiftON
+Map	White Encoder		Preserve Expression	3			ShiftON
+Map	Red Encoder		Pitched Signal Level	3			ShiftON
+Map	Blue Encoder		Vibrato Rate	1			ShiftON	BlueClickON
+Map	Green Encoder		Correction Speed	1			ShiftON	GreenClickON
+Map	White Encoder		Preserve Expression	1			ShiftON	WhiteClickON
+Map	Red Encoder		Pitched Signal Level	1			ShiftON	RedClickON
+
+Map	Sound 1 Button		Scale Memory				ShiftON
+Map	Sound 1 Button		MIDI Destination				ShiftOFF
+Map	Sound 2 Button		Low Freq Input
+Map	Sound 3 Button		Wide Vibrato
+Map	Sound 4 Button		Live Mode
+Map	Sound 5 Button		Pitch Adjust On/Off
+Map	Sound 6 Button		Transpose On/Off
+Map	Sound 7 Button		Formant On/Off
+Map	Sound 8 Button		Enabled
+
+
+
+Scope	Propellerheads	RV-7 Digital Reverb
+Define Group	BlueClickState	BlueClickOFF	BlueClickON
+Define Group	GreenClickState	GreenClickOFF	GreenClickON
+Define Group	WhiteClickState	WhiteClickOFF	WhiteClickON
+Define Group	RedClickState	RedClickOFF	RedClickON
+//	Control Surface Item	Key	Remotable Item	Scale	Mode
+Map	Blue Click On		BlueClickState=BlueClickON
+Map	Blue Click Off		BlueClickState=BlueClickOFF
+Map	Green Click On		GreenClickState=GreenClickON
+Map	Green Click Off		GreenClickState=GreenClickOFF
+Map	White Click On		WhiteClickState=WhiteClickON
+Map	White Click Off		WhiteClickState=WhiteClickOFF
+Map	Red Click On		RedClickState=RedClickON
+Map	Red Click Off		RedClickState=RedClickOFF
+
+Map	Blue Encoder		Size	3
+Map	Green Encoder		Decay	3
+Map	White Encoder		Damping	3
+Map	Red Encoder		Dry/Wet	3
+Map	Blue Encoder		Size	1				BlueClickON
+Map	Green Encoder		Decay	1				GreenClickON
+Map	White Encoder		Damping	1				WhiteClickON
+Map	Red Encoder		Dry/Wet	1				RedClickON
+
+Map	Sound 1 Button		Algorithm
+Map	Sound 2 Button		0
+Map	Sound 3 Button		0
+Map	Sound 4 Button		0
+Map	Sound 5 Button		0
+Map	Sound 6 Button		0
+Map	Sound 7 Button		0
+Map	Sound 8 Button		Enabled
+
+
+
+Scope	Propellerheads	DDL-1 Digital Delay Line
+Define Group	ShiftState	ShiftOFF	ShiftON
+Define Group	BlueClickState	BlueClickOFF	BlueClickON
+Define Group	GreenClickState	GreenClickOFF	GreenClickON
+Define Group	WhiteClickState	WhiteClickOFF	WhiteClickON
+Define Group	RedClickState	RedClickOFF	RedClickON
+//	Control Surface Item	Key	Remotable Item	Scale	Mode
+Map	Blue Click On		BlueClickState=BlueClickON
+Map	Blue Click Off		BlueClickState=BlueClickOFF
+Map	Green Click On		GreenClickState=GreenClickON
+Map	Green Click Off		GreenClickState=GreenClickOFF
+Map	White Click On		WhiteClickState=WhiteClickON
+Map	White Click Off		WhiteClickState=WhiteClickOFF
+Map	Red Click On		RedClickState=RedClickON
+Map	Red Click Off		RedClickState=RedClickOFF
+Map	Shift On		ShiftState=ShiftON
+Map	Shift Off		ShiftState=ShiftOFF
+
+Map	Blue Encoder		DelayTime (steps)				ShiftOFF
+Map	Green Encoder		Feedback	3			ShiftOFF
+Map	White Encoder		Pan	3
+Map	Red Encoder		Dry/Wet Balance	3
+Map	Green Encoder		Feedback	1			ShiftOFF	GreenClickON
+Map	White Encoder		Pan	1				WhiteClickON
+Map	Red Encoder		Dry/Wet Balance	1				RedClickON
+
+Map	Blue Encoder		DelayTime (ms)	2			ShiftON
+Map	Blue Encoder		DelayTime (ms)	1			ShiftON	BlueClickON
+
+Map	Sound 1 Button		Unit
+Map	Sound 2 Button		Step Length
+Map	Sound 3 Button		0
+Map	Sound 4 Button		0
+Map	Sound 5 Button		0
+Map	Sound 6 Button		0
+Map	Sound 7 Button		0
+Map	Sound 8 Button		Enabled
+
+
+
+Scope	Propellerheads	D-11 Foldback Distortion
+Define Group	BlueClickState	BlueClickOFF	BlueClickON
+Define Group	GreenClickState	GreenClickOFF	GreenClickON
+Define Group	WhiteClickState	WhiteClickOFF	WhiteClickON
+Define Group	RedClickState	RedClickOFF	RedClickON
+//	Control Surface Item	Key	Remotable Item	Scale	Mode
+Map	Blue Click On		BlueClickState=BlueClickON
+Map	Blue Click Off		BlueClickState=BlueClickOFF
+Map	Green Click On		GreenClickState=GreenClickON
+Map	Green Click Off		GreenClickState=GreenClickOFF
+Map	White Click On		WhiteClickState=WhiteClickON
+Map	White Click Off		WhiteClickState=WhiteClickOFF
+Map	Red Click On		RedClickState=RedClickON
+Map	Red Click Off		RedClickState=RedClickOFF
+
+Map	Blue Encoder		Amount	3
+Map	Green Encoder		Foldback	3
+Map	White Encoder		0
+Map	Red Encoder		0
+Map	Blue Encoder		Amount	1				BlueClickON
+Map	Green Encoder		Foldback	1				GreenClickON
+
+Map	Sound 1 Button		0
+Map	Sound 2 Button		0
+Map	Sound 3 Button		0
+Map	Sound 4 Button		0
+Map	Sound 5 Button		0
+Map	Sound 6 Button		0
+Map	Sound 7 Button		0
+Map	Sound 8 Button		Enabled
+
+
+
+Scope	Propellerheads	ECF-42 Envelope Controlled Filter
+Define Group	ShiftState	ShiftOFF	ShiftON
+Define Group	BlueClickState	BlueClickOFF	BlueClickON
+Define Group	GreenClickState	GreenClickOFF	GreenClickON
+Define Group	WhiteClickState	WhiteClickOFF	WhiteClickON
+Define Group	RedClickState	RedClickOFF	RedClickON
+//	Control Surface Item	Key	Remotable Item	Scale	Mode
+Map	Blue Click On		BlueClickState=BlueClickON
+Map	Blue Click Off		BlueClickState=BlueClickOFF
+Map	Green Click On		GreenClickState=GreenClickON
+Map	Green Click Off		GreenClickState=GreenClickOFF
+Map	White Click On		WhiteClickState=WhiteClickON
+Map	White Click Off		WhiteClickState=WhiteClickOFF
+Map	Red Click On		RedClickState=RedClickON
+Map	Red Click Off		RedClickState=RedClickOFF
+Map	Shift On		ShiftState=ShiftON
+Map	Shift Off		ShiftState=ShiftOFF
+
+Map	Blue Encoder		Frequency	3			ShiftOFF
+Map	Green Encoder		Resonance	3			ShiftOFF
+Map	White Encoder		Env Amount	3			ShiftOFF
+Map	Red Encoder		Velocity	3			ShiftOFF
+Map	Blue Encoder		Attack	3			ShiftON
+Map	Green Encoder		Decay	3			ShiftON
+Map	White Encoder		Sustain	3			ShiftON
+Map	Red Encoder		Release	3			ShiftON
+Map	Blue Encoder		Frequency	1			ShiftOFF	BlueClickON
+Map	Green Encoder		Resonance	1			ShiftOFF	GreenClickON
+Map	White Encoder		Env Amount	1			ShiftOFF	WhiteClickON
+Map	Red Encoder		Velocity	1			ShiftOFF	RedClickON
+Map	Blue Encoder		Attack	1			ShiftON	BlueClickON
+Map	Green Encoder		Decay	1			ShiftON	GreenClickON
+Map	White Encoder		Sustain	1			ShiftON	WhiteClickON
+Map	Red Encoder		Release	1			ShiftON	RedClickON
+
+Map	Sound 1 Button		Mode
+Map	Sound 2 Button		0
+Map	Sound 3 Button		0
+Map	Sound 4 Button		0
+Map	Sound 5 Button		0
+Map	Sound 6 Button		0
+Map	Sound 7 Button		0
+Map	Sound 8 Button		Enabled
+
+
+
+Scope	Propellerheads	CF-101 Chorus/Flanger
+Define Group	BlueClickState	BlueClickOFF	BlueClickON
+Define Group	GreenClickState	GreenClickOFF	GreenClickON
+Define Group	WhiteClickState	WhiteClickOFF	WhiteClickON
+Define Group	RedClickState	RedClickOFF	RedClickON
+//	Control Surface Item	Key	Remotable Item	Scale	Mode
+Map	Blue Click On		BlueClickState=BlueClickON
+Map	Blue Click Off		BlueClickState=BlueClickOFF
+Map	Green Click On		GreenClickState=GreenClickON
+Map	Green Click Off		GreenClickState=GreenClickOFF
+Map	White Click On		WhiteClickState=WhiteClickON
+Map	White Click Off		WhiteClickState=WhiteClickOFF
+Map	Red Click On		RedClickState=RedClickON
+Map	Red Click Off		RedClickState=RedClickOFF
+
+Map	Blue Encoder		Delay	3
+Map	Green Encoder		Feedback	3
+Map	White Encoder		Rate	3
+Map	Red Encoder		Modulation Amount	3
+Map	Blue Encoder		Delay	1				BlueClickON
+Map	Green Encoder		Feedback	1				GreenClickON
+Map	White Encoder		Rate	1				WhiteClickON
+Map	Red Encoder		Modulation Amount	1				RedClickON
+
+Map	Sound 1 Button		LFO Sync Enable
+Map	Sound 2 Button		Send/Insert Mode
+Map	Sound 3 Button		0
+Map	Sound 4 Button		0
+Map	Sound 5 Button		0
+Map	Sound 6 Button		0
+Map	Sound 7 Button		0
+Map	Sound 8 Button		Enabled
+
+
+
+Scope	Propellerheads	PH-90 Phaser
+Define Group	ShiftState	ShiftOFF	ShiftON
+Define Group	BlueClickState	BlueClickOFF	BlueClickON
+Define Group	GreenClickState	GreenClickOFF	GreenClickON
+Define Group	WhiteClickState	WhiteClickOFF	WhiteClickON
+Define Group	RedClickState	RedClickOFF	RedClickON
+//	Control Surface Item	Key	Remotable Item	Scale	Mode
+Map	Blue Click On		BlueClickState=BlueClickON
+Map	Blue Click Off		BlueClickState=BlueClickOFF
+Map	Green Click On		GreenClickState=GreenClickON
+Map	Green Click Off		GreenClickState=GreenClickOFF
+Map	White Click On		WhiteClickState=WhiteClickON
+Map	White Click Off		WhiteClickState=WhiteClickOFF
+Map	Red Click On		RedClickState=RedClickON
+Map	Red Click Off		RedClickState=RedClickOFF
+Map	Shift On		ShiftState=ShiftON
+Map	Shift Off		ShiftState=ShiftOFF
+
+Map	Blue Encoder		Frequency	3
+Map	Green Encoder		Split	3			ShiftOFF
+Map	White Encoder		Width	3			ShiftOFF
+Map	Red Encoder		Feedback	3
+Map	Blue Encoder		Frequency	1				BlueClickON
+Map	Green Encoder		Split	1			ShiftOFF	GreenClickON
+Map	White Encoder		Width	1			ShiftOFF	WhiteClickON
+Map	Red Encoder		Feedback	1				RedClickON
+
+Map	Green Encoder		Rate	3			ShiftON
+Map	White Encoder		Frequency Modulation	3			ShiftON
+Map	Green Encoder		Rate	1			ShiftON	GreenClickON
+Map	White Encoder		Frequency Modulation	1			ShiftON	WhiteClickON
+
+Map	Sound 1 Button		LFO Sync Enable
+Map	Sound 2 Button		0
+Map	Sound 3 Button		0
+Map	Sound 4 Button		0
+Map	Sound 5 Button		0
+Map	Sound 6 Button		0
+Map	Sound 7 Button		0
+Map	Sound 8 Button		Enabled
+
+
+
+Scope	Propellerheads	UN-16 Unison
+Define Group	BlueClickState	BlueClickOFF	BlueClickON
+Define Group	GreenClickState	GreenClickOFF	GreenClickON
+Define Group	WhiteClickState	WhiteClickOFF	WhiteClickON
+Define Group	RedClickState	RedClickOFF	RedClickON
+//	Control Surface Item	Key	Remotable Item	Scale	Mode
+Map	Blue Click On		BlueClickState=BlueClickON
+Map	Blue Click Off		BlueClickState=BlueClickOFF
+Map	Green Click On		GreenClickState=GreenClickON
+Map	Green Click Off		GreenClickState=GreenClickOFF
+Map	White Click On		WhiteClickState=WhiteClickON
+Map	White Click Off		WhiteClickState=WhiteClickOFF
+Map	Red Click On		RedClickState=RedClickON
+Map	Red Click Off		RedClickState=RedClickOFF
+
+Map	Blue Encoder		Voice Count
+Map	Green Encoder		Detune	3
+Map	White Encoder		0
+Map	Red Encoder		Dry/Wet	3
+Map	Green Encoder		Detune	1				GreenClickON
+Map	Red Encoder		Dry/Wet	1				RedClickON
+
+Map	Sound 1 Button		0
+Map	Sound 2 Button		0
+Map	Sound 3 Button		0
+Map	Sound 4 Button		0
+Map	Sound 5 Button		0
+Map	Sound 6 Button		0
+Map	Sound 7 Button		0
+Map	Sound 8 Button		Enabled
+
+
+
+Scope	Propellerheads	COMP-01 Compressor/Limiter
+Define Group	BlueClickState	BlueClickOFF	BlueClickON
+Define Group	GreenClickState	GreenClickOFF	GreenClickON
+Define Group	WhiteClickState	WhiteClickOFF	WhiteClickON
+Define Group	RedClickState	RedClickOFF	RedClickON
+//	Control Surface Item	Key	Remotable Item	Scale	Mode
+Map	Blue Click On		BlueClickState=BlueClickON
+Map	Blue Click Off		BlueClickState=BlueClickOFF
+Map	Green Click On		GreenClickState=GreenClickON
+Map	Green Click Off		GreenClickState=GreenClickOFF
+Map	White Click On		WhiteClickState=WhiteClickON
+Map	White Click Off		WhiteClickState=WhiteClickOFF
+Map	Red Click On		RedClickState=RedClickON
+Map	Red Click Off		RedClickState=RedClickOFF
+
+Map	Blue Encoder		Ratio	3
+Map	Green Encoder		Threshold	3
+Map	White Encoder		Attack	3
+Map	Red Encoder		Release	3
+Map	Blue Encoder		Ratio	1				BlueClickON
+Map	Green Encoder		Threshold	1				GreenClickON
+Map	White Encoder		Attack	1				WhiteClickON
+Map	Red Encoder		Release	1				RedClickON
+
+Map	Sound 1 Button		0
+Map	Sound 2 Button		0
+Map	Sound 3 Button		0
+Map	Sound 4 Button		0
+Map	Sound 5 Button		0
+Map	Sound 6 Button		0
+Map	Sound 7 Button		0
+Map	Sound 8 Button		Enabled
+
+
+
+Scope	Propellerheads	PEQ-2 Two Band Parametric EQ
+Define Group	ShiftState	ShiftOFF	ShiftON
+Define Group	BlueClickState	BlueClickOFF	BlueClickON
+Define Group	GreenClickState	GreenClickOFF	GreenClickON
+Define Group	WhiteClickState	WhiteClickOFF	WhiteClickON
+Define Group	RedClickState	RedClickOFF	RedClickON
+//	Control Surface Item	Key	Remotable Item	Scale	Mode
+Map	Blue Click On		BlueClickState=BlueClickON
+Map	Blue Click Off		BlueClickState=BlueClickOFF
+Map	Green Click On		GreenClickState=GreenClickON
+Map	Green Click Off		GreenClickState=GreenClickOFF
+Map	White Click On		WhiteClickState=WhiteClickON
+Map	White Click Off		WhiteClickState=WhiteClickOFF
+Map	Red Click On		RedClickState=RedClickON
+Map	Red Click Off		RedClickState=RedClickOFF
+Map	Shift On		ShiftState=ShiftON
+Map	Shift Off		ShiftState=ShiftOFF
+
+Map	Blue Encoder		Filter A Freq	3			ShiftOFF
+Map	Green Encoder		Filter A Q	3			ShiftOFF
+Map	White Encoder		Filter A Gain	3
+Map	Red Encoder		Filter B Gain	3
+Map	Blue Encoder		Filter A Freq	1			ShiftOFF	BlueClickON
+Map	Green Encoder		Filter A Q	1			ShiftOFF	GreenClickON
+Map	White Encoder		Filter A Gain	1				WhiteClickON
+Map	Red Encoder		Filter B Gain	1				RedClickON
+
+Map	Blue Encoder		Filter B Freq	3			ShiftON
+Map	Green Encoder		Filter B Q	3			ShiftON
+Map	Blue Encoder		Filter B Freq	1			ShiftON	BlueClickON
+Map	Green Encoder		Filter B Q	1			ShiftON	GreenClickON
+
+Map	Sound 1 Button		Filter B On/Off
+Map	Sound 2 Button		0
+Map	Sound 3 Button		0
+Map	Sound 4 Button		0
+Map	Sound 5 Button		0
+Map	Sound 6 Button		0
+Map	Sound 7 Button		0
+Map	Sound 8 Button		Enabled
+
+
+
+//< 20120105
+
+
+Scope	Propellerhead Software	se.propellerheads.radicalpiano
+Define Group	GreenClickState	GreenClickOFF	GreenClickON
+Define Group	WhiteClickState	WhiteClickOFF	WhiteClickON
+Define Group	RedClickState	RedClickOFF	RedClickON
+//	Control Surface Item	Key	Remotable Item	Scale	Mode
+Map	Green Click On		GreenClickState=GreenClickON
+Map	Green Click Off		GreenClickState=GreenClickOFF
+Map	White Click On		WhiteClickState=WhiteClickON
+Map	White Click Off		WhiteClickState=WhiteClickOFF
+Map	Red Click On		RedClickState=RedClickON
+Map	Red Click Off		RedClickState=RedClickOFF
+
+Map	Blue Encoder		Character	1
+
+Map	Green Encoder		Microphone and Instrument Blend	3
+Map	White Encoder		Symp Res Level	3
+Map	Red Encoder		Master Volume	3
+
+Map	Green Encoder		Microphone and Instrument Blend	1				GreenClickON
+Map	White Encoder		Symp Res Level	1				WhiteClickON
+Map	Red Encoder		Master Volume	1				RedClickON
+
+
+Scope	KORG	jp.co.korg.Polysix
+Define Group	ShiftState	ShiftOFF	ShiftON
+Define Group	BlueClickState	BlueClickOFF	BlueClickON
+Define Group	GreenClickState	GreenClickOFF	GreenClickON
+Define Group	WhiteClickState	WhiteClickOFF	WhiteClickON
+Define Group	RedClickState	RedClickOFF	RedClickON
+//	Control Surface Item	Key	Remotable Item	Scale	Mode
+Map	Blue Click On		BlueClickState=BlueClickON
+Map	Blue Click Off		BlueClickState=BlueClickOFF
+Map	Green Click On		GreenClickState=GreenClickON
+Map	Green Click Off		GreenClickState=GreenClickOFF
+Map	White Click On		WhiteClickState=WhiteClickON
+Map	White Click Off		WhiteClickState=WhiteClickOFF
+Map	Red Click On		RedClickState=RedClickON
+Map	Red Click Off		RedClickState=RedClickOFF
+Map	Shift On		ShiftState=ShiftON
+Map	Shift Off		ShiftState=ShiftOFF
+
+Map	Blue Encoder		Mod Wheel	3			ShiftOFF
+Map	Blue Encoder		Mod Wheel	1			ShiftOFF	BlueClickON
+
+
+Scope	Synapse Audio	com.synapseAudioSoftware.Antidote
+Define Group	ShiftState	ShiftOFF	ShiftON
+Define Group	BlueClickState	BlueClickOFF	BlueClickON
+Define Group	GreenClickState	GreenClickOFF	GreenClickON
+Define Group	WhiteClickState	WhiteClickOFF	WhiteClickON
+Define Group	RedClickState	RedClickOFF	RedClickON
+//	Control Surface Item	Key	Remotable Item	Scale	Mode
+Map	Blue Click On		BlueClickState=BlueClickON
+Map	Blue Click Off		BlueClickState=BlueClickOFF
+Map	Green Click On		GreenClickState=GreenClickON
+Map	Green Click Off		GreenClickState=GreenClickOFF
+Map	White Click On		WhiteClickState=WhiteClickON
+Map	White Click Off		WhiteClickState=WhiteClickOFF
+Map	Red Click On		RedClickState=RedClickON
+Map	Red Click Off		RedClickState=RedClickOFF
+Map	Shift On		ShiftState=ShiftON
+Map	Shift Off		ShiftState=ShiftOFF
+
+Map	Blue Encoder		Mod Wheel	3			ShiftOFF
+Map	Blue Encoder		Mod Wheel	1			ShiftOFF	BlueClickON
+
+Scope	Vengeance	vst.Avgr.VPS Avenger_x64
+Define Group	ShiftState	ShiftOFF	ShiftON
+Define Group	BlueClickState	BlueClickOFF	BlueClickON
+Define Group	GreenClickState	GreenClickOFF	GreenClickON
+Define Group	WhiteClickState	WhiteClickOFF	WhiteClickON
+Define Group	RedClickState	RedClickOFF	RedClickON
+//	Control Surface Item	Key	Remotable Item	Scale	Mode
+Map	Blue Click On		BlueClickState=BlueClickON
+Map	Blue Click Off		BlueClickState=BlueClickOFF
+Map	Green Click On		GreenClickState=GreenClickON
+Map	Green Click Off		GreenClickState=GreenClickOFF
+Map	White Click On		WhiteClickState=WhiteClickON
+Map	White Click Off		WhiteClickState=WhiteClickOFF
+Map	Red Click On		RedClickState=RedClickON
+Map	Red Click Off		RedClickState=RedClickOFF
+Map	Shift On		ShiftState=ShiftON
+Map	Shift Off		ShiftState=ShiftOFF
+
+Map	Blue Encoder		Proxy Mod Wheel	3			ShiftOFF
+Map	Blue Encoder		Proxy Mod Wheel	1			ShiftOFF	BlueClickON
+Map	Green Encoder		Macro 1	3			ShiftOFF
+Map	Green Encoder		Macro 1	1			ShiftOFF	GreenClickON
+Map	White Encoder		Macro 2	3			ShiftOFF
+Map	White Encoder		Macro 2	1			ShiftOFF	WhiteClickON
+Map	Red Encoder		Macro 3	3			ShiftOFF
+Map	Red Encoder		Macro 3	1			ShiftOFF	RedClickON
+Map	Sound 1 Button		MacroButton 1
+Map	Sound 2 Button		MacroButton 2
+
+
+
+Scope	Xfer Records	vst.XfsX.Serum_x64
+Define Group	ShiftState	ShiftOFF	ShiftON
+Define Group	BlueClickState	BlueClickOFF	BlueClickON
+Define Group	GreenClickState	GreenClickOFF	GreenClickON
+Define Group	WhiteClickState	WhiteClickOFF	WhiteClickON
+Define Group	RedClickState	RedClickOFF	RedClickON
+//	Control Surface Item	Key	Remotable Item	Scale	Mode
+Map	Blue Click On		BlueClickState=BlueClickON
+Map	Blue Click Off		BlueClickState=BlueClickOFF
+Map	Green Click On		GreenClickState=GreenClickON
+Map	Green Click Off		GreenClickState=GreenClickOFF
+Map	White Click On		WhiteClickState=WhiteClickON
+Map	White Click Off		WhiteClickState=WhiteClickOFF
+Map	Red Click On		RedClickState=RedClickON
+Map	Red Click Off		RedClickState=RedClickOFF
+Map	Shift On		ShiftState=ShiftON
+Map	Shift Off		ShiftState=ShiftOFF
+
+Map	Blue Encoder		Proxy Mod Wheel	3			ShiftOFF
+Map	Blue Encoder		Proxy Mod Wheel	1			ShiftOFF	BlueClickON
+Map	Green Encoder		Macro 1	3			ShiftOFF
+Map	Green Encoder		Macro 1	1			ShiftOFF	GreenClickON
+Map	White Encoder		Macro 2	3			ShiftOFF
+Map	White Encoder		Macro 2	1			ShiftOFF	WhiteClickON
+Map	Red Encoder		Macro 3	3			ShiftOFF
+Map	Red Encoder		Macro 3	1			ShiftOFF	RedClickON
+
+
+
+Scope	Daichi	vst.S1Vs.Synth1 VST64
+Define Group	ShiftState	ShiftOFF	ShiftON
+Define Group	BlueClickState	BlueClickOFF	BlueClickON
+Define Group	GreenClickState	GreenClickOFF	GreenClickON
+Define Group	WhiteClickState	WhiteClickOFF	WhiteClickON
+Define Group	RedClickState	RedClickOFF	RedClickON
+//	Control Surface Item	Key	Remotable Item	Scale	Mode
+Map	Blue Click On		BlueClickState=BlueClickON
+Map	Blue Click Off		BlueClickState=BlueClickOFF
+Map	Green Click On		GreenClickState=GreenClickON
+Map	Green Click Off		GreenClickState=GreenClickOFF
+Map	White Click On		WhiteClickState=WhiteClickON
+Map	White Click Off		WhiteClickState=WhiteClickOFF
+Map	Red Click On		RedClickState=RedClickON
+Map	Red Click Off		RedClickState=RedClickOFF
+Map	Shift On		ShiftState=ShiftON
+Map	Shift Off		ShiftState=ShiftOFF
+
+Map	Blue Encoder		Proxy Mod Wheel	3			ShiftOFF
+Map	Blue Encoder		Proxy Mod Wheel	1			ShiftOFF	BlueClickON
+Map	Green Encoder		*filter freq	3			ShiftOFF
+Map	Green Encoder		*filter freq	1			ShiftOFF	GreenClickON
