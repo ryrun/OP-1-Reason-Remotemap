@@ -4339,3 +4339,189 @@ Map	Green Encoder		Filter Frequency	3			ShiftOFF
 Map	Green Encoder		Filter Frequency	1			ShiftOFF	GreenClickON
 Map	White Encoder		Filter 2 Freq	3			ShiftOFF
 Map	White Encoder		Filter 2 Freq	1			ShiftOFF	WhiteClickON
+
+
+
+Scope	Propellerhead Software	se.propellerheads.Humana
+Define Group	ShiftState	ShiftOFF	ShiftON
+Define Group	BlueClickState	BlueClickOFF	BlueClickON
+Define Group	GreenClickState	GreenClickOFF	GreenClickON
+Define Group	WhiteClickState	WhiteClickOFF	WhiteClickON
+Define Group	RedClickState	RedClickOFF	RedClickON
+//	Control Surface Item	Key	Remotable Item	Scale	Mode
+Map	Blue Click On		BlueClickState=BlueClickON
+Map	Blue Click Off		BlueClickState=BlueClickOFF
+Map	Green Click On		GreenClickState=GreenClickON
+Map	Green Click Off		GreenClickState=GreenClickOFF
+Map	White Click On		WhiteClickState=WhiteClickON
+Map	White Click Off		WhiteClickState=WhiteClickOFF
+Map	Red Click On		RedClickState=RedClickON
+Map	Red Click Off		RedClickState=RedClickOFF
+Map	Shift On		ShiftState=ShiftON
+Map	Shift Off		ShiftState=ShiftOFF
+
+Map	Blue Encoder		Mod Wheel	3			ShiftOFF
+Map	Blue Encoder		Mod Wheel	1			ShiftOFF	BlueClickON
+Map	Green Encoder		Filter_Cutoff	3			ShiftOFF
+Map	Green Encoder		Filter_Cutoff	1			ShiftOFF	GreenClickON
+
+
+
+
+
+Scope	Propellerhead Software	se.propellerheads.Pangea
+Define Group	ShiftState	ShiftOFF	ShiftON
+Define Group	BlueClickState	BlueClickOFF	BlueClickON
+Define Group	GreenClickState	GreenClickOFF	GreenClickON
+Define Group	WhiteClickState	WhiteClickOFF	WhiteClickON
+Define Group	RedClickState	RedClickOFF	RedClickON
+//	Control Surface Item	Key	Remotable Item	Scale	Mode
+Map	Blue Click On		BlueClickState=BlueClickON
+Map	Blue Click Off		BlueClickState=BlueClickOFF
+Map	Green Click On		GreenClickState=GreenClickON
+Map	Green Click Off		GreenClickState=GreenClickOFF
+Map	White Click On		WhiteClickState=WhiteClickON
+Map	White Click Off		WhiteClickState=WhiteClickOFF
+Map	Red Click On		RedClickState=RedClickON
+Map	Red Click Off		RedClickState=RedClickOFF
+Map	Shift On		ShiftState=ShiftON
+Map	Shift Off		ShiftState=ShiftOFF
+
+Map	Blue Encoder		Mod Wheel	3			ShiftOFF
+Map	Blue Encoder		Mod Wheel	1			ShiftOFF	BlueClickON
+Map	Green Encoder		Filter_Cutoff	3			ShiftOFF
+Map	Green Encoder		Filter_Cutoff	1			ShiftOFF	GreenClickON
+
+
+
+
+
+Scope	Propellerhead Software	se.propellerheads.Klang
+Define Group	ShiftState	ShiftOFF	ShiftON
+Define Group	BlueClickState	BlueClickOFF	BlueClickON
+Define Group	GreenClickState	GreenClickOFF	GreenClickON
+Define Group	WhiteClickState	WhiteClickOFF	WhiteClickON
+Define Group	RedClickState	RedClickOFF	RedClickON
+//	Control Surface Item	Key	Remotable Item	Scale	Mode
+Map	Blue Click On		BlueClickState=BlueClickON
+Map	Blue Click Off		BlueClickState=BlueClickOFF
+Map	Green Click On		GreenClickState=GreenClickON
+Map	Green Click Off		GreenClickState=GreenClickOFF
+Map	White Click On		WhiteClickState=WhiteClickON
+Map	White Click Off		WhiteClickState=WhiteClickOFF
+Map	Red Click On		RedClickState=RedClickON
+Map	Red Click Off		RedClickState=RedClickOFF
+Map	Shift On		ShiftState=ShiftON
+Map	Shift Off		ShiftState=ShiftOFF
+
+Map	Blue Encoder		Mod Wheel	3			ShiftOFF
+Map	Blue Encoder		Mod Wheel	1			ShiftOFF	BlueClickON
+Map	Green Encoder		Filter_Cutoff	3			ShiftOFF
+Map	Green Encoder		Filter_Cutoff	1			ShiftOFF	GreenClickON
+
+
+
+
+Scope	Propellerhead Software	se.propellerheads.Europa
+Define Group	ShiftState	ShiftOFF	ShiftON
+Define Group	BlueClickState	BlueClickOFF	BlueClickON
+Define Group	GreenClickState	GreenClickOFF	GreenClickON
+Define Group	WhiteClickState	WhiteClickOFF	WhiteClickON
+Define Group	RedClickState	RedClickOFF	RedClickON
+//	Control Surface Item	Key	Remotable Item	Scale	Mode
+Map	Blue Click On		BlueClickState=BlueClickON
+Map	Blue Click Off		BlueClickState=BlueClickOFF
+Map	Green Click On		GreenClickState=GreenClickON
+Map	Green Click Off		GreenClickState=GreenClickOFF
+Map	White Click On		WhiteClickState=WhiteClickON
+Map	White Click Off		WhiteClickState=WhiteClickOFF
+Map	Red Click On		RedClickState=RedClickON
+Map	Red Click Off		RedClickState=RedClickOFF
+Map	Shift On		ShiftState=ShiftON
+Map	Shift Off		ShiftState=ShiftOFF
+
+Map	Blue Encoder		Mod Wheel	3			ShiftOFF
+Map	Blue Encoder		Mod Wheel	1			ShiftOFF	BlueClickON
+Map	Green Encoder		Filter Freq	3			ShiftOFF
+Map	Green Encoder		Filter Freq	1			ShiftOFF	GreenClickON
+
+
+
+
+Scope	Propellerhead Software	se.propellerheads.Grain
+Define Group	ShiftState	ShiftOFF	ShiftON
+Define Group	BlueClickState	BlueClickOFF	BlueClickON
+Define Group	GreenClickState	GreenClickOFF	GreenClickON
+Define Group	WhiteClickState	WhiteClickOFF	WhiteClickON
+Define Group	RedClickState	RedClickOFF	RedClickON
+//	Control Surface Item	Key	Remotable Item	Scale	Mode
+Map	Blue Click On		BlueClickState=BlueClickON
+Map	Blue Click Off		BlueClickState=BlueClickOFF
+Map	Green Click On		GreenClickState=GreenClickON
+Map	Green Click Off		GreenClickState=GreenClickOFF
+Map	White Click On		WhiteClickState=WhiteClickON
+Map	White Click Off		WhiteClickState=WhiteClickOFF
+Map	Red Click On		RedClickState=RedClickON
+Map	Red Click Off		RedClickState=RedClickOFF
+Map	Shift On		ShiftState=ShiftON
+Map	Shift Off		ShiftState=ShiftOFF
+
+Map	Blue Encoder		Mod Wheel	3			ShiftOFF
+Map	Blue Encoder		Mod Wheel	1			ShiftOFF	BlueClickON
+Map	Green Encoder		Filter Freq	3			ShiftOFF
+Map	Green Encoder		Filter Freq	1			ShiftOFF	GreenClickON
+
+
+
+
+
+Scope	Native Instruments GmbH	vst.NiMa.Massive
+Define Group	ShiftState	ShiftOFF	ShiftON
+Define Group	BlueClickState	BlueClickOFF	BlueClickON
+Define Group	GreenClickState	GreenClickOFF	GreenClickON
+Define Group	WhiteClickState	WhiteClickOFF	WhiteClickON
+Define Group	RedClickState	RedClickOFF	RedClickON
+//	Control Surface Item	Key	Remotable Item	Scale	Mode
+Map	Blue Click On		BlueClickState=BlueClickON
+Map	Blue Click Off		BlueClickState=BlueClickOFF
+Map	Green Click On		GreenClickState=GreenClickON
+Map	Green Click Off		GreenClickState=GreenClickOFF
+Map	White Click On		WhiteClickState=WhiteClickON
+Map	White Click Off		WhiteClickState=WhiteClickOFF
+Map	Red Click On		RedClickState=RedClickON
+Map	Red Click Off		RedClickState=RedClickOFF
+Map	Shift On		ShiftState=ShiftON
+Map	Shift Off		ShiftState=ShiftOFF
+
+Map	Blue Encoder		Proxy Mod Wheel	3			ShiftOFF
+Map	Blue Encoder		Proxy Mod Wheel	1			ShiftOFF	BlueClickON
+Map	Green Encoder		MACRO 2	3			ShiftOFF
+Map	Green Encoder		MACRO 2	1			ShiftOFF	GreenClickON
+Map	White Encoder		MACRO 3	3			ShiftOFF
+Map	White Encoder		MACRO 3	1			ShiftOFF	GreenClickON
+Map	Red Encoder		MACRO 4	3			ShiftOFF
+Map	Red Encoder		MACRO 4	1			ShiftOFF	GreenClickON
+
+
+
+
+Scope	Native Instruments GmbH	vst.NiKK.Komplete Kontrol
+Define Group	ShiftState	ShiftOFF	ShiftON
+Define Group	BlueClickState	BlueClickOFF	BlueClickON
+Define Group	GreenClickState	GreenClickOFF	GreenClickON
+Define Group	WhiteClickState	WhiteClickOFF	WhiteClickON
+Define Group	RedClickState	RedClickOFF	RedClickON
+//	Control Surface Item	Key	Remotable Item	Scale	Mode
+Map	Blue Click On		BlueClickState=BlueClickON
+Map	Blue Click Off		BlueClickState=BlueClickOFF
+Map	Green Click On		GreenClickState=GreenClickON
+Map	Green Click Off		GreenClickState=GreenClickOFF
+Map	White Click On		WhiteClickState=WhiteClickON
+Map	White Click Off		WhiteClickState=WhiteClickOFF
+Map	Red Click On		RedClickState=RedClickON
+Map	Red Click Off		RedClickState=RedClickOFF
+Map	Shift On		ShiftState=ShiftON
+Map	Shift Off		ShiftState=ShiftOFF
+
+Map	Blue Encoder		Proxy Mod Wheel	3			ShiftOFF
+Map	Blue Encoder		Proxy Mod Wheel	1			ShiftOFF	BlueClickON
