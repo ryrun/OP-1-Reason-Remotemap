@@ -12,6 +12,13 @@ Added support for following devices:
 - RE Predator
 - RE PX7
 - RE ABL2
+- RE Europa
+- RE Grain
+- RE Humana
+- RE Pangea
+- RE Klang
 - VST VPS Angenger
 - VST Synth1 (x64)
 - VST Serum
+- VST Massive
+- VST Komplete Kontrol
