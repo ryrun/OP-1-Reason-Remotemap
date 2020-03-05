@@ -25,3 +25,7 @@ Tweaked Reason Remotemap for Teenage Engineering OP-1. Modwheel is mainly mapped
 - VST Serum
 - VST Massive
 - VST Komplete Kontrol
+- VST Dune 2
+- VST Dune 3
+- VST JP6K
+- VST Diva
