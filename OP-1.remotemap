@@ -4525,3 +4525,101 @@ Map	Shift Off		ShiftState=ShiftOFF
 
 Map	Blue Encoder		Proxy Mod Wheel	3			ShiftOFF
 Map	Blue Encoder		Proxy Mod Wheel	1			ShiftOFF	BlueClickON
+
+
+
+
+Scope	Synapse Audio	vst.DNE3.DUNE 3
+Define Group	ShiftState	ShiftOFF	ShiftON
+Define Group	BlueClickState	BlueClickOFF	BlueClickON
+Define Group	GreenClickState	GreenClickOFF	GreenClickON
+Define Group	WhiteClickState	WhiteClickOFF	WhiteClickON
+Define Group	RedClickState	RedClickOFF	RedClickON
+//	Control Surface Item	Key	Remotable Item	Scale	Mode
+Map	Blue Click On		BlueClickState=BlueClickON
+Map	Blue Click Off		BlueClickState=BlueClickOFF
+Map	Green Click On		GreenClickState=GreenClickON
+Map	Green Click Off		GreenClickState=GreenClickOFF
+Map	White Click On		WhiteClickState=WhiteClickON
+Map	White Click Off		WhiteClickState=WhiteClickOFF
+Map	Red Click On		RedClickState=RedClickON
+Map	Red Click Off		RedClickState=RedClickOFF
+Map	Shift On		ShiftState=ShiftON
+Map	Shift Off		ShiftState=ShiftOFF
+
+Map	Blue Encoder		Proxy Mod Wheel	3			ShiftOFF
+Map	Blue Encoder		Proxy Mod Wheel	1			ShiftOFF	BlueClickON
+
+
+
+
+Scope	Synapse Audio	vst.DUE2.DUNE 2
+Define Group	ShiftState	ShiftOFF	ShiftON
+Define Group	BlueClickState	BlueClickOFF	BlueClickON
+Define Group	GreenClickState	GreenClickOFF	GreenClickON
+Define Group	WhiteClickState	WhiteClickOFF	WhiteClickON
+Define Group	RedClickState	RedClickOFF	RedClickON
+//	Control Surface Item	Key	Remotable Item	Scale	Mode
+Map	Blue Click On		BlueClickState=BlueClickON
+Map	Blue Click Off		BlueClickState=BlueClickOFF
+Map	Green Click On		GreenClickState=GreenClickON
+Map	Green Click Off		GreenClickState=GreenClickOFF
+Map	White Click On		WhiteClickState=WhiteClickON
+Map	White Click Off		WhiteClickState=WhiteClickOFF
+Map	Red Click On		RedClickState=RedClickON
+Map	Red Click Off		RedClickState=RedClickOFF
+Map	Shift On		ShiftState=ShiftON
+Map	Shift Off		ShiftState=ShiftOFF
+
+Map	Blue Encoder		Proxy Mod Wheel	3			ShiftOFF
+Map	Blue Encoder		Proxy Mod Wheel	1			ShiftOFF	BlueClickON
+
+
+
+
+
+Scope	Adam Szabo	vst.zJAu.JP6K (64)
+Define Group	ShiftState	ShiftOFF	ShiftON
+Define Group	BlueClickState	BlueClickOFF	BlueClickON
+Define Group	GreenClickState	GreenClickOFF	GreenClickON
+Define Group	WhiteClickState	WhiteClickOFF	WhiteClickON
+Define Group	RedClickState	RedClickOFF	RedClickON
+//	Control Surface Item	Key	Remotable Item	Scale	Mode
+Map	Blue Click On		BlueClickState=BlueClickON
+Map	Blue Click Off		BlueClickState=BlueClickOFF
+Map	Green Click On		GreenClickState=GreenClickON
+Map	Green Click Off		GreenClickState=GreenClickOFF
+Map	White Click On		WhiteClickState=WhiteClickON
+Map	White Click Off		WhiteClickState=WhiteClickOFF
+Map	Red Click On		RedClickState=RedClickON
+Map	Red Click Off		RedClickState=RedClickOFF
+Map	Shift On		ShiftState=ShiftON
+Map	Shift Off		ShiftState=ShiftOFF
+
+Map	Blue Encoder		Cutoff	3			ShiftOFF
+Map	Blue Encoder		Cutoff	1			ShiftOFF	BlueClickON
+
+
+
+
+
+Scope	u-he	vst.DiVa.Diva(x64)
+Define Group	ShiftState	ShiftOFF	ShiftON
+Define Group	BlueClickState	BlueClickOFF	BlueClickON
+Define Group	GreenClickState	GreenClickOFF	GreenClickON
+Define Group	WhiteClickState	WhiteClickOFF	WhiteClickON
+Define Group	RedClickState	RedClickOFF	RedClickON
+//	Control Surface Item	Key	Remotable Item	Scale	Mode
+Map	Blue Click On		BlueClickState=BlueClickON
+Map	Blue Click Off		BlueClickState=BlueClickOFF
+Map	Green Click On		GreenClickState=GreenClickON
+Map	Green Click Off		GreenClickState=GreenClickOFF
+Map	White Click On		WhiteClickState=WhiteClickON
+Map	White Click Off		WhiteClickState=WhiteClickOFF
+Map	Red Click On		RedClickState=RedClickON
+Map	Red Click Off		RedClickState=RedClickOFF
+Map	Shift On		ShiftState=ShiftON
+Map	Shift Off		ShiftState=ShiftOFF
+
+Map	Blue Encoder		Proxy Mod Wheel	3			ShiftOFF
+Map	Blue Encoder		Proxy Mod Wheel	1			ShiftOFF	BlueClickON
